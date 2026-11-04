@@ -3,7 +3,7 @@ const ctx=canvas.getContext('2d',{alpha:true});
 const fallback=document.getElementById('pieceFallback');
 const stage=document.getElementById('pieceStage');
 const cache=new Map();
-let current=null,angle=0,request=0;
+let current=null,angle=0,zoom=1,request=0;
 
 function loadImage(src){
   if(!cache.has(src))cache.set(src,new Promise((resolve,reject)=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=reject;image.src=src;}));
@@ -60,7 +60,7 @@ function resize(){
 function drawView(view,turn=0,mirror=false){
   if(!view)return;
   const w=canvas.clientWidth,h=canvas.clientHeight;
-  const fit=Math.min(w*.88/view.w,h*.9/view.h);
+  const fit=Math.min(w*.88/view.w,h*.9/view.h)*zoom;
   const width=view.w*fit,height=view.h*fit;
   const horizontal=1-.1*Math.abs(turn)/22.5;
   ctx.save();ctx.translate(w/2,h*.53);ctx.scale(mirror?-horizontal:horizontal,1);
@@ -80,4 +80,5 @@ function render(){
 }
 window.addEventListener('castpiecechange',event=>show(event.detail.asset));
 window.addEventListener('pieceviewchange',event=>{angle=event.detail.angle;render();});
+document.getElementById('pieceZoom').addEventListener('input',event=>{zoom=Number(event.target.value)/100;document.getElementById('pieceZoomValue').textContent=Math.round(zoom*100)+' %';render();});
 new ResizeObserver(resize).observe(stage);
