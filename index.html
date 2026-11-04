@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#102b3b">
   <meta name="description" content="Un jeu d’échecs immersif parmi les sites de l’Égypte antique, avec figures pharaoniques et panorama interactif à 360 degrés.">
   <title>Échecs des Pharaons — l’Égypte vivante</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261104-3d1">
 </head>
 <body>
   <main class="app">
@@ -35,7 +35,7 @@
   </main>
   <dialog id="promotionDialog"><form method="dialog"><p>Choisissez votre promotion</p><div class="promotion-choices"><button value="q" aria-label="Souveraine"><img src="assets/nefertari.webp" alt=""><span>Souveraine</span></button><button value="r" aria-label="Obélisque"><img src="assets/obelisk.webp" alt=""><span>Obélisque</span></button><button value="b" aria-label="Isis"><img src="assets/isis.webp" alt=""><span>Isis</span></button><button value="n" aria-label="Horus"><img src="assets/horus.webp" alt=""><span>Horus</span></button></div></form></dialog>
   <dialog id="castDialog" class="cast-dialog"><div class="cast-head"><div><small>LES FIGURES DU JEU</small><h2>Une cour vivante</h2></div><button id="closeCast" type="button" aria-label="Fermer">×</button></div><p>Choisissez une pièce, puis faites-la tourner pour l’observer sous tous les angles.</p><div class="cast-switch" role="group" aria-label="Palette des personnages"><button type="button" class="active" data-cast="w" aria-pressed="true">Camp clair</button><button type="button" data-cast="b" aria-pressed="false">Camp sombre</button></div><div class="piece-gallery"><div class="piece-stage" id="pieceStage" role="img" aria-label="Pièce à faire tourner sur 360 degrés" tabindex="0"><div class="piece-three-mount" id="pieceThreeMount"></div><img id="pieceFallback" class="piece-fallback" src="assets/ramses.webp" alt="" hidden></div><div class="piece-details"><small id="pieceCamp">CAMP CLAIR · 01 / 07</small><h3 id="pieceName">Ramsès II</h3><p id="pieceRole">Souverain · Roi</p><span class="piece-instruction">Glissez dans toutes les directions · 360°</span><label for="pieceAngle">Angle de vue <output id="pieceAngleValue">0°</output></label><input id="pieceAngle" type="range" min="0" max="360" value="0"><button id="pieceSpin" type="button" aria-pressed="false">Faire tourner automatiquement</button><p class="piece-note">Sculpture 3D stylisée : face, profil et dos visibles.</p></div></div><div class="cast-grid" id="castGrid" aria-label="Choisir une pièce"></div></dialog>
-  <script src="app.js"></script>
-  <script type="module" src="figures3d.js"></script>
+  <script src="app.js?v=20261104-3d1"></script>
+  <script type="module" src="figures3d.js?v=20261104-3d1"></script>
 </body>
 </html>
