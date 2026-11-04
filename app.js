@@ -380,8 +380,8 @@ const castRoster={
   w:[['ramses','Ramsès II','Souverain · Roi'],['nefertari','Néfertari','Souveraine · Reine'],['horus','Horus','Cavalier'],['isis','Isis','Fou gauche'],['osiris','Osiris','Fou droit'],['obelisk','Obélisque','Tour'],['pyramid','Pyramide','Pion']],
   b:[['tutankhamun','Toutankhamon','Souverain · Roi'],['nefertiti','Néfertiti','Souveraine · Reine'],['horus-dark','Horus','Cavalier'],['isis-dark','Isis','Fou gauche'],['osiris-dark','Osiris','Fou droit'],['obelisk-dark','Obélisque','Tour'],['pyramid-dark','Pyramide','Pion']]
 };
-let castSide='w',castIndex=0,pieceAngle=0,pieceTilt=10,pieceSpinning=false,piecePointer=null,pieceAnimation=0;
-function setPieceAngle(angle){pieceAngle=((angle%360)+360)%360;$('pieceAngle').value=Math.round(pieceAngle);$('pieceAngleValue').textContent=Math.round(pieceAngle)+'°';window.dispatchEvent(new CustomEvent('pieceviewchange',{detail:{angle:pieceAngle,tilt:pieceTilt}}));}
+let castSide='w',castIndex=0,pieceAngle=0,pieceSpinning=false,piecePointer=null,pieceAnimation=0;
+function setPieceAngle(angle){pieceAngle=((angle%360)+360)%360;$('pieceAngle').value=Math.round(pieceAngle);$('pieceAngleValue').textContent=Math.round(pieceAngle)+'°';window.dispatchEvent(new CustomEvent('pieceviewchange',{detail:{angle:pieceAngle}}));}
 function showCastPiece(){
   const [asset,name,role]=castRoster[castSide][castIndex],src=`assets/${asset}.webp`;
   $('pieceFallback').src=src;$('pieceName').textContent=name;$('pieceRole').textContent=role;
@@ -409,11 +409,11 @@ document.querySelectorAll('[data-cast]').forEach(button=>button.addEventListener
 }));
 $('pieceAngle').addEventListener('input',e=>{stopPieceSpin();setPieceAngle(Number(e.target.value));});
 $('pieceSpin').addEventListener('click',()=>{pieceSpinning=!pieceSpinning;$('pieceSpin').setAttribute('aria-pressed',String(pieceSpinning));$('pieceSpin').textContent=pieceSpinning?'Arrêter la rotation':'Faire tourner automatiquement';if(pieceSpinning)animatePiece();else cancelAnimationFrame(pieceAnimation);});
-$('pieceStage').addEventListener('pointerdown',e=>{stopPieceSpin();$('pieceStage').setPointerCapture(e.pointerId);piecePointer={x:e.clientX,y:e.clientY,angle:pieceAngle,tilt:pieceTilt};});
-$('pieceStage').addEventListener('pointermove',e=>{if(piecePointer){pieceTilt=Math.max(-30,Math.min(55,piecePointer.tilt+(piecePointer.y-e.clientY)*.35));setPieceAngle(piecePointer.angle+(e.clientX-piecePointer.x)*.8);}});
+$('pieceStage').addEventListener('pointerdown',e=>{stopPieceSpin();$('pieceStage').setPointerCapture(e.pointerId);piecePointer={x:e.clientX,angle:pieceAngle};});
+$('pieceStage').addEventListener('pointermove',e=>{if(piecePointer)setPieceAngle(piecePointer.angle+(e.clientX-piecePointer.x)*.8);});
 $('pieceStage').addEventListener('pointerup',()=>{piecePointer=null;});
 $('pieceStage').addEventListener('pointercancel',()=>{piecePointer=null;});
-$('pieceStage').addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key)){e.preventDefault();stopPieceSpin();if(e.key==='ArrowUp'||e.key==='ArrowDown')pieceTilt=Math.max(-30,Math.min(55,pieceTilt+(e.key==='ArrowUp'?10:-10)));setPieceAngle(pieceAngle+(e.key==='ArrowRight'?15:e.key==='ArrowLeft'?-15:0));}});
+$('pieceStage').addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();stopPieceSpin();setPieceAngle(pieceAngle+(e.key==='ArrowRight'?15:-15));}});
 $('exploreBtn').addEventListener('click',()=>{scenicMode=!scenicMode;$('exploreBtn').setAttribute('aria-pressed',scenicMode);$('exploreBtn').textContent=scenicMode?'Afficher le plateau':'Explorer le décor';$('sceneHint').textContent=scenicMode?'Glissez pour parcourir le panorama à 360°':'Glissez sur le plateau pour explorer · Cliquez pour jouer';render();});
 $('angleRange').addEventListener('input',e=>{const base=mode==='follow'?(state.turn==='b'?180:0):fixedBase;targetYaw=base+Number(e.target.value);yawOffset=Number(e.target.value);markViewChanged();updateControls();startAnimation();});
 $('heightRange').addEventListener('input',e=>{pitch=Number(e.target.value);markViewChanged();updateControls();render();});
