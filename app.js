@@ -291,7 +291,17 @@ function updateControls(){
 function markViewChanged(){saveDirty=true;updateSaveUI();}
 function setMode(next){if(mode===next)return;const prior=targetYaw;mode=next;if(next==='fixed')fixedBase=prior-yawOffset;else targetYaw=(state.turn==='b'?180:0)+yawOffset;markViewChanged();updateControls();startAnimation();}
 function resize(){const rect=world.getBoundingClientRect();size={w:rect.width,h:rect.height,dpr:Math.min(window.devicePixelRatio||1,2)};canvas.width=Math.round(size.w*size.dpr);canvas.height=Math.round(size.h*size.dpr);canvas.style.width=size.w+'px';canvas.style.height=size.h+'px';ctx.setTransform(size.dpr,0,0,size.dpr,0,0);render();}
-function projection(){const rad=currentYaw*Math.PI/180,tilt=pitch*Math.PI/180,cos=Math.cos(rad),sin=Math.sin(rad),depth=Math.sin(tilt);const span=Math.abs(cos)+Math.abs(sin),heightGuard=Math.max(1,depth/.74);return {cos,sin,depth,rise:Math.cos(tilt),scale:Math.min(size.w/14.5,size.h/13)*zoom/span/heightGuard,cx:size.w*.5,cy:size.h*.60};}
+function projection(){
+  const rad=currentYaw*Math.PI/180,tilt=pitch*Math.PI/180;
+  const cos=Math.cos(rad),sin=Math.sin(rad),depth=Math.sin(tilt);
+  const heightGuard=Math.max(1,depth/.74);
+  const diagonal=Math.abs(Math.sin(2*rad));
+  return {
+    cos,sin,depth,rise:Math.cos(tilt),
+    scale:Math.min(size.w/14.5,size.h/13)*zoom/heightGuard,
+    cx:size.w*.5,cy:size.h*(.60-.14*diagonal)
+  };
+}
 function project(x,y,z=0){const g=geom;const rx=x*g.cos-y*g.sin,dy=x*g.sin+y*g.cos;const factor=1/(1-dy/16);return {x:g.cx+rx*g.scale*factor,y:g.cy+(dy*g.scale*g.depth-z*g.scale*g.rise)*factor,factor};}
 function pathPoly(points){ctx.beginPath();ctx.moveTo(points[0].x,points[0].y);for(let i=1;i<points.length;i++)ctx.lineTo(points[i].x,points[i].y);ctx.closePath();}
 function cellPoints(r,c){return [project(c-4,r-4),project(c-3,r-4),project(c-3,r-3),project(c-4,r-3)];}
