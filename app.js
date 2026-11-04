@@ -296,10 +296,16 @@ function projection(){
   const cos=Math.cos(rad),sin=Math.sin(rad),depth=Math.sin(tilt);
   const heightGuard=Math.max(1,depth/.74);
   const diagonal=Math.abs(Math.sin(2*rad));
+  const scale=Math.min(size.w/14.5,size.h/13)*zoom/heightGuard;
+  const lowerEdge=Math.max(...[[-4,-4],[4,-4],[4,4],[-4,4]].map(([x,y])=>{
+    const dy=x*sin+y*cos;
+    return (dy*scale*depth+.78*scale*Math.cos(tilt))/(1-dy/16);
+  }));
+  const centeredY=size.h*(.60-.14*diagonal);
+  const overflow=Math.max(0,centeredY+lowerEdge-(size.h-24));
   return {
     cos,sin,depth,rise:Math.cos(tilt),
-    scale:Math.min(size.w/14.5,size.h/13)*zoom/heightGuard,
-    cx:size.w*.5,cy:size.h*(.60-.14*diagonal)
+    scale,cx:size.w*.5,cy:centeredY-Math.min(size.h*.08,overflow)
   };
 }
 function project(x,y,z=0){const g=geom;const rx=x*g.cos-y*g.sin,dy=x*g.sin+y*g.cos;const factor=1/(1-dy/16);return {x:g.cx+rx*g.scale*factor,y:g.cy+(dy*g.scale*g.depth-z*g.scale*g.rise)*factor,factor};}

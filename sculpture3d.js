@@ -7,6 +7,8 @@ const sourceCache=new Map();
 const scene=new THREE.Scene();
 const camera=new THREE.PerspectiveCamera(36,1,.1,50);
 const root=new THREE.Group();scene.add(root);
+scene.add(new THREE.AmbientLight(0xffffff,2.15));
+const keyLight=new THREE.DirectionalLight(0xffdfaa,2.4);keyLight.position.set(-3,6,6);scene.add(keyLight);
 let renderer=null,mesh=null,angle=0,zoom=1,request=0;
 
 try{
@@ -52,6 +54,26 @@ function profile(canvas,height=3.3){
     return {min:(left/w-.5)*worldWidth,max:((right+1)/w-.5)*worldWidth};
   });
 }
+function rigidProfile(canvas){
+  const w=canvas.width,h=canvas.height,data=canvas.getContext('2d',{willReadFrequently:true}).getImageData(0,0,w,h).data;
+  const worldWidth=3.3*w/h;
+  const rows=Array.from({length:150},(_,i)=>{
+    const y=Math.min(h-1,Math.max(0,Math.round((1-i/149)*(h-1))));
+    let start=-1,bestStart=0,bestEnd=0;
+    for(let x=0;x<=w;x++){
+      const solid=x<w&&data[(y*w+x)*4+3]>60;
+      if(solid&&start<0)start=x;
+      if(!solid&&start>=0){if(x-start>bestEnd-bestStart){bestStart=start;bestEnd=x;}start=-1;}
+    }
+    return {min:(bestStart/w-.5)*worldWidth,max:(bestEnd/w-.5)*worldWidth};
+  });
+  return rows.map((_,i)=>{
+    const near=rows.slice(Math.max(0,i-3),Math.min(rows.length,i+4));
+    const mins=near.map(row=>row.min).sort((a,b)=>a-b),maxs=near.map(row=>row.max).sort((a,b)=>a-b);
+    const middle=Math.floor(near.length/2);
+    return {min:mins[middle],max:maxs[middle]};
+  });
+}
 function makeShape(front,side){
   const fp=profile(front),sp=profile(side),rings=fp.length,segments=72;
   const vertices=[],indices=[];
@@ -78,6 +100,87 @@ function texture(canvas){
   t.minFilter=THREE.LinearMipmapLinearFilter;t.magFilter=THREE.LinearFilter;
   t.anisotropy=Math.min(8,renderer.capabilities.getMaxAnisotropy());
   return t;
+}
+function pedestalTexture(dark){
+  const canvas=document.createElement('canvas');canvas.width=1024;canvas.height=256;
+  const ctx=canvas.getContext('2d'),background=ctx.createLinearGradient(0,0,0,256);
+  background.addColorStop(0,dark?'#09214b':'#063d67');
+  background.addColorStop(.5,dark?'#08173d':'#0c3161');
+  background.addColorStop(1,dark?'#132454':'#0c4770');
+  ctx.fillStyle=background;ctx.fillRect(0,0,1024,256);
+  ctx.strokeStyle='#c89843';ctx.lineWidth=9;
+  ctx.strokeRect(4,12,1016,232);
+  ctx.strokeStyle='#f4ca76';ctx.lineWidth=3;
+  ctx.beginPath();ctx.moveTo(0,33);ctx.lineTo(1024,33);ctx.moveTo(0,223);ctx.lineTo(1024,223);ctx.stroke();
+  for(let i=0;i<16;i++){
+    const x=(i+.5)*64;
+    ctx.strokeStyle='#c89843';ctx.lineWidth=6;
+    ctx.beginPath();ctx.moveTo(x-29,202);ctx.quadraticCurveTo(x-33,90,x,65);ctx.quadraticCurveTo(x+33,90,x+29,202);ctx.stroke();
+    ctx.fillStyle='#24a6a8';ctx.beginPath();ctx.moveTo(x,83);ctx.quadraticCurveTo(x-16,125,x,183);ctx.quadraticCurveTo(x+16,125,x,83);ctx.fill();
+    ctx.fillStyle='#ddb35a';ctx.beginPath();ctx.arc(x,65,8,0,Math.PI*2);ctx.fill();
+    ctx.strokeStyle='#d5a652';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(x,183);ctx.lineTo(x,221);ctx.stroke();
+  }
+  const map=texture(canvas);map.wrapS=THREE.RepeatWrapping;return map;
+}
+function makePedestal(radius,height,dark){
+  const group=new THREE.Group();
+  const gold=new THREE.MeshStandardMaterial({color:'#d5a157',metalness:.67,roughness:.25});
+  const stone=new THREE.MeshStandardMaterial({color:dark?'#25366c':'#f1d7a2',metalness:.1,roughness:.42});
+  const ornament=new THREE.MeshStandardMaterial({map:pedestalTexture(dark),metalness:.18,roughness:.43});
+  const bands=[
+    {bottom:0,top:height*.14,radius:radius*1.02,material:gold},
+    {bottom:height*.14,top:height*.22,radius:radius*.98,material:stone},
+    {bottom:height*.22,top:height*.70,radius:radius*.94,material:ornament},
+    {bottom:height*.70,top:height*.82,radius:radius*.99,material:gold},
+    {bottom:height*.82,top:height,radius:radius*.92,material:stone}
+  ];
+  for(const band of bands){
+    const h=band.top-band.bottom;
+    const part=new THREE.Mesh(new THREE.CylinderGeometry(band.radius,band.radius,h,64,1),band.material);
+    part.position.y=(band.top+band.bottom)/2;group.add(part);
+  }
+  for(const y of [height*.14,height*.22,height*.70,height*.82]){
+    const radiusAt=y<height*.70?radius*.985:radius*.995;
+    const ring=new THREE.Mesh(new THREE.TorusGeometry(radiusAt,height*.018,10,64),gold);
+    ring.rotation.x=Math.PI/2;ring.position.y=y;group.add(ring);
+  }
+  return group;
+}
+function makeRigidFace(front,side,back,left,baseHeight,dark){
+  const sources=[front,side,back,left],profiles=sources.map(source=>rigidProfile(source));
+  const result=new THREE.Group(),rings=profiles[0].length;
+  const baseEnd=Math.round(baseHeight/3.3*(rings-1));
+  const atBase=profiles[0][baseEnd],atFoot=profiles[0][0];
+  const radius=Math.max((atBase.max-atBase.min)*.54,(atFoot.max-atFoot.min)*.5);
+  result.add(makePedestal(radius,baseHeight,dark));
+  for(let face=0;face<4;face++){
+    const source=sources[face],silhouette=profiles[face],opposite=profiles[(face+1)%4];
+    const width=3.3*source.width/source.height;
+    const points=[],uvs=[],indices=[];
+    for(let j=baseEnd;j<rings;j++){
+      const band=silhouette[j],depth=opposite[j];
+      const half=Math.max(.012,(band.max-band.min)/2);
+      const across=Math.max(.012,(depth.max-depth.min)/2);
+      const center=(band.min+band.max)/2;
+      const y=j/(rings-1)*3.3;
+      const pair=face===0?[[center-half,across],[center+half,across]]:
+        face===1?[[across,center+half],[across,center-half]]:
+        face===2?[[center+half,-across],[center-half,-across]]:
+        [[-across,center-half],[-across,center+half]];
+      for(let k=0;k<2;k++){
+        points.push(pair[k][0],y,pair[k][1]);
+        uvs.push(.5+(k?band.max:band.min)/width,y/3.3);
+      }
+      if(j<rings-1){const a=(j-baseEnd)*2,b=a+2;indices.push(a,b,a+1,a+1,b,b+1);}
+    }
+    const geometry=new THREE.BufferGeometry();
+    geometry.setAttribute('position',new THREE.Float32BufferAttribute(points,3));
+    geometry.setAttribute('uv',new THREE.Float32BufferAttribute(uvs,2));
+    geometry.setIndex(indices);geometry.computeVertexNormals();
+    const material=new THREE.MeshBasicMaterial({map:texture(source),transparent:true,alphaTest:.045,side:THREE.DoubleSide,depthWrite:true});
+    result.add(new THREE.Mesh(geometry,material));
+  }
+  return result;
 }
 function makeMaterial(views){
   const names=['front','quarter','side','rearQuarter','back'];
@@ -142,9 +245,16 @@ function makeMaterial(views){
 }
 function dispose(){
   if(!mesh)return;
-  root.remove(mesh);mesh.geometry.dispose();
-  Object.values(mesh.material.uniforms).forEach(u=>{if(u.value?.isTexture)u.value.dispose();});
-  mesh.material.dispose();mesh=null;
+  root.remove(mesh);
+  mesh.traverse(child=>{
+    if(!child.isMesh)return;
+    child.geometry.dispose();
+    for(const material of Array.isArray(child.material)?child.material:[child.material]){
+      if(material.uniforms)Object.values(material.uniforms).forEach(u=>{if(u.value?.isTexture)u.value.dispose();});
+      material.map?.dispose();material.dispose();
+    }
+  });
+  mesh=null;
 }
 async function show(asset){
   if(!renderer)return;
@@ -163,8 +273,11 @@ async function show(asset){
     const sheet=await loadImage(`assets/turnaround/${asset}-diagonals.webp`);
     if(token!==request)return;
     const front=extract(frontImage),quarter=extract(sheet,0,2),rearQuarter=extract(sheet,1,2);
-    const geometry=makeShape(front,side),material=makeMaterial([front,quarter,side,rearQuarter,back]);
-    dispose();mesh=new THREE.Mesh(geometry,material);root.add(mesh);
+    const rigid=asset.startsWith('pyramid')||asset.startsWith('obelisk');
+    dispose();
+    if(rigid)mesh=makeRigidFace(side,back,side,back,asset.startsWith('pyramid')?.72:.86,asset.endsWith('-dark'));
+    else mesh=new THREE.Mesh(makeShape(front,side),makeMaterial([front,quarter,side,rearQuarter,back]));
+    root.add(mesh);
     flatCanvas.hidden=true;renderer.domElement.hidden=false;
     resize();draw();
   }catch(error){if(token===request){console.warn('Modèle 3D indisponible pour cette pièce',error);flatCanvas.hidden=false;renderer.domElement.hidden=true;}}
@@ -178,7 +291,7 @@ function resize(){
 function draw(){
   if(!renderer||!mesh||renderer.domElement.hidden)return;
   root.rotation.y=-angle*Math.PI/180;
-  mesh.material.uniforms.viewAngle.value=angle*Math.PI/180;
+  if(mesh.material?.uniforms)mesh.material.uniforms.viewAngle.value=angle*Math.PI/180;
   const radius=6.4/zoom;
   camera.position.set(0,1.65,radius);
   camera.lookAt(0,1.65,0);renderer.render(scene,camera);
