@@ -1,0 +1,3785 @@
+{
+  "meta": {
+    "language": "fr",
+    "updated": "2026-11-06",
+    "dateConvention": "Années négatives : avant notre ère ; positives : notre ère. Aucun an zéro historique. Les bornes sont des repères de navigation, non une précision au jour près.",
+    "chronologyNote": "Toutes les dates antérieures à 664 av. J.-C. sont approximatives. Les premières dynasties peuvent varier de plusieurs décennies selon les chronologies. Les périodes intermédiaires comportent des dynasties concurrentes.",
+    "scopeNote": "La frise antique dépasse le passage à notre ère pour inclure Rome ; un prolongement distinct couvre Byzance, les dynasties islamiques, les Mamelouks puis les Ottomans jusqu’en 1805. Constantinople est un centre impérial extérieur à l’Égypte.",
+    "portraitNote": "Tous les portraits créés pour cette expérience sont des évocations artistiques inspirées d’objets et d’iconographies ; les traits individuels ne sont pas connus avec certitude.",
+    "queenNote": "Néfertiti et Néfertari sont présentées comme grandes épouses royales, sans leur attribuer un règne autonome établi.",
+    "godsNote": "Isis, Horus et Osiris appartiennent à la mythologie : aucune date de vie ni dynastie ne leur est attribuée.",
+    "selectionNote": "Sélection de figures marquantes : les trente et une dynasties sont toutes présentes, sans prétendre énumérer chaque souverain.",
+    "sources": [
+      "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+      "https://www.memphis.edu/egypt/resources/timeline.php"
+    ]
+  },
+  "periods": [
+    {
+      "id": "thinite",
+      "label": "Époque thinite",
+      "start": -3100,
+      "end": -2686,
+      "summary": "Premières dynasties, consolidation du royaume et de l’écriture.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/archaicegypt/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "old",
+      "label": "Ancien Empire",
+      "start": -2686,
+      "end": -2181,
+      "summary": "L’âge des grandes pyramides et d’une monarchie centrée sur Memphis.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/ok/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "first-intermediate",
+      "label": "Première Période intermédiaire",
+      "start": -2181,
+      "end": -2025,
+      "summary": "Plusieurs pouvoirs régionaux coexistent ; la réunification vient du Sud.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/1inter/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "middle",
+      "label": "Moyen Empire",
+      "start": -2025,
+      "end": -1700,
+      "summary": "Réunification du pays, transformations administratives et grands chantiers.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/mk/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "second-intermediate",
+      "label": "Deuxième Période intermédiaire",
+      "start": -1700,
+      "end": -1550,
+      "summary": "Le pouvoir est partagé entre plusieurs royaumes, dont les Hyksôs dans le Delta.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "new",
+      "label": "Nouvel Empire",
+      "start": -1550,
+      "end": -1069,
+      "summary": "Rayonnement de Thèbes, grands temples et expansion en Nubie et au Levant.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/nk/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "third-intermediate",
+      "label": "Troisième Période intermédiaire",
+      "start": -1069,
+      "end": -664,
+      "summary": "Des pouvoirs parallèles gouvernent le pays ; les rois de Koush interviennent depuis la Nubie.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/3inter/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "late",
+      "label": "Basse Époque",
+      "start": -664,
+      "end": -332,
+      "summary": "Royaumes égyptiens et dominations perses alternent jusqu’à l’arrivée des Macédoniens.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/lp/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "macedonian",
+      "label": "Période macédonienne",
+      "start": -332,
+      "end": -305,
+      "summary": "L’Égypte entre dans l’empire d’Alexandre le Grand puis dans le partage de sa succession.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "ptolemaic",
+      "label": "Époque ptolémaïque",
+      "start": -305,
+      "end": -30,
+      "summary": "Une dynastie de langue grecque gouverne depuis Alexandrie et poursuit les traditions des temples.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/gr/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "roman",
+      "label": "Égypte romaine",
+      "start": -30,
+      "end": 395,
+      "summary": "L’Égypte devient province romaine ; les sanctuaires égyptiens continuent longtemps à vivre.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/roman/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    },
+    {
+      "id": "byzantine",
+      "label": "Égypte byzantine",
+      "start": 395,
+      "end": 641,
+      "summary": "L’Égypte appartient à l’Empire romain d’Orient, gouverné depuis Constantinople.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/roman/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
+        "https://egymonuments.gov.eg/archaeological-sites/alexandria/"
+      ]
+    },
+    {
+      "id": "islamic",
+      "label": "Égypte islamique",
+      "start": 641,
+      "end": 1250,
+      "summary": "Conquête arabe puis dynasties successives ; Le Caire devient un centre majeur.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/islamic.html"
+      ]
+    },
+    {
+      "id": "mamluk",
+      "label": "Sultanat mamelouk",
+      "start": 1250,
+      "end": 1517,
+      "summary": "Le Caire est au cœur d’un sultanat qui gouverne l’Égypte et la Syrie.",
+      "sources": [
+        "https://www.metmuseum.org/fr/essays/the-art-of-the-mamluk-period-1250-1517"
+      ]
+    },
+    {
+      "id": "ottoman",
+      "label": "Égypte ottomane",
+      "start": 1517,
+      "end": 1805,
+      "summary": "L’Égypte est intégrée à l’Empire ottoman gouverné depuis Constantinople ; les élites mameloukes gardent une influence locale.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/islamic.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
+      ]
+    }
+  ],
+  "dynasties": [
+    {
+      "id": "dynasty-1",
+      "number": 1,
+      "label": "Ire dynastie",
+      "start": -3100,
+      "end": -2890,
+      "period": "thinite",
+      "summary": "Les premiers rois unifient et organisent le royaume ; Abydos est une grande nécropole royale.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/archaic.egypt.kings.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": true,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 3100–2890 av. J.-C."
+    },
+    {
+      "id": "dynasty-2",
+      "number": 2,
+      "label": "IIe dynastie",
+      "start": -2890,
+      "end": -2686,
+      "period": "thinite",
+      "summary": "La royauté se consolide, avec des phases de division difficiles à reconstituer.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/archaic.egypt.kings.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 2890–2686 av. J.-C."
+    },
+    {
+      "id": "dynasty-3",
+      "number": 3,
+      "label": "IIIe dynastie",
+      "start": -2686,
+      "end": -2613,
+      "period": "old",
+      "summary": "La monumentalité de pierre prend un essor décisif, illustré par le complexe à degrés de Saqqarah.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/oldkingdomkings.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 2686–2613 av. J.-C."
+    },
+    {
+      "id": "dynasty-4",
+      "number": 4,
+      "label": "IVe dynastie",
+      "start": -2613,
+      "end": -2494,
+      "period": "old",
+      "summary": "Les pyramides de Dahchour puis de Gizeh expriment la puissance de la royauté.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/oldkingdomkings.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 2613–2494 av. J.-C."
+    },
+    {
+      "id": "dynasty-5",
+      "number": 5,
+      "label": "Ve dynastie",
+      "start": -2494,
+      "end": -2345,
+      "period": "old",
+      "summary": "Les temples solaires et les Textes des pyramides enrichissent la religion royale.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/oldkingdomkings.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 2494–2345 av. J.-C."
+    },
+    {
+      "id": "dynasty-6",
+      "number": 6,
+      "label": "VIe dynastie",
+      "start": -2345,
+      "end": -2181,
+      "period": "old",
+      "summary": "Une longue phase de l’Ancien Empire précède la fragmentation du pouvoir.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/oldkingdomkings.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 2345–2181 av. J.-C."
+    },
+    {
+      "id": "dynasty-7",
+      "number": 7,
+      "label": "VIIe dynastie",
+      "start": -2181,
+      "end": -2160,
+      "period": "first-intermediate",
+      "summary": "Dynastie traditionnelle non attestée : les récits tardifs sur de nombreux rois ne fournissent pas une succession historique vérifiable.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/1stintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Placement indicatif uniquement : cette dynastie traditionnelle n’est pas historiquement attestée.",
+      "dateLabel": "Vers 2181–2160 av. J.-C."
+    },
+    {
+      "id": "dynasty-8",
+      "number": 8,
+      "label": "VIIIe dynastie",
+      "start": -2181,
+      "end": -2160,
+      "period": "first-intermediate",
+      "summary": "Des rois sont connus surtout par des listes tardives et quelques monuments ; leurs dates restent incertaines.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/1stintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 2181–2160 av. J.-C."
+    },
+    {
+      "id": "dynasty-9",
+      "number": 9,
+      "label": "IXe dynastie",
+      "start": -2160,
+      "end": -2025,
+      "period": "first-intermediate",
+      "summary": "Pouvoir d’Héracléopolis ; la séparation entre IXe et Xe dynasties relève surtout des listes postérieures.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/1stintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 2160–2025 av. J.-C."
+    },
+    {
+      "id": "dynasty-10",
+      "number": 10,
+      "label": "Xe dynastie",
+      "start": -2160,
+      "end": -2025,
+      "period": "first-intermediate",
+      "summary": "Même ensemble héracléopolitain que la IXe dynastie ; aucune frontière chronologique sûre ne les sépare.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/1stintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 2160–2025 av. J.-C."
+    },
+    {
+      "id": "dynasty-11",
+      "number": 11,
+      "label": "XIe dynastie",
+      "start": -2160,
+      "end": -1976,
+      "period": "middle",
+      "summary": "D’abord maîtres du Sud, les rois thébains réunifient le pays et ouvrent le Moyen Empire.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/middlekingdom.html"
+      ],
+      "approximate": true,
+      "focus": true,
+      "dateNote": "La XIe dynastie commence pendant la Première Période intermédiaire ; sa réunification ouvre le Moyen Empire.",
+      "dateLabel": "Vers 2160–1976 av. J.-C."
+    },
+    {
+      "id": "dynasty-12",
+      "number": 12,
+      "label": "XIIe dynastie",
+      "start": -1976,
+      "end": -1793,
+      "period": "middle",
+      "summary": "Le royaume se centralise ; les résidences royales et les grands aménagements du Fayoum prennent de l’importance.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/middlekingdom.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1976–1793 av. J.-C."
+    },
+    {
+      "id": "dynasty-13",
+      "number": 13,
+      "label": "XIIIe dynastie",
+      "start": -1793,
+      "end": -1650,
+      "period": "middle",
+      "summary": "Une succession rapide de souverains accompagne l’affaiblissement progressif de l’unité politique.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/2interkings/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1793–1650 av. J.-C."
+    },
+    {
+      "id": "dynasty-14",
+      "number": 14,
+      "label": "XIVe dynastie",
+      "start": -1750,
+      "end": -1650,
+      "period": "second-intermediate",
+      "summary": "Des pouvoirs du Delta sont contemporains d’autres dynasties ; leur chronologie est débattue.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/2interkings/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1750–1650 av. J.-C."
+    },
+    {
+      "id": "dynasty-15",
+      "number": 15,
+      "label": "XVe dynastie",
+      "start": -1650,
+      "end": -1550,
+      "period": "second-intermediate",
+      "summary": "Les Hyksôs gouvernent depuis le nord de l’Égypte.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/2interkings/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1650–1550 av. J.-C."
+    },
+    {
+      "id": "dynasty-16",
+      "number": 16,
+      "label": "XVIe dynastie",
+      "start": -1650,
+      "end": -1550,
+      "period": "second-intermediate",
+      "summary": "Une dynastie très discutée de la Deuxième Période intermédiaire ; les attributions et les dates varient.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/2interkings/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1650–1550 av. J.-C."
+    },
+    {
+      "id": "dynasty-17",
+      "number": 17,
+      "label": "XVIIe dynastie",
+      "start": -1650,
+      "end": -1550,
+      "period": "second-intermediate",
+      "summary": "La lignée thébaine prépare la réunification et la fin du pouvoir hyksôs.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/2interkings/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54516105/FULL_TEXT.PDF"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1650–1550 av. J.-C."
+    },
+    {
+      "id": "dynasty-18",
+      "number": 18,
+      "label": "XVIIIe dynastie",
+      "start": -1550,
+      "end": -1292,
+      "period": "new",
+      "summary": "Une période majeure de bâtisseurs : Thèbes, la réforme amarnienne et le retour aux cultes traditionnels.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/newkingdomkings.html"
+      ],
+      "approximate": true,
+      "focus": true,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1550–1292 av. J.-C."
+    },
+    {
+      "id": "dynasty-19",
+      "number": 19,
+      "label": "XIXe dynastie",
+      "start": -1292,
+      "end": -1186,
+      "period": "new",
+      "summary": "Les souverains ramessides multiplient temples, colosses et reliefs historiques.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/newkingdomkings.html"
+      ],
+      "approximate": true,
+      "focus": true,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1292–1186 av. J.-C."
+    },
+    {
+      "id": "dynasty-20",
+      "number": 20,
+      "label": "XXe dynastie",
+      "start": -1186,
+      "end": -1069,
+      "period": "new",
+      "summary": "Dernière dynastie du Nouvel Empire, marquée par de grands temples puis par des tensions politiques et économiques.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/newkingdomkings.html"
+      ],
+      "approximate": true,
+      "focus": true,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1186–1069 av. J.-C."
+    },
+    {
+      "id": "dynasty-21",
+      "number": 21,
+      "label": "XXIe dynastie",
+      "start": -1069,
+      "end": -945,
+      "period": "third-intermediate",
+      "summary": "Tanis et les autorités religieuses de Thèbes partagent de fait le pouvoir.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 1069–945 av. J.-C."
+    },
+    {
+      "id": "dynasty-22",
+      "number": 22,
+      "label": "XXIIe dynastie",
+      "start": -945,
+      "end": -735,
+      "period": "third-intermediate",
+      "summary": "Une dynastie d’origine libyenne exerce le pouvoir ; plusieurs royaumes finissent par coexister.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 945–735 av. J.-C."
+    },
+    {
+      "id": "dynasty-23",
+      "number": 23,
+      "label": "XXIIIe dynastie",
+      "start": -818,
+      "end": -715,
+      "period": "third-intermediate",
+      "summary": "Désignation de plusieurs lignées locales, contemporaines de la XXIIe dynastie.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 818–715 av. J.-C."
+    },
+    {
+      "id": "dynasty-24",
+      "number": 24,
+      "label": "XXIVe dynastie",
+      "start": -727,
+      "end": -715,
+      "period": "third-intermediate",
+      "summary": "Une courte dynastie de Saïs dans le Delta, contemporaine de l’expansion koushite.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 727–715 av. J.-C."
+    },
+    {
+      "id": "dynasty-25",
+      "number": 25,
+      "label": "XXVe dynastie",
+      "start": -747,
+      "end": -656,
+      "period": "third-intermediate",
+      "summary": "Les souverains de Koush, en Nubie, gouvernent l’Égypte et renouent avec des traditions anciennes.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/3rdintermediateperkings.html"
+      ],
+      "approximate": true,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "Vers 747–656 av. J.-C."
+    },
+    {
+      "id": "dynasty-26",
+      "number": 26,
+      "label": "XXVIe dynastie",
+      "start": -664,
+      "end": -525,
+      "period": "late",
+      "summary": "Dynastie saïte : réunification et renaissance artistique avant la conquête perse.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/lateperiodkings.html"
+      ],
+      "approximate": false,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "664–525 av. J.-C."
+    },
+    {
+      "id": "dynasty-27",
+      "number": 27,
+      "label": "XXVIIe dynastie",
+      "start": -525,
+      "end": -404,
+      "period": "late",
+      "summary": "Première domination perse : l’Égypte est intégrée à l’empire achéménide.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/dynasty27.html"
+      ],
+      "approximate": false,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "525–404 av. J.-C."
+    },
+    {
+      "id": "dynasty-28",
+      "number": 28,
+      "label": "XXVIIIe dynastie",
+      "start": -404,
+      "end": -399,
+      "period": "late",
+      "summary": "Courte restauration de l’indépendance égyptienne.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/latedynasticperiod.html"
+      ],
+      "approximate": false,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "404–399 av. J.-C."
+    },
+    {
+      "id": "dynasty-29",
+      "number": 29,
+      "label": "XXIXe dynastie",
+      "start": -399,
+      "end": -380,
+      "period": "late",
+      "summary": "Une lignée du Delta gouverne une Égypte de nouveau indépendante.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/latedynasticperiod.html"
+      ],
+      "approximate": false,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "399–380 av. J.-C."
+    },
+    {
+      "id": "dynasty-30",
+      "number": 30,
+      "label": "XXXe dynastie",
+      "start": -380,
+      "end": -343,
+      "period": "late",
+      "summary": "Dernière dynastie indigène indépendante, avec une intense activité de construction religieuse.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/latedynasticperiod.html"
+      ],
+      "approximate": false,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "380–343 av. J.-C."
+    },
+    {
+      "id": "dynasty-31",
+      "number": 31,
+      "label": "XXXIe dynastie",
+      "start": -343,
+      "end": -332,
+      "period": "late",
+      "summary": "Seconde domination perse, interrompue par la conquête macédonienne.",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/secondpersianperiodkings.html"
+      ],
+      "approximate": false,
+      "focus": false,
+      "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
+      "dateLabel": "343–332 av. J.-C."
+    }
+  ],
+  "figures": [
+    {
+      "id": "narmer",
+      "name": "Narmer",
+      "role": "Pharaon",
+      "dynasty": "dynasty-1",
+      "start": -3100,
+      "end": -3050,
+      "summary": "À la charnière de la formation de l’État égyptien, Narmer incarne une royauté qui affirme son autorité sur les Deux Terres. Sa célèbre palette est une image cérémonielle du pouvoir ; elle ne constitue pas un reportage direct de l’unification.",
+      "facts": [
+        "La palette de Narmer, découverte dans le sanctuaire de Hiérakonpolis, montre le roi frappant un captif : la victoire devient un langage durable de la royauté.",
+        "Son nom apparaît dans un serekh, cadre évoquant la façade du palais, parmi les plus anciens usages de l’écriture hiéroglyphique conservés sur des objets royaux.",
+        "Des sceaux et des récipients portant son nom ont été retrouvés sur plusieurs sites égyptiens et au Levant méridional, révélant l’étendue de ses réseaux."
+      ],
+      "monuments": [
+        "abydos"
+      ],
+      "sources": [
+        "https://egyptianmuseumcairo.eg/artefacts/narmer-palette-collection/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/narmer.html"
+      ],
+      "approximate": true,
+      "dateNote": "Vers 3100 av. J.-C. ; dates individuelles inconnues et classement entre fin de dynastie 0 et début de Ire dynastie discuté.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://egyptianmuseumcairo.eg/artefacts/narmer-palette-collection/"
+        ],
+        [
+          "https://egyptianmuseumcairo.eg/artefacts/narmer-palette-collection/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/narmer.html"
+        ]
+      ],
+      "dateLabel": "Vers 3100 av. J.-C."
+    },
+    {
+      "id": "aha",
+      "name": "Hor-Aha",
+      "role": "Pharaon",
+      "dynasty": "dynasty-1",
+      "start": -3050,
+      "end": -3020,
+      "summary": "L’un des tout premiers souverains du royaume unifié, connu par l’archéologie des nécropoles.",
+      "facts": [
+        "Sa place exacte comme premier ou deuxième roi reste discutée.",
+        "Sa tombe se trouve à Abydos.",
+        "Son nom apparaît aussi sur des objets et sceaux de Saqqarah."
+      ],
+      "monuments": [
+        "abydos",
+        "saqqara"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingaha.html"
+      ],
+      "approximate": true,
+      "dateNote": "Début de la Ire dynastie ; dates individuelles très incertaines.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingaha.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingaha.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingaha.html"
+        ]
+      ],
+      "dateLabel": "Ire dynastie · dates individuelles incertaines"
+    },
+    {
+      "id": "djer",
+      "name": "Djer",
+      "role": "Pharaon",
+      "dynasty": "dynasty-1",
+      "start": -3020,
+      "end": -2980,
+      "summary": "Un souverain des débuts de la Ire dynastie dont la tombe acquit une importance religieuse durable.",
+      "facts": [
+        "Sa tombe O se situe à Abydos.",
+        "Elle possède une chambre principale unique.",
+        "À partir du Moyen Empire, elle fut identifiée comme la tombe du dieu des morts."
+      ],
+      "monuments": [
+        "abydos"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjer.html"
+      ],
+      "approximate": true,
+      "dateNote": "Ire dynastie ; dates individuelles très incertaines.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjer.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjer.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjer.html"
+        ]
+      ],
+      "dateLabel": "Ire dynastie · dates individuelles incertaines"
+    },
+    {
+      "id": "merneith",
+      "name": "Merneith",
+      "role": "Reine, régente possible",
+      "dynasty": "dynasty-1",
+      "start": -2970,
+      "end": -2950,
+      "summary": "Une femme de la famille royale dont la sépulture et les sceaux suggèrent un exercice du pouvoir au début de la monarchie.",
+      "facts": [
+        "Elle est la mère de Den.",
+        "Elle possède sa propre tombe dans le cimetière royal d’Abydos.",
+        "Son nom apparaît sur un sceau énumérant les dirigeants : une régence est possible, mais son statut de souveraine demeure discuté."
+      ],
+      "monuments": [
+        "abydos"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/queenmeritneit.html"
+      ],
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/queenmeritneit.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/queenmeritneit.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/queenmeritneit.html"
+        ]
+      ],
+      "approximate": true,
+      "dateNote": "Ire dynastie ; dates individuelles inconnues. Placement indicatif sur la frise, sans règne autonome établi.",
+      "dateLabel": "Ire dynastie · régence possible",
+      "portraitNote": "Évocation artistique, non portrait attesté."
+    },
+    {
+      "id": "den",
+      "name": "Den",
+      "role": "Pharaon",
+      "dynasty": "dynasty-1",
+      "start": -2950,
+      "end": -2910,
+      "summary": "Son règne témoigne du développement de l’administration et de l’usage de l’écriture.",
+      "facts": [
+        "Sa tombe T est à Abydos.",
+        "Elle possède une entrée à escalier, une innovation dans cette nécropole royale.",
+        "De nombreuses inscriptions et empreintes de sceaux attestent son règne."
+      ],
+      "monuments": [
+        "abydos",
+        "saqqara"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingden.html"
+      ],
+      "approximate": true,
+      "dateNote": "Ire dynastie ; repères individuels approximatifs.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingden.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingden.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingden.html"
+        ]
+      ],
+      "dateLabel": "Ire dynastie · dates individuelles incertaines"
+    },
+    {
+      "id": "qaa",
+      "name": "Qa’a",
+      "role": "Pharaon",
+      "dynasty": "dynasty-1",
+      "start": -2900,
+      "end": -2890,
+      "summary": "Dernier souverain de la Ire dynastie, connu notamment par sa tombe et les sceaux de son administration.",
+      "facts": [
+        "Il clôt la succession traditionnelle de la Ire dynastie.",
+        "Sa tombe Q est à Abydos.",
+        "Des inscriptions à Saqqarah portent son nom."
+      ],
+      "monuments": [
+        "abydos",
+        "saqqara"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingqaa.html"
+      ],
+      "approximate": true,
+      "dateNote": "Fin de la Ire dynastie ; dates individuelles très incertaines.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingqaa.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingqaa.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingqaa.html"
+        ]
+      ],
+      "dateLabel": "Ire dynastie · dates individuelles incertaines"
+    },
+    {
+      "id": "djoser",
+      "name": "Djéser",
+      "role": "Pharaon",
+      "dynasty": "dynasty-3",
+      "start": -2667,
+      "end": -2648,
+      "summary": "Le roi du grand complexe funéraire à degrés de Saqqarah, une étape décisive dans l’architecture de pierre.",
+      "facts": [
+        "Ses monuments contemporains l’appellent Netjerikhet.",
+        "Il fait édifier la pyramide à degrés de Saqqarah.",
+        "Son nom figure sur des empreintes de sceaux découvertes dans plusieurs régions."
+      ],
+      "monuments": [
+        "saqqara"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjoser.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjoser.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjoser.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjoser.html"
+        ]
+      ],
+      "dateLabel": "Vers 2667–2648 av. J.-C."
+    },
+    {
+      "id": "snefru",
+      "name": "Snéfrou",
+      "role": "Pharaon",
+      "dynasty": "dynasty-4",
+      "start": -2613,
+      "end": -2589,
+      "summary": "Le bâtisseur qui expérimente les grandes pyramides à faces lisses avant l’âge de Gizeh.",
+      "facts": [
+        "Ses grands projets se trouvent à Meïdoum et Dahchour.",
+        "Les pyramides rhomboïdale et rouge sont associées à son règne.",
+        "Son culte et sa mémoire restent importants au Moyen Empire."
+      ],
+      "monuments": [
+        "bent-pyramid",
+        "red-pyramid"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingsnefru.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingsnefru.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingsnefru.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingsnefru.html"
+        ]
+      ],
+      "dateLabel": "Vers 2613–2589 av. J.-C."
+    },
+    {
+      "id": "khufu",
+      "name": "Khéops",
+      "role": "Pharaon",
+      "dynasty": "dynasty-4",
+      "start": -2589,
+      "end": -2566,
+      "summary": "La Grande Pyramide de Gizeh constitue le cœur de son complexe funéraire.",
+      "facts": [
+        "Son nom égyptien est Khoufou.",
+        "Il fait construire la Grande Pyramide de Gizeh.",
+        "Des sceaux et des inscriptions attestent son administration et ses expéditions."
+      ],
+      "monuments": [
+        "giza-khufu"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkheops.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkheops.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkheops.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkheops.html"
+        ]
+      ],
+      "dateLabel": "Vers 2589–2566 av. J.-C."
+    },
+    {
+      "id": "khafre",
+      "name": "Khéphren",
+      "role": "Pharaon",
+      "dynasty": "dynasty-4",
+      "start": -2558,
+      "end": -2532,
+      "summary": "Son complexe de Gizeh associe pyramide, temples et proximité du Grand Sphinx.",
+      "facts": [
+        "Son nom égyptien est Khafrê.",
+        "Il construit la deuxième grande pyramide de Gizeh.",
+        "Les temples de son culte se trouvent près du Sphinx."
+      ],
+      "monuments": [
+        "giza-khafre"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkhephren.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkhephren.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkhephren.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkhephren.html"
+        ]
+      ],
+      "dateLabel": "Vers 2558–2532 av. J.-C."
+    },
+    {
+      "id": "menkaure",
+      "name": "Mykérinos",
+      "role": "Pharaon",
+      "dynasty": "dynasty-4",
+      "start": -2532,
+      "end": -2503,
+      "summary": "La troisième grande pyramide de Gizeh et les sculptures de son complexe illustrent sa royauté.",
+      "facts": [
+        "Son nom égyptien est Menkaourê.",
+        "Sa sépulture est la troisième pyramide principale du plateau.",
+        "Son nom apparaît sur des sceaux et dans des biographies de dignitaires."
+      ],
+      "monuments": [
+        "giza-menkaure"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingmykerinos.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingmykerinos.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingmykerinos.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingmykerinos.html"
+        ]
+      ],
+      "dateLabel": "Vers 2532–2503 av. J.-C."
+    },
+    {
+      "id": "unas",
+      "name": "Ounas",
+      "role": "Pharaon",
+      "dynasty": "dynasty-5",
+      "start": -2375,
+      "end": -2345,
+      "summary": "Le dernier roi de la Ve dynastie fait inscrire des textes funéraires dans sa pyramide.",
+      "facts": [
+        "Sa pyramide se situe à Saqqarah.",
+        "C’est la première pyramide connue portant les Textes des pyramides.",
+        "Son nom est aussi attesté dans la région d’Assouan et à Byblos."
+      ],
+      "monuments": [
+        "saqqara",
+        "aswan"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingunas.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingunas.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingunas.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingunas.html"
+        ]
+      ],
+      "dateLabel": "Vers 2375–2345 av. J.-C."
+    },
+    {
+      "id": "pepi2",
+      "name": "Pépi II",
+      "role": "Pharaon",
+      "dynasty": "dynasty-6",
+      "start": -2278,
+      "end": -2184,
+      "summary": "Un roi au règne exceptionnellement long, à la fin de l’Ancien Empire.",
+      "facts": [
+        "Il accède au trône enfant.",
+        "La durée de son règne est discutée : les estimations varient fortement.",
+        "Sa pyramide et son complexe funéraire se trouvent au sud de Saqqarah."
+      ],
+      "monuments": [
+        "saqqara"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingpepyII.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingpepyII.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingpepyII.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingpepyII.html"
+        ]
+      ],
+      "dateLabel": "Vers 2278–2184 av. J.-C."
+    },
+    {
+      "id": "intef1",
+      "name": "Intef Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-11",
+      "start": -2125,
+      "end": -2112,
+      "summary": "Un roi thébain de la XIe dynastie, avant la réunification de l’Égypte.",
+      "facts": [
+        "Il gouverne pendant la période des royaumes concurrents.",
+        "Son nom d’Horus est Sehertaouy.",
+        "Sa sépulture se trouve à Thèbes, à Saff el-Dawaba."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefi.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefi.html"
+        ]
+      ],
+      "dateLabel": "Vers 2125–2112 av. J.-C."
+    },
+    {
+      "id": "intef2",
+      "name": "Intef II",
+      "role": "Pharaon",
+      "dynasty": "dynasty-11",
+      "start": -2112,
+      "end": -2063,
+      "summary": "Un souverain thébain connu aussi par une surprenante stèle montrant ses chiens.",
+      "facts": [
+        "Une partie de la stèle de ses chiens est conservée au Caire.",
+        "Les chiens y sont accompagnés de leurs noms.",
+        "Des travaux lui sont attribués au temple de Satet à Éléphantine."
+      ],
+      "monuments": [
+        "aswan"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefii.html"
+        ]
+      ],
+      "dateLabel": "Vers 2112–2063 av. J.-C."
+    },
+    {
+      "id": "intef3",
+      "name": "Intef III",
+      "role": "Pharaon",
+      "dynasty": "dynasty-11",
+      "start": -2063,
+      "end": -2055,
+      "summary": "Un souverain thébain de la période qui précède la réunification du pays.",
+      "facts": [
+        "Il appartient à la XIe dynastie avant l’unification.",
+        "Son nom d’Horus est Nakhtnebtepnéfer.",
+        "Sa sépulture est située à Thèbes."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefiii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefiii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefiii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefiii.html"
+        ]
+      ],
+      "dateLabel": "Vers 2063–2055 av. J.-C."
+    },
+    {
+      "id": "mentuhotep2",
+      "name": "Montouhotep II",
+      "role": "Pharaon",
+      "dynasty": "dynasty-11",
+      "start": -2046,
+      "end": -1995,
+      "summary": "Montouhotep II transforme la victoire de la lignée thébaine en restauration d’un royaume unifié. Son règne ouvre le Moyen Empire et donne à Deir el-Bahari un ensemble funéraire majeur, où le pouvoir royal s’associe de façon nouvelle au paysage sacré.",
+      "facts": [
+        "La réunification après les royaumes concurrents de la Première Période intermédiaire fait de son règne un repère majeur, mais les étapes de cette reconquête restent imparfaitement connues.",
+        "À Deir el-Bahari, son temple funéraire précède de plusieurs siècles celui d’Hatchepsout ; des statues le montrent enveloppé du vêtement porté pour le jubilé royal.",
+        "Ses constructions sont attestées jusqu’à Éléphantine et à Tôd ; à Thèbes, sa mémoire bénéficie ensuite d’un culte, signe de son importance comme fondateur."
+      ],
+      "monuments": [
+        "aswan",
+        "dendera"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepII.html",
+        "https://www.metmuseum.org/art/collection/search/544008"
+      ],
+      "approximate": true,
+      "dateNote": "Règne situé vers 2046–1995 av. J.-C. ; dates approximatives, variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepII.html"
+        ],
+        [
+          "https://www.metmuseum.org/art/collection/search/544008"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepII.html"
+        ]
+      ],
+      "dateLabel": "Vers 2046–1995 av. J.-C."
+    },
+    {
+      "id": "mentuhotep3",
+      "name": "Montouhotep III",
+      "role": "Pharaon",
+      "dynasty": "dynasty-11",
+      "start": -1995,
+      "end": -1983,
+      "summary": "Un roi de la XIe dynastie dont des monuments attestent l’activité religieuse dans la région thébaine.",
+      "facts": [
+        "Son nom de couronnement est Sankhkarê.",
+        "Il fait bâtir un temple dans la région de Thèbes.",
+        "Des travaux sont aussi attestés à Tôd."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepIII.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepIII.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepIII.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepIII.html"
+        ]
+      ],
+      "dateLabel": "Vers 1995–1983 av. J.-C."
+    },
+    {
+      "id": "mentuhotep4",
+      "name": "Montouhotep IV",
+      "role": "Pharaon",
+      "dynasty": "dynasty-11",
+      "start": -1983,
+      "end": -1976,
+      "summary": "Un souverain surtout connu par les récits d’expéditions gravés dans le désert.",
+      "facts": [
+        "Ses inscriptions décrivent une expédition aux carrières du Ouadi Hammamat.",
+        "Elles racontent une pluie miraculeuse et la naissance d’une gazelle.",
+        "Son absence des listes royales tardives n’autorise pas à affirmer un coup d’État."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepIV.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepIV.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepIV.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepIV.html"
+        ]
+      ],
+      "dateLabel": "Vers 1983–1976 av. J.-C."
+    },
+    {
+      "id": "senusret3",
+      "name": "Sésostris III",
+      "role": "Pharaon",
+      "dynasty": "dynasty-12",
+      "start": -1872,
+      "end": -1853,
+      "summary": "Un grand souverain du Moyen Empire, associé au renforcement du pouvoir central et aux forteresses nubiennes.",
+      "facts": [
+        "Il mène plusieurs campagnes en Nubie.",
+        "Une chaîne de forts protège la frontière près de la deuxième cataracte.",
+        "Un complexe funéraire royal existe à Abydos, en plus de sa pyramide de Dahchour."
+      ],
+      "monuments": [
+        "abydos",
+        "aswan"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/senusretIII.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/senusretIII.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/senusretIII.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/senusretIII.html"
+        ]
+      ],
+      "dateLabel": "Vers 1872–1853 av. J.-C."
+    },
+    {
+      "id": "amenemhat3",
+      "name": "Amenemhat III",
+      "role": "Pharaon",
+      "dynasty": "dynasty-12",
+      "start": -1853,
+      "end": -1806,
+      "summary": "Ses grands projets dans le Fayoum marquent l’apogée du Moyen Empire.",
+      "facts": [
+        "Il construit deux pyramides, à Dahchour puis à Hawara.",
+        "Le complexe de Hawara est associé au fameux « Labyrinthe » des auteurs grecs.",
+        "Des temples et des statues colossales attestent son intérêt pour le Fayoum."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenemhatIII.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenemhatIII.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenemhatIII.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenemhatIII.html"
+        ]
+      ],
+      "dateLabel": "Vers 1853–1806 av. J.-C."
+    },
+    {
+      "id": "ahmose",
+      "name": "Ahmôsis Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1550,
+      "end": -1525,
+      "summary": "Le fondateur de la XVIIIe dynastie achève l’expulsion des Hyksôs et ouvre le Nouvel Empire.",
+      "facts": [
+        "La réunification est connue surtout par les biographies de ses officiers.",
+        "Il mène ensuite des campagnes en Nubie et au Levant.",
+        "Ses constructions sont attestées à Abydos et à Karnak."
+      ],
+      "monuments": [
+        "abydos",
+        "karnak"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ahmose.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ahmose.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ahmose.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ahmose.html"
+        ]
+      ],
+      "dateLabel": "Vers 1550–1525 av. J.-C."
+    },
+    {
+      "id": "amenhotep1",
+      "name": "Amenhotep Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1525,
+      "end": -1504,
+      "summary": "Un souverain des débuts du Nouvel Empire, bâtisseur et plus tard figure vénérée à Thèbes.",
+      "facts": [
+        "Une campagne en Nubie est attestée.",
+        "Il fait aménager un sanctuaire de calcite à Karnak.",
+        "Il bénéficie d’un culte local durable à Thèbes."
+      ],
+      "monuments": [
+        "karnak",
+        "abydos"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepI.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepI.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepI.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepI.html"
+        ]
+      ],
+      "dateLabel": "Vers 1525–1504 av. J.-C."
+    },
+    {
+      "id": "thutmose1",
+      "name": "Thoutmosis Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1504,
+      "end": -1492,
+      "summary": "Son règne élargit l’emprise égyptienne en Nubie et les relations militaires avec le Proche-Orient.",
+      "facts": [
+        "Ses campagnes conduisent à l’intégration de la Nubie au royaume.",
+        "Il intervient aussi en Syrie.",
+        "Un obélisque et un trésor sont attestés à Karnak."
+      ],
+      "monuments": [
+        "karnak",
+        "aswan",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisi.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisi.html"
+        ]
+      ],
+      "dateLabel": "Vers 1504–1492 av. J.-C."
+    },
+    {
+      "id": "thutmose2",
+      "name": "Thoutmosis II",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1492,
+      "end": -1479,
+      "summary": "Un roi dont le règne est documenté par des inscriptions et des monuments dispersés.",
+      "facts": [
+        "Une campagne contre la Nubie est mentionnée.",
+        "Son nom figure dans les bâtiments de Karnak.",
+        "Des blocs à son nom ont été découverts à Éléphantine."
+      ],
+      "monuments": [
+        "karnak",
+        "aswan"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisii.html"
+        ]
+      ],
+      "dateLabel": "Vers 1492–1479 av. J.-C."
+    },
+    {
+      "id": "hatshepsut",
+      "name": "Hatchepsout",
+      "role": "Pharaonne",
+      "dynasty": "dynasty-18",
+      "start": -1473,
+      "end": -1458,
+      "summary": "D’abord régente, Hatchepsout assume ensuite la pleine titulature de roi aux côtés de Thoutmosis III. Elle affirme sa légitimité par l’architecture, les cérémonies et l’image : son temple à terrasses et ses obélisques transforment durablement le paysage religieux de Thèbes.",
+      "facts": [
+        "Les reliefs de Deir el-Bahari racontent une expédition vers le pays de Pount : navires, habitats et produits précieux montrent l’importance des échanges avec la mer Rouge.",
+        "À Karnak, ses obélisques et sa chapelle inscrivent sa royauté dans le culte d’Amon ; les statues utilisent parfois barbe et vêtement des souverains masculins.",
+        "Après sa mort, de nombreuses images et inscriptions furent martelées ou modifiées ; cette tentative d’effacement explique en partie la redécouverte complexe de son règne."
+      ],
+      "monuments": [
+        "hatshepsut",
+        "karnak",
+        "aswan",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://egymonuments.gov.eg/en/monuments/hatshepsut-temple/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html",
+        "https://www.metmuseum.org/art/collection/search/544449"
+      ],
+      "approximate": true,
+      "dateNote": "Régence vers 1479 av. J.-C., puis pleine titulature royale vers 1473–1458 ; règne conjoint avec Thoutmosis III.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://egymonuments.gov.eg/en/monuments/hatshepsut-temple/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html",
+          "https://www.metmuseum.org/art/collection/search/544449"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html"
+        ]
+      ],
+      "dateLabel": "Vers 1473–1458 av. J.-C."
+    },
+    {
+      "id": "thutmose3",
+      "name": "Thoutmosis III",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1479,
+      "end": -1425,
+      "summary": "Thoutmosis III commence à régner enfant, pendant qu’Hatchepsout exerce le pouvoir royal. Devenu seul souverain, il mène une politique militaire d’une grande ampleur et transforme les revenus des conquêtes en fondations religieuses, dont les inscriptions de Karnak conservent la mémoire.",
+      "facts": [
+        "Au moins dix-sept campagnes vers la Palestine et la Syrie lui sont attribuées ; ses armées atteignent l’Euphrate, élargissant considérablement l’horizon politique du royaume.",
+        "Les longues inscriptions de Karnak relatent campagnes, prises et donations au temple : elles sont précieuses pour l’histoire, tout en construisant une image officielle de victoire.",
+        "Il fait construire l’Akhmenou, salle de fêtes de Karnak, et laisse des monuments jusqu’en Nubie ; sa tombe KV34 se trouve dans la Vallée des Rois."
+      ],
+      "monuments": [
+        "karnak",
+        "aswan",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Règne situé vers 1479–1425 av. J.-C. ; dates approximatives, variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiii.html"
+        ]
+      ],
+      "dateLabel": "Vers 1479–1425 av. J.-C."
+    },
+    {
+      "id": "amenhotep2",
+      "name": "Amenhotep II",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1428,
+      "end": -1397,
+      "summary": "Les inscriptions de son règne mettent en avant la force physique et la maîtrise du tir à l’arc.",
+      "facts": [
+        "Des campagnes en Asie occidentale sont attestées.",
+        "Sa tombe est KV35 dans la Vallée des Rois.",
+        "Il laisse des monuments à Karnak et dans la région de Gizeh."
+      ],
+      "monuments": [
+        "karnak",
+        "luxor",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepii.html"
+        ]
+      ],
+      "dateLabel": "Vers 1428–1397 av. J.-C."
+    },
+    {
+      "id": "thutmose4",
+      "name": "Thoutmosis IV",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1397,
+      "end": -1388,
+      "summary": "Le roi de la stèle dressée entre les pattes du Grand Sphinx de Gizeh.",
+      "facts": [
+        "Sa grande stèle de granite se trouve au Sphinx.",
+        "Ses constructions sont attestées à Karnak.",
+        "Sa tombe est KV43 dans la Vallée des Rois."
+      ],
+      "monuments": [
+        "giza-khafre",
+        "karnak",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiv.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiv.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiv.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiv.html"
+        ]
+      ],
+      "dateLabel": "Vers 1397–1388 av. J.-C."
+    },
+    {
+      "id": "amenhotep3",
+      "name": "Amenhotep III",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1388,
+      "end": -1351,
+      "summary": "Amenhotep III règne près de quatre décennies à l’apogée de la richesse du Nouvel Empire. Monuments colossaux, palais, sculptures et diplomatie internationale composent une royauté fastueuse, dont les vestiges montrent comment l’art peut mettre en scène la prospérité et la puissance.",
+      "facts": [
+        "Il construit le cœur du temple de Louxor et un immense temple funéraire sur la rive occidentale de Thèbes, dont subsistent les colosses de Memnon.",
+        "Les lettres d’Amarna révèlent des relations suivies entre cours royales ; cadeaux, alliances et échanges diplomatiques complètent ainsi l’image d’un pouvoir que les monuments exaltent.",
+        "Les grands scarabées commémoratifs diffusent les événements du règne ; sa grande épouse royale apparaît avec une visibilité exceptionnelle, tandis que le palais de Malqata accueille la cour."
+      ],
+      "monuments": [
+        "luxor",
+        "karnak",
+        "memphis",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepiii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Règne situé vers 1388–1351 av. J.-C. ; dates approximatives, variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepiii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepiii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepiii.html"
+        ]
+      ],
+      "dateLabel": "Vers 1388–1351 av. J.-C."
+    },
+    {
+      "id": "akhenaten",
+      "name": "Akhenaton",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1351,
+      "end": -1334,
+      "summary": "Akhenaton place Aton au centre de la religion royale et fonde une résidence nouvelle, Akhetaton, aujourd’hui Amarna. Cette transformation modifie les temples, les images et la représentation de la famille souveraine, mais son interprétation religieuse et sa fin restent discutées.",
+      "facts": [
+        "Né sous le nom d’Amenhotep, il adopte celui d’Akhenaton et crée Akhetaton en Moyenne-Égypte ; des stèles de frontière inscrivent sa nouvelle résidence dans le paysage.",
+        "Aton prend la forme d’un disque dont les rayons se terminent par des mains ; le couple royal devient un intermédiaire privilégié entre la divinité et les hommes.",
+        "Les noms et images d’Amon et de Mout sont attaqués sur de nombreux monuments ; les temples d’Aton seront ensuite démontés, leurs blocs réemployés notamment à Karnak."
+      ],
+      "monuments": [
+        "karnak",
+        "amarna"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/akhnaton.html",
+        "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-queen/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html"
+      ],
+      "approximate": true,
+      "dateNote": "Règne situé vers 1351–1334 av. J.-C. ; dates approximatives, variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/akhnaton.html"
+        ],
+        [
+          "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-queen/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/akhnaton.html",
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html"
+        ]
+      ],
+      "dateLabel": "Vers 1351–1334 av. J.-C."
+    },
+    {
+      "id": "nefertiti",
+      "name": "Néfertiti",
+      "role": "Grande épouse royale",
+      "dynasty": "dynasty-18",
+      "start": -1351,
+      "end": -1334,
+      "summary": "Grande épouse royale d’Akhenaton, Néfertiti occupe une place inhabituelle dans les images du culte d’Aton. Son célèbre buste a éclipsé une histoire beaucoup plus fragmentaire : les œuvres conservées attestent son prestige, sans résoudre toutes les questions sur son pouvoir.",
+      "facts": [
+        "Sur l’autel familial d’Amarna, elle apparaît à la même échelle qu’Akhenaton ; les rayons d’Aton présentent le signe de vie au roi comme à la reine.",
+        "Le buste peint de Berlin provient de l’atelier d’un sculpteur à Amarna ; son modelé délicat est une œuvre d’art, pas une preuve photographique de son apparence.",
+        "Ses origines et les circonstances de sa mort restent mal connues ; l’hypothèse d’un gouvernement royal autonome à la fin de l’époque amarnienne demeure discutée."
+      ],
+      "monuments": [
+        "amarna"
+      ],
+      "sources": [
+        "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-queen/",
+        "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/"
+      ],
+      "approximate": true,
+      "dateNote": "Grande épouse royale active au XIVe siècle av. J.-C. ; dates personnelles et règne autonome éventuel non établis.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-queen/"
+        ],
+        [
+          "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/"
+        ],
+        [
+          "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-queen/"
+        ]
+      ],
+      "dateLabel": "XIVe siècle av. J.-C."
+    },
+    {
+      "id": "tutankhamun",
+      "name": "Toutankhamon",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1333,
+      "end": -1323,
+      "summary": "Toutankhamon accède au trône enfant dans le sillage de la réforme amarnienne. Son règne participe au retour des cultes traditionnels ; sa tombe presque intacte, découverte en 1922, a surtout révélé au monde moderne l’extraordinaire richesse de l’art et du mobilier royaux.",
+      "facts": [
+        "La stèle de restauration présente les temples comme abandonnés puis relevés par le roi : c’est un programme religieux et une proclamation politique après la période d’Aton.",
+        "Horemheb réinscrit ensuite son propre nom sur cette stèle, sans effacer tous les cartouches initiaux : un exemple concret de la réécriture de la mémoire royale.",
+        "La découverte de KV62 par une équipe d’ouvriers égyptiens dirigée par Howard Carter, en novembre 1922, documente une sépulture royale exceptionnellement riche et préservée."
+      ],
+      "monuments": [
+        "karnak",
+        "luxor",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://digitalkarnak.ucsc.edu/restoration-stela-of-tutankhamen/",
+        "https://www.metmuseum.org/ja/hubs/tutankhamun-100",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html"
+      ],
+      "approximate": true,
+      "dateNote": "Règne situé vers 1333–1323 av. J.-C. ; dates approximatives, variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://digitalkarnak.ucsc.edu/restoration-stela-of-tutankhamen/"
+        ],
+        [
+          "https://digitalkarnak.ucsc.edu/restoration-stela-of-tutankhamen/"
+        ],
+        [
+          "https://www.metmuseum.org/ja/hubs/tutankhamun-100",
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html"
+        ]
+      ],
+      "dateLabel": "Vers 1333–1323 av. J.-C."
+    },
+    {
+      "id": "ay",
+      "name": "Aÿ",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1323,
+      "end": -1319,
+      "summary": "Un bref règne à la fin de la période de restauration qui suit Amarna.",
+      "facts": [
+        "Son nom de couronnement est Khéperkhépérourê.",
+        "Sa tombe se trouve dans la vallée occidentale de Thèbes, sous le numéro WV23.",
+        "Des reliefs et inscriptions attestent son règne."
+      ],
+      "monuments": [
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/aja.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/aja.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/aja.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/aja.html"
+        ]
+      ],
+      "dateLabel": "Vers 1323–1319 av. J.-C."
+    },
+    {
+      "id": "horemheb",
+      "name": "Horemheb",
+      "role": "Pharaon",
+      "dynasty": "dynasty-18",
+      "start": -1319,
+      "end": -1292,
+      "summary": "Ancien chef militaire, il clôt la XVIIIe dynastie et réorganise le pouvoir après Amarna.",
+      "facts": [
+        "Il est attesté comme commandant en chef avant son accession.",
+        "Il réemploie les blocs de temples d’Aton dans ses constructions à Karnak.",
+        "Sa tombe royale est KV57."
+      ],
+      "monuments": [
+        "karnak",
+        "memphis",
+        "luxor",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html"
+        ]
+      ],
+      "dateLabel": "Vers 1319–1292 av. J.-C."
+    },
+    {
+      "id": "ramses1",
+      "name": "Ramsès Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-19",
+      "start": -1292,
+      "end": -1290,
+      "summary": "Le fondateur de la XIXe dynastie ne règne que brièvement.",
+      "facts": [
+        "Il ouvre la dynastie ramesside.",
+        "Une stèle de donation atteste son activité à Karnak.",
+        "Sa tombe est KV16 dans la Vallée des Rois."
+      ],
+      "monuments": [
+        "karnak",
+        "aswan",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesi.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesi.html"
+        ]
+      ],
+      "dateLabel": "Vers 1292–1290 av. J.-C."
+    },
+    {
+      "id": "seti1",
+      "name": "Séthi Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-19",
+      "start": -1290,
+      "end": -1279,
+      "summary": "Séthi Ier consolide la nouvelle dynastie ramesside par les campagnes et les grands chantiers. Les reliefs de Karnak, son temple d’Abydos et sa tombe thébaine associent ambition politique, raffinement du travail de la pierre et représentations du voyage royal dans l’au-delà.",
+      "facts": [
+        "À Abydos, il fait construire un temple de son culte et un cénotaphe voisin ; cet ensemble relie la mémoire royale à un grand centre religieux du pays.",
+        "Les reliefs de Karnak racontent ses campagnes en Asie occidentale : leur composition spectaculaire affirme la victoire du souverain et doit être lue comme un discours royal.",
+        "Sa tombe KV17, particulièrement longue, est ornée de scènes tirées des livres de l’au-delà ; elle compte parmi les grands témoignages du décor funéraire du Nouvel Empire."
+      ],
+      "monuments": [
+        "abydos",
+        "karnak",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyi.html"
+      ],
+      "approximate": true,
+      "dateNote": "Règne situé vers 1290–1279 av. J.-C. ; dates approximatives, variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyi.html"
+        ]
+      ],
+      "dateLabel": "Vers 1290–1279 av. J.-C."
+    },
+    {
+      "id": "ramses2",
+      "name": "Ramsès II",
+      "role": "Pharaon",
+      "dynasty": "dynasty-19",
+      "start": -1279,
+      "end": -1213,
+      "summary": "Pendant soixante-six ans, Ramsès II multiplie temples, colosses et inscriptions dans toute l’Égypte et en Nubie. Son règne construit une image de victoire et de longévité ; derrière cette mise en scène, la guerre débouche aussi sur une diplomatie durable avec les Hittites.",
+      "facts": [
+        "La bataille de Qadesh nourrit un vaste récit en images et en textes ; cette propagande spectaculaire met le roi au premier plan, sans constituer un compte rendu neutre.",
+        "En sa vingt-et-unième année, il conclut un traité de paix avec les Hittites ; des versions égyptienne et hittite ont survécu, permettant de comparer les traditions diplomatiques.",
+        "Abou Simbel affirme sa présence en Nubie, tandis que le Ramesseum entretient son culte à Thèbes ; il installe aussi sa capitale à Pi-Ramsès, dans le Delta."
+      ],
+      "monuments": [
+        "abu-simbel",
+        "ramesseum",
+        "karnak",
+        "luxor",
+        "memphis",
+        "abydos",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Règne situé vers 1279–1213 av. J.-C. ; dates approximatives, variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
+        ]
+      ],
+      "dateLabel": "Vers 1279–1213 av. J.-C."
+    },
+    {
+      "id": "nefertari",
+      "name": "Néfertari",
+      "role": "Grande épouse royale",
+      "dynasty": "dynasty-19",
+      "start": -1279,
+      "end": -1255,
+      "summary": "Grande épouse royale de Ramsès II, Néfertari bénéficie d’une visibilité monumentale remarquable. Le petit temple d’Abou Simbel l’associe à Hathor ; sa tombe peinte dans la Vallée des Reines conserve une autre image de son prestige, tournée vers le passage dans l’au-delà.",
+      "facts": [
+        "À la façade du petit temple d’Abou Simbel, ses colosses ont la même taille que ceux du roi : une égalité d’échelle exceptionnellement accordée à une épouse royale.",
+        "Les peintures de sa tombe la montrent notamment jouant au senet ; ces scènes appartiennent au monde religieux et funéraire, au-delà de leur charme de vie quotidienne.",
+        "Découverte en 1904, la tombe a nécessité une vaste campagne de conservation de 1986 à 1992 ; la fragilité des enduits menace autant ce patrimoine que le temps."
+      ],
+      "monuments": [
+        "abu-simbel",
+        "valley-queens"
+      ],
+      "sources": [
+        "https://egymonuments.gov.eg/archaeological-sites/abu-simbel/",
+        "https://www.getty.edu/projects/tomb-nefertari/",
+        "https://egymonuments.gov.eg/media/8341/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AF%D9%84%D9%8A%D9%84-%D8%A3%D8%B3%D9%88%D8%A7%D9%86-%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A.pdf"
+      ],
+      "approximate": true,
+      "dateNote": "Grande épouse royale au XIIIe siècle av. J.-C. ; période d’activité approximative, sans règne autonome.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://egymonuments.gov.eg/archaeological-sites/abu-simbel/"
+        ],
+        [
+          "https://www.getty.edu/projects/tomb-nefertari/"
+        ],
+        [
+          "https://www.getty.edu/projects/tomb-nefertari/"
+        ]
+      ],
+      "dateLabel": "XIIIe siècle av. J.-C."
+    },
+    {
+      "id": "merenptah",
+      "name": "Mérenptah",
+      "role": "Pharaon",
+      "dynasty": "dynasty-19",
+      "start": -1213,
+      "end": -1203,
+      "summary": "Un souverain monté sur le trône à un âge avancé, après le long règne de son père.",
+      "facts": [
+        "Il repousse une coalition dans le Delta durant sa cinquième année.",
+        "Sa stèle de victoire porte la plus ancienne mention connue d’Israël.",
+        "Sa sépulture d’origine est la tombe KV8."
+      ],
+      "monuments": [
+        "karnak",
+        "memphis",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://nmec.gov.eg/mummies-hall/Merenpetah/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/merenptah.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://nmec.gov.eg/mummies-hall/Merenpetah/",
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/merenptah.html"
+        ],
+        [
+          "https://nmec.gov.eg/mummies-hall/Merenpetah/",
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/merenptah.html"
+        ],
+        [
+          "https://nmec.gov.eg/mummies-hall/Merenpetah/",
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/merenptah.html"
+        ]
+      ],
+      "dateLabel": "Vers 1213–1203 av. J.-C."
+    },
+    {
+      "id": "seti2",
+      "name": "Séthi II",
+      "role": "Pharaon",
+      "dynasty": "dynasty-19",
+      "start": -1200,
+      "end": -1194,
+      "summary": "Son règne appartient à une fin de dynastie dont l’ordre des événements reste discuté.",
+      "facts": [
+        "Il laisse un sanctuaire à Karnak.",
+        "Des inscriptions sont aussi conservées à Louxor.",
+        "Sa tombe est KV15 dans la Vallée des Rois."
+      ],
+      "monuments": [
+        "karnak",
+        "luxor",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyii.html"
+        ]
+      ],
+      "dateLabel": "Vers 1200–1194 av. J.-C."
+    },
+    {
+      "id": "siptah",
+      "name": "Siptah",
+      "role": "Pharaon",
+      "dynasty": "dynasty-19",
+      "start": -1194,
+      "end": -1186,
+      "summary": "Un jeune souverain de la période troublée qui clôt la XIXe dynastie.",
+      "facts": [
+        "La succession et les rapports entre les dirigeants de cette période demeurent discutés.",
+        "Il porte deux formes successives de nom de couronnement.",
+        "Son nom est connu par plusieurs monuments et inscriptions."
+      ],
+      "monuments": [
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/siptah.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/siptah.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/siptah.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/siptah.html"
+        ]
+      ],
+      "dateLabel": "Vers 1194–1186 av. J.-C."
+    },
+    {
+      "id": "tawosret",
+      "name": "Taousert",
+      "role": "Pharaonne",
+      "dynasty": "dynasty-19",
+      "start": -1194,
+      "end": -1186,
+      "summary": "Une reine qui exerce la royauté à la fin de la XIXe dynastie.",
+      "facts": [
+        "L’étendue exacte de son gouvernement conjoint puis autonome reste discutée.",
+        "Sa tombe est KV14.",
+        "Des monuments à son nom furent ensuite altérés pour effacer sa mémoire royale."
+      ],
+      "monuments": [
+        "memphis",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tausret.html"
+      ],
+      "approximate": true,
+      "dateNote": "Vers 1194–1186 av. J.-C. en incluant la régence ; règne autonome très bref, chronologie débattue.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tausret.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tausret.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tausret.html"
+        ]
+      ],
+      "dateLabel": "Vers 1194–1186 av. J.-C."
+    },
+    {
+      "id": "sethnakht",
+      "name": "Sethnakht",
+      "role": "Pharaon",
+      "dynasty": "dynasty-20",
+      "start": -1186,
+      "end": -1183,
+      "summary": "Le fondateur de la XXe dynastie marque une nouvelle rupture dans la succession royale.",
+      "facts": [
+        "Son règne est bref.",
+        "Une stèle le concernant a été découverte à Éléphantine.",
+        "Il utilise la tombe KV14 de la Vallée des Rois."
+      ],
+      "monuments": [
+        "aswan",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setnakht.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setnakht.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setnakht.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setnakht.html"
+        ]
+      ],
+      "dateLabel": "Vers 1186–1183 av. J.-C."
+    },
+    {
+      "id": "ramses3",
+      "name": "Ramsès III",
+      "role": "Pharaon",
+      "dynasty": "dynasty-20",
+      "start": -1183,
+      "end": -1152,
+      "summary": "Ramsès III laisse à Médinet Habou un manifeste monumental de sa royauté. Son règne affronte des coalitions extérieures, mais les archives révèlent aussi les difficultés intérieures : derrière les grandes images de victoire apparaissent les tensions de la cour et du travail royal.",
+      "facts": [
+        "Les reliefs de Médinet Habou racontent ses affrontements avec les Libyens et les groupes appelés « Peuples de la mer », tout en exaltant le souverain victorieux.",
+        "Le papyrus de la grève relate l’arrêt de travail des ouvriers de la nécropole thébaine : ils réclament les rations de céréales qui constituent leur rémunération.",
+        "Des documents judiciaires évoquent une conspiration du palais ; le grand papyrus Harris, compilé après son règne, dresse parallèlement un bilan impressionnant des donations aux temples."
+      ],
+      "monuments": [
+        "medinet-habu",
+        "karnak",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://egymonuments.gov.eg/monuments/the-temple-of-medinet-habu/",
+        "https://collezionepapiri.museoegizio.it/en-GB/document/131",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiii.html"
+      ],
+      "approximate": true,
+      "dateNote": "Règne situé vers 1183–1152 av. J.-C. ; dates approximatives, variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://egymonuments.gov.eg/monuments/the-temple-of-medinet-habu/"
+        ],
+        [
+          "https://collezionepapiri.museoegizio.it/en-GB/document/131"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiii.html"
+        ]
+      ],
+      "dateLabel": "Vers 1183–1152 av. J.-C."
+    },
+    {
+      "id": "ramses4",
+      "name": "Ramsès IV",
+      "role": "Pharaon",
+      "dynasty": "dynasty-20",
+      "start": -1152,
+      "end": -1145,
+      "summary": "Un roi dont les expéditions aux carrières et les inscriptions documentent les ambitions de bâtisseur.",
+      "facts": [
+        "Des inscriptions d’expédition sont conservées au Ouadi Hammamat.",
+        "Il laisse des monuments à Karnak et Louxor.",
+        "Sa tombe est KV2."
+      ],
+      "monuments": [
+        "karnak",
+        "luxor",
+        "abydos",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiv.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiv.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiv.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiv.html"
+        ]
+      ],
+      "dateLabel": "Vers 1152–1145 av. J.-C."
+    },
+    {
+      "id": "ramses6",
+      "name": "Ramsès VI",
+      "role": "Pharaon",
+      "dynasty": "dynasty-20",
+      "start": -1142,
+      "end": -1134,
+      "summary": "Un roi de la XXe dynastie associé à la tombe KV9 et à de nombreux monuments de Karnak.",
+      "facts": [
+        "Sa tombe se trouve dans la Vallée des Rois, sous le numéro KV9.",
+        "Des monuments de son règne sont attestés à Karnak.",
+        "Son nom est aussi connu à Memphis et dans la région du Sinaï."
+      ],
+      "monuments": [
+        "karnak",
+        "memphis",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesvi.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesvi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesvi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesvi.html"
+        ]
+      ],
+      "dateLabel": "Vers 1142–1134 av. J.-C."
+    },
+    {
+      "id": "ramses9",
+      "name": "Ramsès IX",
+      "role": "Pharaon",
+      "dynasty": "dynasty-20",
+      "start": -1125,
+      "end": -1107,
+      "summary": "Les documents judiciaires de son époque éclairent les pillages de tombes dans la région thébaine.",
+      "facts": [
+        "Des procès de voleurs de tombes sont documentés sous son règne.",
+        "Il laisse un portail et des inscriptions à Karnak.",
+        "Sa tombe est KV6."
+      ],
+      "monuments": [
+        "karnak",
+        "memphis",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesix.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesix.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesix.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesix.html"
+        ]
+      ],
+      "dateLabel": "Vers 1125–1107 av. J.-C."
+    },
+    {
+      "id": "ramses11",
+      "name": "Ramsès XI",
+      "role": "Pharaon",
+      "dynasty": "dynasty-20",
+      "start": -1103,
+      "end": -1069,
+      "summary": "Le dernier souverain de la XXe dynastie se place au terme du Nouvel Empire.",
+      "facts": [
+        "Des inscriptions de son règne sont conservées à Karnak.",
+        "Une stèle d’Abydos porte une date de sa vingt-septième année.",
+        "La tombe KV4 lui était destinée."
+      ],
+      "monuments": [
+        "karnak",
+        "abydos",
+        "aswan",
+        "valley-kings"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesxi.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesxi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesxi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesxi.html"
+        ]
+      ],
+      "dateLabel": "Vers 1103–1069 av. J.-C."
+    },
+    {
+      "id": "psusennes1",
+      "name": "Psousennès Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-21",
+      "start": -1044,
+      "end": -994,
+      "summary": "Un souverain de Tanis connu par sa sépulture retrouvée intacte.",
+      "facts": [
+        "Son centre de pouvoir se trouve à Tanis.",
+        "Des monuments de l’ancienne capitale ramesside y sont transférés sous son règne.",
+        "Il est associé au grand temple d’Amon de Tanis."
+      ],
+      "monuments": [
+        "tanis"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psusennesi.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psusennesi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psusennesi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psusennesi.html"
+        ]
+      ],
+      "dateLabel": "Vers 1044–994 av. J.-C."
+    },
+    {
+      "id": "shoshenq1",
+      "name": "Sheshonq Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-22",
+      "start": -945,
+      "end": -924,
+      "summary": "Le fondateur de la XXIIe dynastie réunit des leviers de pouvoir répartis dans le pays.",
+      "facts": [
+        "Il installe des membres de sa famille dans des fonctions importantes.",
+        "Un relief de Karnak relate sa campagne au Levant.",
+        "Ses travaux sont attestés à Karnak, Memphis et Tanis."
+      ],
+      "monuments": [
+        "karnak",
+        "memphis",
+        "tanis"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/sheshonqi.html"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/sheshonqi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/sheshonqi.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/sheshonqi.html"
+        ]
+      ],
+      "dateLabel": "Vers 945–924 av. J.-C."
+    },
+    {
+      "id": "piye",
+      "name": "Piye",
+      "role": "Pharaon",
+      "dynasty": "dynasty-25",
+      "start": -747,
+      "end": -716,
+      "summary": "Un souverain de Koush qui étend son autorité depuis la Nubie jusqu’en Égypte.",
+      "facts": [
+        "Sa stèle de victoire décrit sa campagne contre une coalition du Nord.",
+        "Il place son pouvoir sous la protection d’Amon.",
+        "Il est inhumé dans une pyramide à El-Kourrou, en Nubie."
+      ],
+      "monuments": [
+        "karnak"
+      ],
+      "sources": [
+        "https://smarthistory.org/king-piye-kushite-egypt/"
+      ],
+      "approximate": true,
+      "dateNote": "Vers 747–716 av. J.-C. ; datations variables selon les chronologies.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://smarthistory.org/king-piye-kushite-egypt/"
+        ],
+        [
+          "https://smarthistory.org/king-piye-kushite-egypt/"
+        ],
+        [
+          "https://smarthistory.org/king-piye-kushite-egypt/"
+        ]
+      ],
+      "dateLabel": "Vers 747–716 av. J.-C."
+    },
+    {
+      "id": "taharqa",
+      "name": "Taharqa",
+      "role": "Pharaon",
+      "dynasty": "dynasty-25",
+      "start": -690,
+      "end": -664,
+      "summary": "Un grand souverain koushite, bâtisseur en Égypte comme dans la vallée nubienne du Nil.",
+      "facts": [
+        "Il mène d’importants travaux à Thèbes et dans les sanctuaires de Nubie.",
+        "Son règne affronte l’expansion assyrienne.",
+        "Il est enterré dans la nécropole de Nouri."
+      ],
+      "monuments": [
+        "karnak",
+        "tanis"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/taharqo.html",
+        "https://smarthistory.org/king-piye-kushite-egypt/"
+      ],
+      "approximate": true,
+      "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/taharqo.html",
+          "https://smarthistory.org/king-piye-kushite-egypt/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/taharqo.html",
+          "https://smarthistory.org/king-piye-kushite-egypt/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/taharqo.html",
+          "https://smarthistory.org/king-piye-kushite-egypt/"
+        ]
+      ],
+      "dateLabel": "Vers 690–664 av. J.-C."
+    },
+    {
+      "id": "psamtik1",
+      "name": "Psammétique Ier",
+      "role": "Pharaon",
+      "dynasty": "dynasty-26",
+      "start": -664,
+      "end": -610,
+      "summary": "Le souverain saïte réunifie l’Égypte après les royaumes concurrents et la domination koushite.",
+      "facts": [
+        "Il élimine progressivement les pouvoirs locaux concurrents.",
+        "Sa capitale et sa sépulture se trouvent à Saïs.",
+        "Ses travaux sont attestés dans le Delta et jusqu’à Éléphantine."
+      ],
+      "monuments": [
+        "tanis",
+        "aswan"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psametiki.html"
+      ],
+      "approximate": false,
+      "dateNote": "Règne de 664 à 610 av. J.-C.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psametiki.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psametiki.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psametiki.html"
+        ]
+      ],
+      "dateLabel": "664–610 av. J.-C."
+    },
+    {
+      "id": "nectanebo2",
+      "name": "Nectanébo II",
+      "role": "Pharaon",
+      "dynasty": "dynasty-30",
+      "start": -360,
+      "end": -343,
+      "summary": "Dernier souverain indigène indépendant de toute l’Égypte antique, il poursuit de grands chantiers religieux.",
+      "facts": [
+        "Il appartient à la XXXe dynastie.",
+        "Ses travaux sont attestés à Karnak et à Éléphantine.",
+        "Son règne s’achève avec la reconquête perse."
+      ],
+      "monuments": [
+        "karnak",
+        "aswan",
+        "edfu",
+        "tanis"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/nakhthorbyt.html"
+      ],
+      "approximate": false,
+      "dateNote": "Règne de 360 à 343 av. J.-C.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/nakhthorbyt.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/nakhthorbyt.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/nakhthorbyt.html"
+        ]
+      ],
+      "dateLabel": "360–343 av. J.-C."
+    },
+    {
+      "id": "alexander",
+      "name": "Alexandre le Grand",
+      "role": "Roi de Macédoine et pharaon",
+      "dynasty": "macedonian",
+      "start": -332,
+      "end": -323,
+      "summary": "En conquérant l’Égypte, Alexandre le Grand met fin à la seconde domination perse et ouvre la phase macédonienne. Son passage est bref, mais la fondation d’Alexandrie crée un nouveau centre de pouvoir dont l’importance dépasse largement la durée de son empire.",
+      "facts": [
+        "La fondation d’Alexandrie en 331 av. J.-C. établit une grande cité sur la côte méditerranéenne, à proximité d’une implantation égyptienne plus ancienne appelée Raqote.",
+        "Il meurt à Babylone en 323 av. J.-C. ; les rivalités de ses généraux ouvrent un partage de l’empire qui modifie l’avenir politique de l’Égypte.",
+        "La ville qu’il fonde devient ensuite le siège de la royauté ptolémaïque ; sa situation maritime transforme durablement les relations entre l’Égypte et les mondes méditerranéens."
+      ],
+      "monuments": [
+        "alexandria"
+      ],
+      "sources": [
+        "https://egymonuments.gov.eg/archaeological-sites/alexandria/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/macedonianperiodkings.html"
+      ],
+      "approximate": false,
+      "dateNote": "Maître de l’Égypte de 332 à sa mort en 323 av. J.-C. ; Alexandrie est fondée en 331.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://egymonuments.gov.eg/archaeological-sites/alexandria/"
+        ],
+        [
+          "https://egymonuments.gov.eg/archaeological-sites/alexandria/"
+        ],
+        [
+          "https://egymonuments.gov.eg/archaeological-sites/alexandria/"
+        ]
+      ],
+      "dateLabel": "332–323 av. J.-C."
+    },
+    {
+      "id": "ptolemy1",
+      "name": "Ptolémée Ier",
+      "role": "Pharaon",
+      "dynasty": "ptolemaic",
+      "start": -305,
+      "end": -282,
+      "summary": "Ancien général d’Alexandre, Ptolémée Ier transforme son gouvernement de l’Égypte en monarchie indépendante. Installée à Alexandrie, sa dynastie combine culture politique grecque et traditions royales égyptiennes ; son action religieuse et ses constructions annoncent plusieurs siècles de chantiers dans les sanctuaires.",
+      "facts": [
+        "Il gouverne d’abord au nom des rois macédoniens avant de prendre lui-même le titre royal en 306/305 av. J.-C. : pouvoir effectif et couronnement ne coïncident donc pas.",
+        "Il favorise le culte de Sérapis, associé à sa dynastie ; cette divinité illustre les recompositions religieuses qui accompagnent la rencontre des traditions grecques et égyptiennes.",
+        "Ses travaux sont attestés dans plusieurs sanctuaires, notamment par une porte à Tanis et des temples à Naucratis et Tebtynis : le pouvoir grec soutient aussi les cultes locaux."
+      ],
+      "monuments": [
+        "alexandria",
+        "tanis"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyi.html",
+        "https://www.metmuseum.org/art/collection/search/553817"
+      ],
+      "approximate": false,
+      "dateNote": "Gouverneur de l’Égypte dès 323 av. J.-C. ; titre royal pris en 306/305, règne jusqu’en 283/282.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyi.html"
+        ],
+        [
+          "https://www.metmuseum.org/art/collection/search/553817"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyi.html"
+        ]
+      ],
+      "dateLabel": "305–282 av. J.-C."
+    },
+    {
+      "id": "ptolemy3",
+      "name": "Ptolémée III",
+      "role": "Pharaon",
+      "dynasty": "ptolemaic",
+      "start": -246,
+      "end": -222,
+      "summary": "Un roi ptolémaïque dont le règne voit commencer le grand temple d’Horus à Edfou.",
+      "facts": [
+        "Les fondations du temple d’Edfou sont posées en 237 av. J.-C.",
+        "Le chantier et son décor se poursuivent pendant près de deux siècles.",
+        "Le sanctuaire suit la tradition architecturale égyptienne."
+      ],
+      "monuments": [
+        "edfu"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyiii.html",
+        "https://egymonuments.gov.eg/en/monuments/temple-of-edfu"
+      ],
+      "approximate": false,
+      "dateNote": "Règne de 246 à 222 av. J.-C.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyiii.html",
+          "https://egymonuments.gov.eg/en/monuments/temple-of-edfu"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyiii.html",
+          "https://egymonuments.gov.eg/en/monuments/temple-of-edfu"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyiii.html",
+          "https://egymonuments.gov.eg/en/monuments/temple-of-edfu"
+        ]
+      ],
+      "dateLabel": "246–222 av. J.-C."
+    },
+    {
+      "id": "ptolemy6",
+      "name": "Ptolémée VI",
+      "role": "Pharaon",
+      "dynasty": "ptolemaic",
+      "start": -180,
+      "end": -145,
+      "summary": "Son règne est représenté dans les décors des grands sanctuaires de Haute-Égypte.",
+      "facts": [
+        "Son nom est le plus ancien nom royal attesté dans le temple actuel de Kom Ombo.",
+        "Ce sanctuaire possède deux axes, pour Sobek et Haroéris.",
+        "Sa royauté connaît des interruptions et des conflits familiaux."
+      ],
+      "monuments": [
+        "kom-ombo",
+        "philae"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyvi.html",
+        "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+      ],
+      "approximate": false,
+      "dateNote": "Règne de 180 à 145 av. J.-C.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyvi.html",
+          "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyvi.html",
+          "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyvi.html",
+          "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+        ]
+      ],
+      "dateLabel": "180–145 av. J.-C."
+    },
+    {
+      "id": "ptolemy12",
+      "name": "Ptolémée XII",
+      "role": "Pharaon",
+      "dynasty": "ptolemaic",
+      "start": -80,
+      "end": -51,
+      "summary": "Le règne du père de Cléopâtre VII marque une phase importante des décors de temples.",
+      "facts": [
+        "Il achève une grande partie du décor de Kom Ombo.",
+        "Il est figuré sur le pylône d’Edfou.",
+        "Le temple d’Edfou est finalement achevé en 57 av. J.-C."
+      ],
+      "monuments": [
+        "edfu",
+        "kom-ombo",
+        "dendera"
+      ],
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyxii.html",
+        "https://egymonuments.gov.eg/en/monuments/temple-of-edfu",
+        "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+      ],
+      "approximate": false,
+      "dateNote": "Règne de 80 à 51 av. J.-C., interrompu de 58 à 55.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyxii.html",
+          "https://egymonuments.gov.eg/en/monuments/temple-of-edfu",
+          "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyxii.html",
+          "https://egymonuments.gov.eg/en/monuments/temple-of-edfu",
+          "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ptolemyxii.html",
+          "https://egymonuments.gov.eg/en/monuments/temple-of-edfu",
+          "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+        ]
+      ],
+      "dateLabel": "80–51 av. J.-C."
+    },
+    {
+      "id": "cleopatra7",
+      "name": "Cléopâtre VII",
+      "role": "Reine et pharaonne",
+      "dynasty": "ptolemaic",
+      "start": -51,
+      "end": -30,
+      "summary": "Dernière souveraine ptolémaïque, Cléopâtre VII gouverne une Égypte engagée dans les rivalités du monde romain. Ses liens avec César puis Marc Antoine sont aussi des choix politiques ; ses images dans les temples prolongent simultanément la tradition de la monarchie pharaonique.",
+      "facts": [
+        "Son alliance avec Marc Antoine la place au cœur de la lutte contre Octave ; la reine n’est donc pas seulement une figure de légende amoureuse, mais une actrice politique.",
+        "À Dendéra, son image figure sur le mur arrière du temple d’Hathor ; d’autres travaux sont attestés à Coptos et Armant, révélant son engagement dans les sanctuaires égyptiens.",
+        "Après sa défaite et sa mort en 30 av. J.-C., l’Égypte devient une province romaine ; l’emplacement exact de sa sépulture demeure inconnu à ce jour."
+      ],
+      "monuments": [
+        "alexandria",
+        "dendera"
+      ],
+      "sources": [
+        "https://librairie.imarabe.org/9791020409966-le-mystere-cleopatre",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/cleopatravii.html"
+      ],
+      "approximate": false,
+      "dateNote": "Règne de 51 à 30 av. J.-C. ; l’annexion romaine suit sa mort, sans marquer la disparition immédiate des cultes et traditions égyptiens.",
+      "portraitNote": "Évocation artistique, non portrait attesté.",
+      "factSources": [
+        [
+          "https://librairie.imarabe.org/9791020409966-le-mystere-cleopatre"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/cleopatravii.html"
+        ],
+        [
+          "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/cleopatravii.html"
+        ]
+      ],
+      "dateLabel": "51–30 av. J.-C."
+    }
+  ],
+  "mythology": [
+    {
+      "id": "isis",
+      "name": "Isis",
+      "role": "Déesse",
+      "historical": false,
+      "monuments": [
+        "philae"
+      ]
+    },
+    {
+      "id": "horus",
+      "name": "Horus",
+      "role": "Dieu",
+      "historical": false,
+      "monuments": [
+        "edfu",
+        "kom-ombo"
+      ]
+    },
+    {
+      "id": "osiris",
+      "name": "Osiris",
+      "role": "Dieu",
+      "historical": false,
+      "monuments": [
+        "abydos"
+      ]
+    }
+  ],
+  "monuments": [
+    {
+      "id": "giza-khufu",
+      "name": "Pyramide de Khéops",
+      "city": "Gizeh",
+      "ancientName": null,
+      "lat": 29.9792,
+      "lon": 31.1342,
+      "type": "pyramid",
+      "period": "old",
+      "dateLabel": "IVe dynastie · vers 2589–2566 av. J.-C.",
+      "summary": "La Grande Pyramide domine la nécropole de Gizeh. Tombeau de Khéops, elle appartient à un ensemble funéraire comprenant temples, chaussée, pyramides secondaires et fosses de bateaux. Son parement de calcaire fin la rendait autrefois beaucoup plus lumineuse.",
+      "fact": "Son intérieur réunit trois chambres principales, dont la chambre du roi accessible par la Grande Galerie, remarquable ouvrage de maçonnerie en encorbellement.",
+      "figureIds": [
+        "khufu"
+      ],
+      "source": "https://egymonuments.gov.eg/monuments/the-great-pyramid/",
+      "sources": [
+        "https://egymonuments.gov.eg/monuments/the-great-pyramid/"
+      ],
+      "image": "assets/giza.webp",
+      "periodLabel": "Ancien Empire"
+    },
+    {
+      "id": "giza-khafre",
+      "name": "Pyramide de Khéphren",
+      "city": "Gizeh",
+      "ancientName": null,
+      "lat": 29.9761,
+      "lon": 31.1308,
+      "type": "pyramid",
+      "period": "old",
+      "dateLabel": "IVe dynastie · XXVIe–XXVe siècle av. J.-C.",
+      "summary": "La deuxième grande pyramide de Gizeh appartient au complexe funéraire de Khéphren. Le plateau, les temples et le Sphinx forment un paysage monumental où la royauté se met en scène à une échelle exceptionnelle.",
+      "fact": "Le complexe de Khéphren comprend la deuxième plus grande pyramide du plateau, et l’attribution du Grand Sphinx à ce souverain demeure la plus courante.",
+      "figureIds": [
+        "khafre"
+      ],
+      "source": "https://giza.fas.harvard.edu/commontopics/",
+      "sources": [
+        "https://giza.fas.harvard.edu/commontopics/"
+      ],
+      "image": "assets/giza.webp",
+      "periodLabel": "Ancien Empire"
+    },
+    {
+      "id": "giza-menkaure",
+      "name": "Pyramide de Mykérinos",
+      "city": "Gizeh",
+      "ancientName": null,
+      "lat": 29.9725,
+      "lon": 31.1283,
+      "type": "pyramid",
+      "period": "old",
+      "dateLabel": "IVe dynastie · XXVIe–XXVe siècle av. J.-C.",
+      "summary": "La plus petite des trois grandes pyramides du plateau est celle de Mykérinos. Son complexe et les statues royales qui en proviennent montrent que la puissance d’une œuvre ne dépend pas seulement de ses dimensions.",
+      "fact": "Mykérinos est le nom grec du roi Menkaourê : sa pyramide complète l’ensemble des trois grandes sépultures royales qui ont rendu Gizeh célèbre.",
+      "figureIds": [
+        "menkaure"
+      ],
+      "source": "https://giza.fas.harvard.edu/commontopics/",
+      "sources": [
+        "https://giza.fas.harvard.edu/commontopics/"
+      ],
+      "image": "assets/giza.webp",
+      "periodLabel": "Ancien Empire"
+    },
+    {
+      "id": "saqqara",
+      "name": "Saqqarah et pyramide à degrés",
+      "city": "Saqqarah",
+      "ancientName": null,
+      "lat": 29.8713,
+      "lon": 31.2165,
+      "type": "necropolis",
+      "period": "old",
+      "dateLabel": "Dès les premières dynasties · pyramide de la IIIe dynastie",
+      "summary": "Saqqarah est une immense nécropole de la région memphite. Le complexe à degrés de Djéser marque un tournant majeur : les formes funéraires de la brique sont transposées en pierre dans un programme architectural royal.",
+      "fact": "La pyramide à degrés superpose six niveaux, comme des mastabas décroissants ; elle constitue l’un des premiers grands ensembles monumentaux de pierre de l’histoire.",
+      "figureIds": [
+        "djoser",
+        "unas",
+        "pepi2"
+      ],
+      "source": "https://www.memphis.edu/egypt/resources/colortour/saqqara2.php",
+      "sources": [
+        "https://www.memphis.edu/egypt/resources/colortour/saqqara2.php"
+      ],
+      "image": "assets/history/monuments/saqqara.jpg",
+      "periodLabel": "Ancien Empire"
+    },
+    {
+      "id": "red-pyramid",
+      "name": "Pyramide rouge",
+      "city": "Dahchour",
+      "ancientName": null,
+      "lat": 29.8086,
+      "lon": 31.206,
+      "type": "pyramid",
+      "period": "old",
+      "dateLabel": "IVe dynastie · règne de Snéfrou",
+      "summary": "Au nord de la pyramide rhomboïdale, cet autre grand chantier de Snéfrou illustre l’aboutissement des recherches sur la pyramide à faces lisses. Le site de Dahchour permet de comparer deux solutions architecturales d’un même règne.",
+      "fact": "La pyramide septentrionale de Snéfrou, dite rouge, se trouve à environ deux kilomètres au nord de la pyramide rhomboïdale dans la nécropole de Dahchour.",
+      "figureIds": [
+        "snefru"
+      ],
+      "source": "https://sis.gov.eg/en/egypt/tourism/famous-cities/giza/",
+      "sources": [
+        "https://sis.gov.eg/en/egypt/tourism/famous-cities/giza/"
+      ],
+      "image": "assets/history/monuments/red-pyramid.jpg",
+      "periodLabel": "Ancien Empire"
+    },
+    {
+      "id": "bent-pyramid",
+      "name": "Pyramide rhomboïdale",
+      "city": "Dahchour",
+      "ancientName": null,
+      "lat": 29.7904,
+      "lon": 31.2093,
+      "type": "pyramid",
+      "period": "old",
+      "dateLabel": "IVe dynastie · règne de Snéfrou",
+      "summary": "La pyramide rhomboïdale conserve la trace visible d’un changement de projet : ses faces adoptent une pente plus douce à mi-hauteur. Cette silhouette en fait un témoin précieux de l’expérimentation architecturale de la IVe dynastie.",
+      "fact": "La pente passe d’environ 55 à 43 degrés ; le monument possède aussi deux entrées, sur ses faces nord et ouest, menant à des chambres.",
+      "figureIds": [
+        "snefru"
+      ],
+      "source": "https://egymonuments.gov.eg/monuments/the-bent-pyramid/",
+      "sources": [
+        "https://egymonuments.gov.eg/monuments/the-bent-pyramid/"
+      ],
+      "image": "assets/history/monuments/bent-pyramid.jpg",
+      "periodLabel": "Ancien Empire"
+    },
+    {
+      "id": "karnak",
+      "name": "Temples de Karnak",
+      "city": "Louxor / Thèbes",
+      "ancientName": "Ipet-sout",
+      "lat": 25.7188,
+      "lon": 32.6573,
+      "type": "temple",
+      "period": "new",
+      "dateLabel": "Du Moyen Empire à l’époque romaine",
+      "summary": "Karnak est un ensemble de sanctuaires agrandi pendant des siècles sur la rive orientale de Thèbes. Obélisques, pylônes, chapelles et cours racontent une histoire collective de bâtisseurs, autour du puissant culte d’Amon.",
+      "fact": "La grande salle hypostyle compte 134 colonnes ; une voie processionnelle bordée de sphinx reliait Karnak au temple de Louxor pour la fête d’Opet.",
+      "figureIds": [
+        "hatshepsut",
+        "thutmose3",
+        "amenhotep3",
+        "seti1",
+        "ramses2"
+      ],
+      "source": "https://egymonuments.gov.eg/archaeological-sites/karnak/",
+      "sources": [
+        "https://egymonuments.gov.eg/archaeological-sites/karnak/"
+      ],
+      "image": "assets/karnak.webp",
+      "periodLabel": "Nouvel Empire"
+    },
+    {
+      "id": "luxor",
+      "name": "Temple de Louxor",
+      "city": "Louxor / Thèbes",
+      "ancientName": "Ipet-resyt",
+      "lat": 25.6995,
+      "lon": 32.6391,
+      "type": "temple",
+      "period": "new",
+      "dateLabel": "XVIIIe–XIXe dynasties · transformations ultérieures",
+      "summary": "Le temple de Louxor accueillait les grandes cérémonies de la fête d’Opet. Son cœur monumental est dû à Amenhotep III, puis d’autres souverains ajoutent décors, colonnades, statues et une entrée triomphale tournée vers Karnak.",
+      "fact": "Ramsès II fait dresser devant le pylône deux obélisques ; l’un demeure en place, tandis que l’autre se trouve à Paris depuis le XIXe siècle.",
+      "figureIds": [
+        "amenhotep3",
+        "tutankhamun",
+        "horemheb",
+        "ramses2"
+      ],
+      "source": "https://egymonuments.gov.eg/monuments/luxor-temple/",
+      "sources": [
+        "https://egymonuments.gov.eg/monuments/luxor-temple/"
+      ],
+      "image": "assets/luxor-karnak.webp",
+      "periodLabel": "Nouvel Empire"
+    },
+    {
+      "id": "hatshepsut",
+      "name": "Temple d’Hatchepsout",
+      "city": "Deir el-Bahari / Thèbes",
+      "ancientName": "Djeser-djeserou",
+      "lat": 25.7382,
+      "lon": 32.6064,
+      "type": "temple",
+      "period": "new",
+      "dateLabel": "XVIIIe dynastie · vers 1473–1458 av. J.-C.",
+      "summary": "Adossé aux falaises de la rive occidentale de Thèbes, le temple funéraire d’Hatchepsout déploie trois terrasses à colonnades. Ses reliefs associent légitimité royale, fêtes religieuses et voyage vers les richesses du pays de Pount.",
+      "fact": "Les scènes de l’expédition de Pount décrivent habitants, maisons, animaux et produits rapportés ; le temple comprend également des espaces voués à plusieurs divinités.",
+      "figureIds": [
+        "hatshepsut"
+      ],
+      "source": "https://egymonuments.gov.eg/en/monuments/hatshepsut-temple/",
+      "sources": [
+        "https://egymonuments.gov.eg/en/monuments/hatshepsut-temple/"
+      ],
+      "image": "assets/history/monuments/hatshepsut.jpg",
+      "periodLabel": "Nouvel Empire"
+    },
+    {
+      "id": "medinet-habu",
+      "name": "Médinet Habou",
+      "city": "Thèbes, rive occidentale",
+      "ancientName": null,
+      "lat": 25.7194,
+      "lon": 32.6009,
+      "type": "temple",
+      "period": "new",
+      "dateLabel": "XXe dynastie · règne de Ramsès III",
+      "summary": "Le grand temple funéraire de Ramsès III est entouré d’enceintes et de bâtiments de service. Ses hautes portes, cours et reliefs militaires composent l’un des ensembles les mieux conservés de la rive occidentale thébaine.",
+      "fact": "Les murs évoquent les conflits contre les Libyens et les groupes appelés « Peuples de la mer », mais montrent aussi cérémonies et pratiques du culte royal.",
+      "figureIds": [
+        "ramses3"
+      ],
+      "source": "https://egymonuments.gov.eg/monuments/the-temple-of-medinet-habu/",
+      "sources": [
+        "https://egymonuments.gov.eg/monuments/the-temple-of-medinet-habu/"
+      ],
+      "image": "assets/history/monuments/medinet-habu.jpg",
+      "periodLabel": "Nouvel Empire"
+    },
+    {
+      "id": "ramesseum",
+      "name": "Ramesseum",
+      "city": "Thèbes, rive occidentale",
+      "ancientName": null,
+      "lat": 25.7278,
+      "lon": 32.6105,
+      "type": "temple",
+      "period": "new",
+      "dateLabel": "XIXe dynastie · règne de Ramsès II",
+      "summary": "Le Ramesseum est le principal temple du culte funéraire de Ramsès II à Thèbes. Il appartient à un vaste réseau de sanctuaires par lesquels le roi inscrit sa présence dans le paysage de l’Égypte.",
+      "fact": "Ce monument est l’un des grands chantiers thébains de Ramsès II ; sa fonction est d’entretenir le culte du roi au-delà de sa mort.",
+      "figureIds": [
+        "ramses2"
+      ],
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
+      ],
+      "image": "assets/history/monuments/ramesseum.jpg",
+      "periodLabel": "Nouvel Empire"
+    },
+    {
+      "id": "abu-simbel",
+      "name": "Temples d’Abou Simbel",
+      "city": "Abou Simbel, Nubie",
+      "ancientName": null,
+      "lat": 22.3372,
+      "lon": 31.6258,
+      "type": "temple",
+      "period": "new",
+      "dateLabel": "XIXe dynastie · XIIIe siècle av. J.-C.",
+      "summary": "Creusés dans la roche, les deux temples d’Abou Simbel associent la majesté de Ramsès II au culte divin. Le petit temple honore Hathor et Néfertari, dont les statues de façade rivalisent exceptionnellement avec celles du roi.",
+      "fact": "Les deux sanctuaires ont été démontés puis reconstruits plus haut pour les sauver de la montée des eaux du lac Nasser, lors d’une opération internationale.",
+      "figureIds": [
+        "ramses2",
+        "nefertari"
+      ],
+      "source": "https://egymonuments.gov.eg/archaeological-sites/abu-simbel/",
+      "sources": [
+        "https://egymonuments.gov.eg/archaeological-sites/abu-simbel/"
+      ],
+      "image": "assets/abu-simbel.webp",
+      "periodLabel": "Nouvel Empire"
+    },
+    {
+      "id": "philae",
+      "name": "Sanctuaires de Philae",
+      "city": "Assouan, île d’Agilkia",
+      "ancientName": null,
+      "lat": 24.0257,
+      "lon": 32.8841,
+      "type": "temple",
+      "period": "ptolemaic",
+      "dateLabel": "Époques ptolémaïque, romaine et byzantine",
+      "summary": "L’ensemble de Philae, aujourd’hui remonté sur Agilkia, est surtout connu pour son temple d’Isis. Les bâtiments tardifs y montrent la vitalité des cultes égyptiens bien après la fin des grandes dynasties pharaoniques.",
+      "fact": "La dernière inscription hiéroglyphique datée connue fut gravée ici en 394 de notre ère ; les monuments ont ensuite été déplacés pour éviter leur submersion.",
+      "figureIds": [
+        "ptolemy6"
+      ],
+      "source": "https://egymonuments.gov.eg/archaeological-sites/philae/",
+      "sources": [
+        "https://egymonuments.gov.eg/archaeological-sites/philae/"
+      ],
+      "image": "assets/philae.webp",
+      "periodLabel": "Époque ptolémaïque"
+    },
+    {
+      "id": "kom-ombo",
+      "name": "Temple de Kom Ombo",
+      "city": "Kom Ombo",
+      "ancientName": "Noubet",
+      "lat": 24.4522,
+      "lon": 32.9281,
+      "type": "temple",
+      "period": "ptolemaic",
+      "dateLabel": "Époques ptolémaïque et romaine",
+      "summary": "Sur les hauteurs du Nil, le temple de Kom Ombo réunit deux cultes dans une architecture dédoublée. Deux parcours parallèles traversent ses salles et aboutissent aux sanctuaires de Sobek et d’Haroéris, deux puissances complémentaires.",
+      "fact": "Le plus ancien nom royal du temple actuel est celui de Ptolémée VI ; une grande partie de son décor est achevée sous Ptolémée XII.",
+      "figureIds": [
+        "ptolemy6",
+        "ptolemy12"
+      ],
+      "source": "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/",
+      "sources": [
+        "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
+      ],
+      "image": "assets/history/monuments/kom-ombo.jpg",
+      "periodLabel": "Époque ptolémaïque"
+    },
+    {
+      "id": "edfu",
+      "name": "Temple d’Horus à Edfou",
+      "city": "Edfou",
+      "ancientName": null,
+      "lat": 24.9781,
+      "lon": 32.873,
+      "type": "temple",
+      "period": "ptolemaic",
+      "dateLabel": "237–57 av. J.-C.",
+      "summary": "Le grand sanctuaire d’Horus à Edfou est l’un des temples les plus complets de la vallée du Nil. Son architecture et ses textes permettent de suivre les gestes, parcours et cérémonies du culte égyptien tardif.",
+      "fact": "Le chantier commence sous Ptolémée III en 237 av. J.-C. et n’est achevé qu’en 57 av. J.-C., après environ cent quatre-vingts ans.",
+      "figureIds": [
+        "ptolemy3",
+        "ptolemy12"
+      ],
+      "source": "https://egymonuments.gov.eg/en/monuments/temple-of-edfu",
+      "sources": [
+        "https://egymonuments.gov.eg/en/monuments/temple-of-edfu"
+      ],
+      "image": "assets/history/monuments/edfu.jpg",
+      "periodLabel": "Époque ptolémaïque"
+    },
+    {
+      "id": "esna",
+      "name": "Temple de Khnoum à Esna",
+      "city": "Esna",
+      "ancientName": null,
+      "lat": 25.2936,
+      "lon": 32.5561,
+      "type": "temple",
+      "period": "roman",
+      "dateLabel": "Époques ptolémaïque et surtout romaine",
+      "summary": "Au cœur d’Esna, la salle hypostyle conservée appartient au temple de Khnoum. Ses colonnes et ses inscriptions révèlent comment les traditions religieuses égyptiennes ont continué à se développer sous des souverains grecs puis romains.",
+      "fact": "La partie visible est principalement une salle à colonnes d’époque romaine ; de nombreux textes gravés datent des deuxième et troisième siècles de notre ère.",
+      "figureIds": [],
+      "source": "https://whc.unesco.org/en/tentativelists/1824/",
+      "sources": [
+        "https://whc.unesco.org/en/tentativelists/1824/"
+      ],
+      "image": "assets/history/monuments/esna.jpg",
+      "periodLabel": "Égypte romaine"
+    },
+    {
+      "id": "dendera",
+      "name": "Temple d’Hathor à Dendéra",
+      "city": "Dendéra",
+      "ancientName": null,
+      "lat": 26.1422,
+      "lon": 32.6702,
+      "type": "temple",
+      "period": "ptolemaic",
+      "dateLabel": "À partir de 54 av. J.-C. · période romaine",
+      "summary": "Le temple d’Hathor à Dendéra appartient aux grands chantiers de la fin de l’Égypte ptolémaïque. Les travaux et les décors se prolongent sous Rome, en conservant les formes et les rites des sanctuaires égyptiens.",
+      "fact": "Le chantier du temple actuel commence sous Ptolémée XII ; les décors de Cléopâtre VII et des empereurs romains prolongent ensuite cette histoire religieuse.",
+      "figureIds": [
+        "ptolemy12",
+        "cleopatra7"
+      ],
+      "source": "https://whc.unesco.org/en/tentativelists/1824/",
+      "sources": [
+        "https://whc.unesco.org/en/tentativelists/1824/"
+      ],
+      "image": "assets/history/monuments/dendera.jpg",
+      "periodLabel": "Époque ptolémaïque"
+    },
+    {
+      "id": "memphis",
+      "name": "Memphis",
+      "city": "Mit Rahina",
+      "ancientName": null,
+      "lat": 29.85,
+      "lon": 31.25,
+      "type": "city",
+      "period": "old",
+      "dateLabel": "Dès les premières dynasties · plusieurs millénaires",
+      "summary": "Au débouché du Delta, Memphis occupe une position stratégique entre Haute et Basse-Égypte. Capitale majeure de l’Ancien Empire, elle reste un centre administratif et religieux essentiel au fil de nombreux changements de pouvoir.",
+      "fact": "Les vestiges du temple de Ptah se trouvent à Mit Rahina ; les grandes nécropoles de la région s’étendent de Gizeh jusqu’à Dahchour.",
+      "figureIds": [
+        "ramses2",
+        "merenptah"
+      ],
+      "source": "https://whc.unesco.org/en/list/86/",
+      "sources": [
+        "https://whc.unesco.org/en/list/86/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html",
+        "https://nmec.gov.eg/mummies-hall/Merenpetah/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/merenptah.html"
+      ],
+      "image": "assets/history/monuments/memphis.jpg",
+      "periodLabel": "Ancien Empire"
+    },
+    {
+      "id": "abydos",
+      "name": "Abydos",
+      "city": "El-Araba el-Madfouna",
+      "ancientName": null,
+      "lat": 26.185,
+      "lon": 31.919,
+      "type": "necropolis",
+      "period": "thinite",
+      "dateLabel": "Dès l’époque prédynastique · grands temples du Nouvel Empire",
+      "summary": "Abydos relie les origines de la royauté au culte d’Osiris. Les tombes des premières dynasties, les processions et les monuments des époques suivantes en font un lieu central de la mémoire religieuse égyptienne.",
+      "fact": "Au Moyen Empire, une tombe royale très ancienne y était tenue pour la sépulture d’Osiris ; des pèlerinages et processions entretenaient cette association au dieu.",
+      "figureIds": [
+        "narmer",
+        "aha",
+        "djer",
+        "merneith",
+        "den",
+        "qaa",
+        "senusret3",
+        "seti1",
+        "ramses2"
+      ],
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/abydos/index.html",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/abydos/index.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/narmer.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingaha.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingdjer.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/queenmeritneit.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingden.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingqaa.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/senusretIII.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyi.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
+      ],
+      "image": "assets/history/monuments/abydos.jpg",
+      "periodLabel": "Époque thinite"
+    },
+    {
+      "id": "tanis",
+      "name": "Tanis",
+      "city": "San el-Hagar",
+      "ancientName": "Djanet",
+      "lat": 30.975,
+      "lon": 31.882,
+      "type": "city",
+      "period": "third-intermediate",
+      "dateLabel": "Surtout XXIe–XXIIe dynasties",
+      "summary": "Tanis devient une résidence royale majeure du Delta pendant la Troisième Période intermédiaire. Ses temples réemploient des monuments plus anciens, tandis que les sépultures royales illustrent le prestige des souverains installés dans cette ville.",
+      "fact": "Psousennès Ier est connu par sa tombe retrouvée intacte ; son règne voit le transfert de monuments de l’ancienne capitale ramesside vers Tanis.",
+      "figureIds": [
+        "psusennes1",
+        "shoshenq1"
+      ],
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psusennesi.html",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/psusennesi.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/archaeology/sitesindex.html"
+      ],
+      "image": "assets/history/monuments/tanis.jpg",
+      "periodLabel": "Troisième Période intermédiaire"
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandrie",
+      "city": "Alexandrie",
+      "ancientName": null,
+      "lat": 31.2,
+      "lon": 29.9187,
+      "type": "city",
+      "period": "ptolemaic",
+      "dateLabel": "Fondation en 331 av. J.-C.",
+      "summary": "Fondée sur la Méditerranée par Alexandre le Grand, Alexandrie devient le siège de la royauté ptolémaïque. La ville relie l’Égypte aux mondes grec puis romain, tout en concentrant pouvoir, commerce et savoirs.",
+      "fact": "La bibliothèque et le grand phare appartiennent à son histoire célèbre, mais ces monuments ne sont plus conservés ; la ville possède d’autres vestiges majeurs.",
+      "figureIds": [
+        "alexander",
+        "ptolemy1",
+        "cleopatra7"
+      ],
+      "source": "https://egymonuments.gov.eg/archaeological-sites/alexandria/",
+      "sources": [
+        "https://egymonuments.gov.eg/archaeological-sites/alexandria/"
+      ],
+      "image": "assets/history/monuments/alexandria.jpg",
+      "periodLabel": "Époque ptolémaïque"
+    },
+    {
+      "id": "aswan",
+      "name": "Assouan et Éléphantine",
+      "city": "Assouan",
+      "ancientName": null,
+      "lat": 24.0889,
+      "lon": 32.8864,
+      "type": "city",
+      "period": "middle",
+      "dateLabel": "De l’Antiquité à l’époque moderne",
+      "summary": "Aux portes de la Nubie, la région d’Assouan réunit îles, carrières et sanctuaires. Éléphantine et les lieux voisins rappellent l’importance des circulations sur le Nil et de la pierre dans les grands chantiers royaux.",
+      "fact": "La région conserve les ruines d’Éléphantine, des carrières et un obélisque inachevé, regroupés dans le bien patrimonial nubien inscrit auprès de l’UNESCO.",
+      "figureIds": [
+        "intef2",
+        "mentuhotep2",
+        "hatshepsut",
+        "nectanebo2"
+      ],
+      "source": "https://whc.unesco.org/en/list/88/",
+      "sources": [
+        "https://whc.unesco.org/en/list/88/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/antefii.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/mentuhotepII.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/nakhthorbyt.html"
+      ],
+      "image": "assets/history/monuments/aswan.jpg",
+      "periodLabel": "Moyen Empire"
+    },
+    {
+      "id": "amarna",
+      "name": "Amarna",
+      "city": "Tell el-Amarna",
+      "ancientName": "Akhetaton",
+      "lat": 27.646,
+      "lon": 30.896,
+      "type": "city",
+      "period": "new",
+      "dateLabel": "XVIIIe dynastie · XIVe siècle av. J.-C.",
+      "summary": "Akhenaton fonde sa résidence d’Akhetaton dans une baie du désert de Moyenne-Égypte. Les vestiges des temples, palais et maisons documentent la réforme d’Aton, mais aussi la vie quotidienne d’une ville royale rapidement abandonnée.",
+      "fact": "Les lettres d’Amarna sont des tablettes cunéiformes de correspondance diplomatique ; leur découverte révèle les échanges entre l’Égypte et les grandes cours du Proche-Orient.",
+      "figureIds": [
+        "akhenaten",
+        "nefertiti"
+      ],
+      "source": "https://www.ucl.ac.uk/museums-static/digitalegypt/amarna/index.html",
+      "sources": [
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/amarna/index.html",
+        "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-queen/"
+      ],
+      "image": "assets/history/monuments/amarna.jpg",
+      "periodLabel": "Nouvel Empire"
+    },
+    {
+      "id": "valley-kings",
+      "name": "Vallée des Rois",
+      "city": "Thèbes, rive occidentale",
+      "ancientName": null,
+      "lat": 25.7402,
+      "lon": 32.6014,
+      "type": "necropolis",
+      "period": "new",
+      "dateLabel": "XVIIIe–XXe dynasties · vers 1550–1069 av. J.-C.",
+      "summary": "Dans les vallons désertiques de la rive occidentale de Thèbes, les souverains du Nouvel Empire font creuser leurs tombes dans la roche. Ces sépultures souterraines remplacent les grandes pyramides comme cadre privilégié de l’inhumation royale.",
+      "fact": "La nécropole comprend aussi des membres de la famille royale et quelques hauts dignitaires ; ses tombes se répartissent entre une vallée orientale et une occidentale.",
+      "figureIds": [
+        "thutmose1",
+        "hatshepsut",
+        "thutmose3",
+        "amenhotep2",
+        "thutmose4",
+        "amenhotep3",
+        "tutankhamun",
+        "ay",
+        "horemheb",
+        "ramses1",
+        "seti1",
+        "ramses2",
+        "merenptah",
+        "seti2",
+        "siptah",
+        "tawosret",
+        "sethnakht",
+        "ramses3",
+        "ramses4",
+        "ramses6",
+        "ramses9",
+        "ramses11"
+      ],
+      "source": "https://egymonuments.gov.eg/archaeological-sites/valley-of-the-kings/",
+      "sources": [
+        "https://egymonuments.gov.eg/archaeological-sites/valley-of-the-kings/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisi.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/hatshepsut.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiii.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepii.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/thutmosisiv.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/amenhotepiii.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tutankhamun.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/aja.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesi.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyi.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html",
+        "https://nmec.gov.eg/mummies-hall/Merenpetah/",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/merenptah.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setyii.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/siptah.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/tausret.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/setnakht.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiii.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiv.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesvi.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesix.html",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesxi.html"
+      ],
+      "image": "assets/history/monuments/valley-kings.jpg",
+      "periodLabel": "Nouvel Empire"
+    },
+    {
+      "id": "valley-queens",
+      "name": "Vallée des Reines",
+      "city": "Thèbes, rive occidentale",
+      "ancientName": null,
+      "lat": 25.728,
+      "lon": 32.593,
+      "type": "necropolis",
+      "period": "new",
+      "dateLabel": "XVIIIe–XXe dynasties",
+      "summary": "Cette nécropole accueille d’abord des membres de la cour, puis des épouses royales et des enfants de souverains. Les tombes peintes des dernières dynasties du Nouvel Empire éclairent la place des femmes dans la représentation royale.",
+      "fact": "La tombe de Néfertari y est découverte au début du XXe siècle ; l’ensemble fait partie de la nécropole thébaine et fait l’objet d’importants travaux de conservation.",
+      "figureIds": [
+        "nefertari"
+      ],
+      "source": "https://www.getty.edu/projects/valley-of-queens/significance-of-the-valley/",
+      "sources": [
+        "https://www.getty.edu/projects/valley-of-queens/significance-of-the-valley/"
+      ],
+      "image": "assets/history/monuments/valley-queens.jpg",
+      "periodLabel": "Nouvel Empire"
+    }
+  ],
+  "cities": [
+    {
+      "id": "caire",
+      "name": "Le Caire",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "modernReference": true
+    },
+    {
+      "id": "giza",
+      "name": "Gizeh",
+      "lat": 29.99,
+      "lon": 31.15,
+      "modernReference": true
+    },
+    {
+      "id": "memphis",
+      "name": "Memphis / Mit Rahina",
+      "lat": 29.85,
+      "lon": 31.25,
+      "modernReference": false
+    },
+    {
+      "id": "alexandria",
+      "name": "Alexandrie",
+      "lat": 31.2,
+      "lon": 29.919,
+      "modernReference": false
+    },
+    {
+      "id": "tanis",
+      "name": "Tanis / San el-Hagar",
+      "lat": 30.975,
+      "lon": 31.882,
+      "modernReference": false
+    },
+    {
+      "id": "saqqara",
+      "name": "Saqqarah",
+      "lat": 29.871,
+      "lon": 31.216,
+      "modernReference": false
+    },
+    {
+      "id": "dahshur",
+      "name": "Dahchour",
+      "lat": 29.8,
+      "lon": 31.207,
+      "modernReference": false
+    },
+    {
+      "id": "amarna",
+      "name": "Amarna",
+      "lat": 27.646,
+      "lon": 30.896,
+      "modernReference": false
+    },
+    {
+      "id": "abydos",
+      "name": "Abydos",
+      "lat": 26.185,
+      "lon": 31.919,
+      "modernReference": false
+    },
+    {
+      "id": "dendera",
+      "name": "Dendéra",
+      "lat": 26.142,
+      "lon": 32.67,
+      "modernReference": false
+    },
+    {
+      "id": "thebes",
+      "name": "Thèbes / Louxor",
+      "lat": 25.7,
+      "lon": 32.64,
+      "modernReference": false
+    },
+    {
+      "id": "esna",
+      "name": "Esna",
+      "lat": 25.294,
+      "lon": 32.556,
+      "modernReference": false
+    },
+    {
+      "id": "edfu",
+      "name": "Edfou",
+      "lat": 24.978,
+      "lon": 32.873,
+      "modernReference": false
+    },
+    {
+      "id": "kom-ombo",
+      "name": "Kom Ombo",
+      "lat": 24.452,
+      "lon": 32.928,
+      "modernReference": false
+    },
+    {
+      "id": "aswan",
+      "name": "Assouan",
+      "lat": 24.089,
+      "lon": 32.899,
+      "modernReference": false
+    },
+    {
+      "id": "abu-simbel",
+      "name": "Abou Simbel",
+      "lat": 22.337,
+      "lon": 31.626,
+      "modernReference": false
+    }
+  ],
+  "portraits": {
+    "narmer": "assets/history/portraits/narmer.jpg",
+    "aha": "assets/history/portraits/aha.jpg",
+    "djer": "assets/history/portraits/djer.jpg",
+    "merneith": "assets/history/portraits/merneith.jpg",
+    "den": "assets/history/portraits/den.jpg",
+    "qaa": "assets/history/portraits/qaa.jpg",
+    "djoser": "assets/history/portraits/djoser.jpg",
+    "snefru": "assets/history/portraits/snefru.jpg",
+    "khufu": "assets/history/portraits/khufu.jpg",
+    "khafre": "assets/history/portraits/khafre.jpg",
+    "menkaure": "assets/history/portraits/menkaure.jpg",
+    "unas": "assets/history/portraits/unas.jpg",
+    "pepi2": "assets/history/portraits/pepi2.jpg",
+    "intef1": "assets/history/portraits/intef1.jpg",
+    "intef2": "assets/history/portraits/intef2.jpg",
+    "intef3": "assets/history/portraits/intef3.jpg",
+    "mentuhotep2": "assets/history/portraits/mentuhotep2.jpg",
+    "mentuhotep3": "assets/history/portraits/mentuhotep3.jpg",
+    "mentuhotep4": "assets/history/portraits/mentuhotep4.jpg",
+    "senusret3": "assets/history/portraits/senusret3.jpg",
+    "amenemhat3": "assets/history/portraits/amenemhat3.jpg",
+    "ahmose": "assets/history/portraits/ahmose.jpg",
+    "amenhotep1": "assets/history/portraits/amenhotep1.jpg",
+    "thutmose1": "assets/history/portraits/thutmose1.jpg",
+    "thutmose2": "assets/history/portraits/thutmose2.jpg",
+    "hatshepsut": "assets/history/portraits/hatshepsut.jpg",
+    "thutmose3": "assets/history/portraits/thutmose3.jpg",
+    "amenhotep2": "assets/history/portraits/amenhotep2.jpg",
+    "thutmose4": "assets/history/portraits/thutmose4.jpg",
+    "amenhotep3": "assets/history/portraits/amenhotep3.jpg",
+    "akhenaten": "assets/history/portraits/akhenaten.jpg",
+    "nefertiti": "assets/history/portraits/nefertiti-v2.jpg",
+    "tutankhamun": "assets/history/portraits/tutankhamun-v2.jpg",
+    "ay": "assets/history/portraits/ay.jpg",
+    "horemheb": "assets/history/portraits/horemheb.jpg",
+    "ramses1": "assets/history/portraits/ramses1.jpg",
+    "seti1": "assets/history/portraits/seti1.jpg",
+    "ramses2": "assets/history/portraits/ramses2-v2.jpg",
+    "nefertari": "assets/history/portraits/nefertari-v2.jpg",
+    "merenptah": "assets/history/portraits/merenptah.jpg",
+    "seti2": "assets/history/portraits/seti2.jpg",
+    "siptah": "assets/history/portraits/siptah.jpg",
+    "tawosret": "assets/history/portraits/tawosret.jpg",
+    "sethnakht": "assets/history/portraits/sethnakht.jpg",
+    "ramses3": "assets/history/portraits/ramses3.jpg",
+    "ramses4": "assets/history/portraits/ramses4.jpg",
+    "ramses6": "assets/history/portraits/ramses6.jpg",
+    "ramses9": "assets/history/portraits/ramses9.jpg",
+    "ramses11": "assets/history/portraits/ramses11.jpg",
+    "psusennes1": "assets/history/portraits/psusennes1.jpg",
+    "shoshenq1": "assets/history/portraits/shoshenq1.jpg",
+    "piye": "assets/history/portraits/piye.jpg",
+    "taharqa": "assets/history/portraits/taharqa.jpg",
+    "psamtik1": "assets/history/portraits/psamtik1.jpg",
+    "nectanebo2": "assets/history/portraits/nectanebo2.jpg",
+    "alexander": "assets/history/portraits/alexander.jpg",
+    "ptolemy1": "assets/history/portraits/ptolemy1.jpg",
+    "ptolemy3": "assets/history/portraits/ptolemy3.jpg",
+    "ptolemy6": "assets/history/portraits/ptolemy6.jpg",
+    "ptolemy12": "assets/history/portraits/ptolemy12.jpg",
+    "cleopatra7": "assets/history/portraits/cleopatra7.jpg"
+  }
+}

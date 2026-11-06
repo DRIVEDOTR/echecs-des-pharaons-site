@@ -1,0 +1,46 @@
+/* A restrained illustrated atlas; interaction remains on calibrated geographic paths. */
+#historyView .map-layout{grid-template-columns:minmax(0,1.5fr) minmax(300px,.72fr);gap:25px}
+#historyView .history-map-frame{height:790px;background:#071e2c;border:1px solid #d6b67b66;border-radius:4px;box-shadow:0 24px 55px #00121c70,inset 0 0 0 7px #092431}
+.history-map-frame:after{content:"";position:absolute;inset:9px;border:1px solid #dbb97638;pointer-events:none;border-radius:1px;box-shadow:inset 0 0 55px #01131c33}
+#egyptMap{cursor:grab}#egyptMap:active{cursor:grabbing}
+.atlas-relief-image{filter:brightness(.77) saturate(.68) contrast(1.08)}
+.atlas-coast-depth{fill:none;stroke:#2c5961;stroke-width:5;opacity:.75;filter:url(#atlas-coast-shadow)}
+.atlas-shoreline{fill:none;stroke:#d9bc7e;stroke-width:.65;opacity:.72;vector-effect:non-scaling-stroke;pointer-events:none}
+.atlas-delta-land{fill:#466052;opacity:.67;filter:url(#atlas-valley-texture)}
+.atlas-valley{fill:none;stroke:#526c4b;stroke-width:4.7;stroke-linecap:round;stroke-linejoin:round;opacity:.88;filter:url(#atlas-valley-texture)}
+.atlas-river-bank{fill:none;stroke:#b3b47c;stroke-width:.6;stroke-linecap:round;stroke-linejoin:round;opacity:.7}
+.atlas-river{fill:none;stroke:#143f53;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round}
+.atlas-delta-river{fill:none;stroke:#1d4654;stroke-width:.8;stroke-linecap:round;stroke-linejoin:round}
+.atlas-grid{fill:none;stroke:#dfc58f;stroke-width:.4;opacity:.12;vector-effect:non-scaling-stroke;pointer-events:none}
+#egyptMap .map-label{font-family:'DM Sans',Arial,sans-serif;font-weight:500;fill:#ffedcb;stroke:#1b2c2c;paint-order:stroke;stroke-linejoin:round;letter-spacing:.015em;pointer-events:auto;cursor:pointer}
+#egyptMap .map-label-leader{fill:none;stroke:#e3c58e;stroke-width:.65;opacity:.7;vector-effect:non-scaling-stroke;pointer-events:none}
+#egyptMap .site-pin .pin-core{fill:#e4bc76;stroke:#103141;stroke-width:1.25;vector-effect:non-scaling-stroke;transition:fill .2s}
+#egyptMap .site-pin .pin-halo{fill:none;stroke:#ffe3a2;stroke-width:.8;opacity:0;vector-effect:non-scaling-stroke;pointer-events:none}
+#egyptMap .site-pin:hover .pin-core,#egyptMap .site-pin[aria-pressed=true] .pin-core{fill:#fff3c9;stroke:#9a6f32}
+#egyptMap .site-pin[aria-pressed=true] .pin-halo,#egyptMap .site-pin:focus-visible .pin-halo{opacity:1}
+#egyptMap .site-pin[aria-pressed=true] .map-label{fill:#fff4d5;font-weight:700}
+#egyptMap .map-region-label{font-family:Cinzel,Georgia,serif;fill:#e7cc94;opacity:.42;letter-spacing:4px;paint-order:stroke;stroke:#302d21;stroke-width:.2;pointer-events:none}
+#egyptMap .map-water-label{font-family:Cinzel,Georgia,serif;font-style:normal;fill:#8ab0b9;opacity:.65;letter-spacing:2px;pointer-events:none}
+.map-atlas-title{position:absolute;top:25px;left:72px;pointer-events:none;color:#ecd3a0;text-shadow:0 1px 8px #031a27}
+.map-atlas-title span{font-size:7px;letter-spacing:.28em;display:block;opacity:.75}
+.map-atlas-title strong{font:500 20px Cinzel,Georgia,serif;display:block;margin-top:5px}
+#historyView .history-map-controls{left:24px;top:24px;gap:7px;z-index:2}
+#historyView .history-map-controls button{width:29px;height:29px;border-radius:2px;background:#0a2939e8;border-color:#d2ad6c7a;box-shadow:0 2px 8px #00121c44;color:#e5c58a;font-size:17px!important}
+#historyView .history-map-controls button:hover{background:#e0bd7d;color:#163747}
+#historyView .history-map-frame .map-compass{right:22px;top:24px;color:#ddbf83;width:46px;text-shadow:0 1px 4px #041c2b;pointer-events:none}
+.map-compass span{font:8px Cinzel,Georgia,serif;letter-spacing:.12em}
+#historyView .history-map-frame .map-compass svg{width:46px;height:46px;margin-top:4px;filter:drop-shadow(0 1px 3px #001623)}
+#historyView .map-legend{bottom:24px;left:25px;right:25px;color:#d8c295;align-items:end;font-size:8px;line-height:1.55;pointer-events:none;text-shadow:0 1px 3px #00131f}
+.map-legend>span{text-align:right;opacity:.75}
+.atlas-scale>span{display:block;color:#e5c98d;font-size:8px;margin-bottom:4px;letter-spacing:.05em}
+#atlasScaleBar{width:100px;height:5px;border:1px solid #dbbd7f;border-top:0;position:relative}
+#atlasScaleBar:before{content:"";position:absolute;top:2px;left:0;width:50%;height:1px;background:#dbbd7f}
+#historyView .map-site-panel{border-color:#d1ab6b45;border-radius:4px;background:linear-gradient(145deg,#123240,#092433);box-shadow:0 14px 30px #00162233}
+#historyView .map-site-content h3{font-size:25px}
+#historyView .map-site-list{gap:6px;margin-top:19px;max-height:250px}
+#historyView .map-site-list button{padding:10px 9px;background:#1737445c;border-color:#c6a66c33;border-radius:2px}
+#historyView .map-site-list button[aria-pressed=true]{background:#d9b679;color:#102e3a;border-color:#dfbd82}
+@media(max-width:1050px){#historyView .map-layout{grid-template-columns:minmax(0,1.2fr) minmax(280px,.8fr);gap:18px}#historyView .history-map-frame{height:710px}.map-atlas-title strong{font-size:17px}.map-atlas-title{left:67px}.map-atlas-title span{font-size:6px;letter-spacing:.2em}}
+@media(max-width:700px){#historyView .map-layout{display:flex;gap:20px}#historyView .history-map-frame{height:570px}.map-atlas-title{top:22px;left:65px}.map-atlas-title strong{font-size:18px}#historyView .history-map-controls{left:21px;top:21px}#historyView .history-map-frame .map-compass{right:18px;top:21px;width:33px}#historyView .history-map-frame .map-compass svg{width:33px;height:33px}#historyView .map-legend{font-size:7px;left:22px;right:22px;bottom:20px}#historyView .map-site-content h3{font-size:23px}}
+
+.map-modern-city circle{fill:#e4d6b5;stroke:#243c43;stroke-width:.8;vector-effect:non-scaling-stroke}.map-modern-city .map-label{fill:#cfccaf!important;font-weight:400!important}

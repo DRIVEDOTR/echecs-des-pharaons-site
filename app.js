@@ -495,8 +495,9 @@ function showCastPiece(){
     button.append(img,title,sub);button.addEventListener('click',()=>{castIndex=index;setPieceAngle(0);showCastPiece();});grid.append(button);
   });
 }
-function stopPieceSpin(){pieceSpinning=false;$('pieceSpin').setAttribute('aria-pressed','false');$('pieceSpin').textContent='Faire tourner automatiquement';cancelAnimationFrame(pieceAnimation);}
-function animatePiece(){if(!pieceSpinning||!$('castDialog').open)return;setPieceAngle(pieceAngle+.7);pieceAnimation=requestAnimationFrame(animatePiece);}
+function stopPieceSpin(){pieceSpinning=false;$('pieceSpin').setAttribute('aria-pressed','false');$('pieceSpin').textContent='Faire tourner automatiquement';cancelAnimationFrame(pieceAnimation);lastPieceFrame=0;}
+let lastPieceFrame=0;
+function animatePiece(now){if(!pieceSpinning||!$('castDialog').open){lastPieceFrame=0;return;}const dt=lastPieceFrame?Math.min(60,now-lastPieceFrame):0;lastPieceFrame=now;setPieceAngle(pieceAngle+dt*.018);pieceAnimation=requestAnimationFrame(animatePiece);}
 $('castButton').addEventListener('click',()=>{showCastPiece();$('castDialog').showModal();});
 $('closeCast').addEventListener('click',()=>$('castDialog').close());
 $('castDialog').addEventListener('close',stopPieceSpin);
@@ -506,12 +507,12 @@ document.querySelectorAll('[data-cast]').forEach(button=>button.addEventListener
   setPieceAngle(0);showCastPiece();
 }));
 $('pieceAngle').addEventListener('input',e=>{stopPieceSpin();setPieceAngle(Number(e.target.value));});
-$('pieceSpin').addEventListener('click',()=>{pieceSpinning=!pieceSpinning;$('pieceSpin').setAttribute('aria-pressed',String(pieceSpinning));$('pieceSpin').textContent=pieceSpinning?'Arrêter la rotation':'Faire tourner automatiquement';if(pieceSpinning)animatePiece();else cancelAnimationFrame(pieceAnimation);});
+$('pieceSpin').addEventListener('click',()=>{pieceSpinning=!pieceSpinning;$('pieceSpin').setAttribute('aria-pressed',String(pieceSpinning));$('pieceSpin').textContent=pieceSpinning?'Arrêter la rotation':'Faire tourner automatiquement';if(pieceSpinning){lastPieceFrame=0;pieceAnimation=requestAnimationFrame(animatePiece);}else cancelAnimationFrame(pieceAnimation);lastPieceFrame=0;});
 $('pieceStage').addEventListener('pointerdown',e=>{stopPieceSpin();$('pieceStage').setPointerCapture(e.pointerId);piecePointer={x:e.clientX,angle:pieceAngle};});
 $('pieceStage').addEventListener('pointermove',e=>{if(piecePointer)setPieceAngle(piecePointer.angle+(e.clientX-piecePointer.x)*.8);});
 $('pieceStage').addEventListener('pointerup',()=>{piecePointer=null;});
 $('pieceStage').addEventListener('pointercancel',()=>{piecePointer=null;});
-$('pieceStage').addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();stopPieceSpin();setPieceAngle(pieceAngle+(e.key==='ArrowRight'?15:-15));}});
+$('pieceStage').addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();stopPieceSpin();setPieceAngle(pieceAngle+(e.key==='ArrowRight'?45:-45));}});
 $('exploreBtn').addEventListener('click',()=>{scenicMode=!scenicMode;$('exploreBtn').setAttribute('aria-pressed',scenicMode);$('exploreBtn').textContent=scenicMode?'Afficher le plateau':'Explorer le décor';$('sceneHint').textContent=scenicMode?'Glissez pour parcourir le panorama à 360°':'Glissez sur le plateau pour explorer · Cliquez pour jouer';render();});
 $('angleRange').addEventListener('input',e=>{const base=mode==='follow'?(state.turn==='b'?180:0):fixedBase;targetYaw=base+Number(e.target.value);yawOffset=Number(e.target.value);markViewChanged();updateControls();startAnimation();});
 $('heightRange').addEventListener('input',e=>{pitch=Number(e.target.value);markViewChanged();updateControls();render();});

@@ -1,7 +1,9 @@
-# Échecs des Pharaons
+# L’Égypte vivante · Échecs des Pharaons
 
-**[Jouer en ligne](https://drivedotr.github.io/echecs-des-pharaons-site/)**
+**[Ouvrir le site](https://drivedotr.github.io/echecs-des-pharaons-site/)** · **[Histoire de l’Égypte](https://drivedotr.github.io/echecs-des-pharaons-site/#histoire)**
 
-Version publique du jeu d’échecs dans une Égypte ancienne réimaginée : plateau interactif, personnages illustrés, paysages à explorer et reprise de partie dans le navigateur.
+Ce dépôt contient les fichiers publics du jeu et de son atlas historique : frise des 31 dynasties, 61 portraits et fiches historiques, carte interactive de 25 lieux, temples et pyramides illustrés.
 
-Ce dépôt contient uniquement les fichiers nécessaires au site GitHub Pages. La partie sauvegardée reste sur l’appareil et le navigateur utilisés.
+La carte associe une illustration de relief artistique aux contours et au Nil issus des données [Natural Earth](https://www.naturalearthdata.com/), dans le domaine public. Les portraits et reconstitutions sont des évocations artistiques ; les fiches fournissent leurs sources historiques.
+
+Les sources de travail et la documentation complète sont conservées dans le dépôt privé `DRIVEDOTR/echecs-des-pharaons`. Publication GitHub Pages depuis la branche `main`.

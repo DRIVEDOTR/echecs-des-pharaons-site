@@ -57,13 +57,12 @@ function resize(){
   canvas.style.width=rect.width+'px';canvas.style.height=rect.height+'px';
   ctx.setTransform(ratio,0,0,ratio,0,0);render();
 }
-function drawView(view,turn=0,mirror=false){
+function drawView(view,opacity=1,mirror=false){
   if(!view)return;
   const w=canvas.clientWidth,h=canvas.clientHeight;
   const fit=Math.min(w*.88/view.w,h*.9/view.h)*zoom;
   const width=view.w*fit,height=view.h*fit;
-  const horizontal=1-.1*Math.abs(turn)/22.5;
-  ctx.save();ctx.translate(w/2,h*.53);ctx.scale(mirror?-horizontal:horizontal,1);
+  ctx.save();ctx.globalAlpha=opacity;ctx.translate(w/2,h*.53);ctx.scale(mirror?-1:1,1);
   ctx.shadowColor='rgba(0,10,20,.48)';ctx.shadowBlur=18;ctx.shadowOffsetY=8;
   ctx.drawImage(view.image,view.x,view.y,view.w,view.h,-width/2,-height/2,width,height);
   ctx.restore();
@@ -73,10 +72,16 @@ function render(){
   const w=canvas.clientWidth,h=canvas.clientHeight;ctx.clearRect(0,0,w,h);
   if(!current)return;
   const normalized=((angle%360)+360)%360;
-  const index=Math.round(normalized/45)%8;
-  const nearest=index*45;
-  const difference=((normalized-nearest+540)%360)-180;
-  drawView(current.views[index]||current.views[0],difference,index>4);
+  const position=normalized/45,base=Math.floor(position)%8,next=(base+1)%8;
+  const fraction=position-Math.floor(position);
+  // Each original view stays intact. A short eased dissolve joins adjacent views.
+  const blendStart=.32,blendEnd=.68;
+  const t=Math.max(0,Math.min(1,(fraction-blendStart)/(blendEnd-blendStart)));
+  const blend=t*t*(3-2*t);
+  if(blend<1)drawView(current.views[base]||current.views[0],1,base>4);
+  if(blend>0)drawView(current.views[next]||current.views[0],blend,next>4);
+  const names=['Face','Trois quarts','Profil','Trois quarts arrière','Dos','Trois quarts arrière','Profil','Trois quarts'];
+  const label=document.getElementById('pieceViewName');if(label)label.textContent=names[Math.round(position)%8];
 }
 window.addEventListener('castpiecechange',event=>show(event.detail.asset));
 window.addEventListener('pieceviewchange',event=>{angle=event.detail.angle;render();});
