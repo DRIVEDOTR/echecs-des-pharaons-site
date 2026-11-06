@@ -12,7 +12,7 @@ async function route(){
  document.getElementById('worldCurrent').textContent=active?'Histoire de l’Égypte':'Jouer aux échecs';
  document.querySelectorAll('[data-world]').forEach(a=>a.setAttribute('aria-current',a.dataset.world===(active?'history':'game')?'page':'false'));
  menu.hidden=true;toggle.setAttribute('aria-expanded','false');
- if(active){history.setAttribute('aria-busy','true');try{loaded??=import('./history.js?v=20261106-2');await loaded;}catch(error){history.innerHTML='<p class="history-load-error">La rubrique n’a pas pu se charger. Rechargez la page pour réessayer.</p>';console.error(error);}finally{history.removeAttribute('aria-busy');}}
+ if(active){history.setAttribute('aria-busy','true');try{loaded??=import('./history.js?v=20261106-3');await loaded;}catch(error){history.innerHTML='<p class="history-load-error">La rubrique n’a pas pu se charger. Rechargez la page pour réessayer.</p>';console.error(error);}finally{history.removeAttribute('aria-busy');}}
  else window.dispatchEvent(new Event('resize'));
 }
 window.addEventListener('hashchange',route);route();
