@@ -1,0 +1,104 @@
+{
+  "source": "NOAA NCEI ETOPO 2022 v1, surface elevation",
+  "doi": "https://doi.org/10.25921/fd45-gt74",
+  "primaryUrl": "https://www.ncei.noaa.gov/products/etopo-global-relief-model",
+  "licence": "CC0-1.0",
+  "boundsLonLat": [
+    26.0,
+    21.4,
+    36.0,
+    32.1
+  ],
+  "pixelSizeDegrees": 0.004166666666666667,
+  "pixelSizeArcSeconds": 15,
+  "pixelWidth": 2400,
+  "pixelHeight": 2568,
+  "logicalSVG": [
+    800,
+    900
+  ],
+  "rasterOrigin": "north-west",
+  "crsHorizontal": "WGS84 geographic",
+  "heightDatum": "EGM2008, metres",
+  "displayAspectRatio": 0.83455976,
+  "render": "Hypsometric tint and multidirectional hillshade computed from elevation; no generated topography. Shading contrast enhances slopes by factor4 without relocating terrain. No geological historic reconstruction.",
+  "tiles": [
+    {
+      "name": "ETOPO_2022_v1_15s_N30E015_surface.tif",
+      "url": "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/15s/15s_surface_elev_gtif/ETOPO_2022_v1_15s_N30E015_surface.tif",
+      "sha256": "1ee225cb379eb7c95d446337004f413a2eb270a4682383afb6930270ec04515c"
+    },
+    {
+      "name": "ETOPO_2022_v1_15s_N30E030_surface.tif",
+      "url": "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/15s/15s_surface_elev_gtif/ETOPO_2022_v1_15s_N30E030_surface.tif",
+      "sha256": "deaa83101bcc301484382fbc350a444df5757674b9fd814635c10beaa5167a6b"
+    },
+    {
+      "name": "ETOPO_2022_v1_15s_N45E015_surface.tif",
+      "url": "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/15s/15s_surface_elev_gtif/ETOPO_2022_v1_15s_N45E015_surface.tif",
+      "sha256": "b4983c653eeb75a5a88d0dd5887192f3416aefa211e147e17a0298404cf2d5ea"
+    },
+    {
+      "name": "ETOPO_2022_v1_15s_N45E030_surface.tif",
+      "url": "https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO2022/data/15s/15s_surface_elev_gtif/ETOPO_2022_v1_15s_N45E030_surface.tif",
+      "sha256": "f4d1005d3c43defc9e33260e119e4d36ad5fc18f7d452febf13f3d6223fb4c73"
+    }
+  ],
+  "spotChecks": [
+    {
+      "place": "Caire",
+      "river_point_lonlat": [
+        31.220876,
+        30.007758
+      ],
+      "river_elevation_m": 17.2,
+      "west15km_elevation_m": 139.8,
+      "east15km_elevation_m": 226.1
+    },
+    {
+      "place": "Assiout",
+      "river_point_lonlat": [
+        31.181244,
+        27.207709
+      ],
+      "river_elevation_m": 49.5,
+      "west15km_elevation_m": 50.3,
+      "east15km_elevation_m": 73.0
+    },
+    {
+      "place": "Qena",
+      "river_point_lonlat": [
+        32.711681,
+        26.149034
+      ],
+      "river_elevation_m": 71.4,
+      "west15km_elevation_m": 70.8,
+      "east15km_elevation_m": 175.3
+    },
+    {
+      "place": "Louxor",
+      "river_point_lonlat": [
+        32.59547,
+        25.63642
+      ],
+      "river_elevation_m": 73.8,
+      "west15km_elevation_m": 83.2,
+      "east15km_elevation_m": 130.5
+    },
+    {
+      "place": "Assouan",
+      "river_point_lonlat": [
+        32.875499,
+        24.090155
+      ],
+      "river_elevation_m": 141.2,
+      "west15km_elevation_m": 187.7,
+      "east15km_elevation_m": 193.8
+    }
+  ],
+  "limits": [
+    "The approximately450m DEM and generalized river axis cannot resolve individual banks, urban details or narrow irrigation channels.",
+    "The actual contemporary ground relief is used in both historical and current modes; this is not a palaeotopographic reconstruction.",
+    "The historic Nile valley before flooding cannot be recovered from the modern lake surface; LakeNasser overlay is contemporary only."
+  ]
+}
