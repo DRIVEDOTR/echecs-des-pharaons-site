@@ -4,10 +4,10 @@
     "updated": "2026-11-06",
     "dateConvention": "Années négatives : avant notre ère ; positives : notre ère. Aucun an zéro historique. Les bornes sont des repères de navigation, non une précision au jour près.",
     "chronologyNote": "Toutes les dates antérieures à 664 av. J.-C. sont approximatives. Les premières dynasties peuvent varier de plusieurs décennies selon les chronologies. Les périodes intermédiaires comportent des dynasties concurrentes.",
-    "scopeNote": "La frise antique dépasse le passage à notre ère pour inclure Rome ; un prolongement distinct couvre Byzance, les dynasties islamiques, les Mamelouks puis les Ottomans jusqu’en 1805. Constantinople est un centre impérial extérieur à l’Égypte.",
+    "scopeNote": "Des premières dynasties à l’Égypte contemporaine : 31 dynasties, souverains, présidents, divinités et monuments. Les conseils de transition ne sont pas présentés comme des présidents.",
     "portraitNote": "Tous les portraits créés pour cette expérience sont des évocations artistiques inspirées d’objets et d’iconographies ; les traits individuels ne sont pas connus avec certitude.",
     "queenNote": "Néfertiti et Néfertari sont présentées comme grandes épouses royales, sans leur attribuer un règne autonome établi.",
-    "godsNote": "Isis, Horus et Osiris appartiennent à la mythologie : aucune date de vie ni dynastie ne leur est attribuée.",
+    "godsNote": "Les dieux ont leur propre espace : leurs cultes traversent les règnes et leur iconographie change selon les lieux et les époques.",
     "selectionNote": "Sélection de figures marquantes : les trente et une dynasties sont toutes présentes, sans prétendre énumérer chaque souverain.",
     "sources": [
       "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
@@ -177,6 +177,40 @@
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/islamic.html",
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html"
       ]
+    },
+    {
+      "id": "modern-dynasty",
+      "label": "Vers l’Égypte moderne",
+      "start": 1805,
+      "end": 1914,
+      "summary": "La dynastie de Méhémet Ali transforme l’armée, l’administration et les infrastructures. Le canal de Suez ouvre en 1869 ; à partir de 1882, l’occupation britannique limite l’autonomie du pays.",
+      "sources": [
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/",
+        "https://www.presidency.eg/AR/مصر/الحكام/"
+      ]
+    },
+    {
+      "id": "modern-monarchy",
+      "label": "Sultans et rois",
+      "start": 1914,
+      "end": 1953,
+      "summary": "Sultanat sous protectorat britannique, puis royaume à l’indépendance limitée : l’Égypte du début du XXe siècle n’a pas encore de présidents. La monarchie prend fin en 1953.",
+      "sources": [
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/"
+      ]
+    },
+    {
+      "id": "modern-republic",
+      "label": "La République à nos jours",
+      "start": 1953,
+      "end": 2026,
+      "dateLabel": "1953–aujourd’hui",
+      "summary": "Présidents, transitions et transformations du Nil : nationalisation du canal de Suez, haut barrage d’Assouan, révolutions et nouveaux projets agricoles marquent l’histoire contemporaine.",
+      "sources": [
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/",
+        "https://mediadr.sis.gov.eg/handle/123456789/42150",
+        "https://www.presidency.eg/fr/الرئاسة/الرئيس/"
+      ]
     }
   ],
   "dynasties": [
@@ -195,7 +229,10 @@
       "approximate": true,
       "focus": true,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 3100–2890 av. J.-C."
+      "dateLabel": "Vers 3100–2890 av. J.-C.",
+      "extraFacts": [
+        "Les objets portent déjà des noms royaux et des signes d’administration. À Abydos, les tombes et les sceaux permettent de suivre la construction de l’État, bien avant les grandes pyramides."
+      ]
     },
     {
       "id": "dynasty-2",
@@ -212,7 +249,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 2890–2686 av. J.-C."
+      "dateLabel": "Vers 2890–2686 av. J.-C.",
+      "extraFacts": [
+        "L’histoire de cette dynastie se reconstitue à partir de témoignages fragmentaires. Les changements de noms royaux et les traditions postérieures suggèrent des tensions, sans autoriser un récit continu et assuré."
+      ]
     },
     {
       "id": "dynasty-3",
@@ -229,7 +269,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 2686–2613 av. J.-C."
+      "dateLabel": "Vers 2686–2613 av. J.-C.",
+      "extraFacts": [
+        "Avec Djéser, l’architecture royale franchit un seuil : la pierre donne une durée nouvelle aux formes du palais et du rituel. La pyramide à degrés est le centre d’un vaste complexe, pas un bâtiment isolé."
+      ]
     },
     {
       "id": "dynasty-4",
@@ -246,7 +289,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 2613–2494 av. J.-C."
+      "dateLabel": "Vers 2613–2494 av. J.-C.",
+      "extraFacts": [
+        "Snéfrou expérimente, puis Khéops, Khéphren et Mykérinos transforment Gizeh. Ces chantiers mobilisent des carrières, des ports, des ateliers et une administration à l’échelle du pays."
+      ]
     },
     {
       "id": "dynasty-5",
@@ -263,7 +309,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 2494–2345 av. J.-C."
+      "dateLabel": "Vers 2494–2345 av. J.-C.",
+      "extraFacts": [
+        "Les temples solaires soulignent l’importance de Rê. À la fin de la dynastie, Ounas fait inscrire dans sa pyramide des textes funéraires dont l’influence se prolongera bien au-delà des rois."
+      ]
     },
     {
       "id": "dynasty-6",
@@ -280,7 +329,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 2345–2181 av. J.-C."
+      "dateLabel": "Vers 2345–2181 av. J.-C.",
+      "extraFacts": [
+        "Les grands dignitaires provinciaux deviennent plus visibles dans leurs propres tombes. La fin de l’Ancien Empire se comprend comme une transformation politique et régionale, non comme une disparition de la civilisation."
+      ]
     },
     {
       "id": "dynasty-7",
@@ -296,7 +348,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Placement indicatif uniquement : cette dynastie traditionnelle n’est pas historiquement attestée.",
-      "dateLabel": "Vers 2181–2160 av. J.-C."
+      "dateLabel": "Vers 2181–2160 av. J.-C.",
+      "extraFacts": [
+        "La tradition évoquant de nombreux rois en un temps très court est surtout le signe d’une mémoire tardive troublée. Aucune succession détaillée et sûre ne peut être affichée pour cette dynastie conventionnelle."
+      ]
     },
     {
       "id": "dynasty-8",
@@ -312,7 +367,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 2181–2160 av. J.-C."
+      "dateLabel": "Vers 2181–2160 av. J.-C.",
+      "extraFacts": [
+        "Des noms de rois subsistent dans des listes et quelques documents, mais leurs règnes restent mal connus. Le pouvoir memphite ne contrôle plus nécessairement tout le territoire."
+      ]
     },
     {
       "id": "dynasty-9",
@@ -328,7 +386,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 2160–2025 av. J.-C."
+      "dateLabel": "Vers 2160–2025 av. J.-C.",
+      "extraFacts": [
+        "Depuis Héracléopolis, une lignée gouverne une partie de l’Égypte pendant que d’autres pouvoirs se développent. Les frontières entre IXe et Xe dynasties sont celles des listes anciennes, pas une rupture clairement datée."
+      ]
     },
     {
       "id": "dynasty-10",
@@ -344,7 +405,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 2160–2025 av. J.-C."
+      "dateLabel": "Vers 2160–2025 av. J.-C.",
+      "extraFacts": [
+        "Le regard se tourne vers une Égypte partagée entre centres régionaux. La compétition entre Héracléopolis et Thèbes prépare le contexte de la réunification, sans effacer la vie locale et les échanges."
+      ]
     },
     {
       "id": "dynasty-11",
@@ -360,7 +424,10 @@
       "approximate": true,
       "focus": true,
       "dateNote": "La XIe dynastie commence pendant la Première Période intermédiaire ; sa réunification ouvre le Moyen Empire.",
-      "dateLabel": "Vers 2160–1976 av. J.-C."
+      "dateLabel": "Vers 2160–1976 av. J.-C.",
+      "extraFacts": [
+        "Les premiers Intef construisent une puissance thébaine. Montouhotep II réunifie ensuite le royaume ; son monument de Deir el-Bahari précède de plusieurs siècles le temple voisin d’Hatchepsout."
+      ]
     },
     {
       "id": "dynasty-12",
@@ -376,7 +443,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1976–1793 av. J.-C."
+      "dateLabel": "Vers 1976–1793 av. J.-C.",
+      "extraFacts": [
+        "Les rois développent forteresses, expéditions et aménagements du Fayoum. Les portraits de Sésostris III et d’Amenemhat III proposent une image saisissante de la royauté, plus soucieuse et moins idéalement jeune."
+      ]
     },
     {
       "id": "dynasty-13",
@@ -394,7 +464,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1793–1650 av. J.-C."
+      "dateLabel": "Vers 1793–1650 av. J.-C.",
+      "extraFacts": [
+        "De nombreux souverains se succèdent, parfois très brièvement. Les documents administratifs montrent pourtant des continuités : une succession rapide ne signifie pas que toute l’organisation du pays s’arrête."
+      ]
     },
     {
       "id": "dynasty-14",
@@ -412,7 +485,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1750–1650 av. J.-C."
+      "dateLabel": "Vers 1750–1650 av. J.-C.",
+      "extraFacts": [
+        "La chronologie de ces pouvoirs du Delta reste débattue. Plusieurs lignées coexistent : les dynasties doivent ici se lire comme des pouvoirs parallèles plutôt que comme une file unique de règnes."
+      ]
     },
     {
       "id": "dynasty-15",
@@ -430,7 +506,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1650–1550 av. J.-C."
+      "dateLabel": "Vers 1650–1550 av. J.-C.",
+      "extraFacts": [
+        "Les Hyksôs gouvernent depuis Avaris dans le Delta oriental. Leur royaume appartient à un monde d’échanges avec le Levant ; les opposer simplement à une Égypte isolée ferait perdre cette histoire de contacts."
+      ]
     },
     {
       "id": "dynasty-16",
@@ -448,7 +527,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1650–1550 av. J.-C."
+      "dateLabel": "Vers 1650–1550 av. J.-C.",
+      "extraFacts": [
+        "Les sources sont trop fragmentaires pour attribuer tous les noms et toutes les dates avec certitude. Cette période rappelle la différence entre une liste royale traditionnelle et une histoire démontrée par les objets."
+      ]
     },
     {
       "id": "dynasty-17",
@@ -466,7 +548,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1650–1550 av. J.-C."
+      "dateLabel": "Vers 1650–1550 av. J.-C.",
+      "extraFacts": [
+        "Les souverains de Thèbes affrontent le pouvoir hyksôs. La réunification est un processus militaire et politique prolongé, mené à son terme par Ahmôsis au début de la dynastie suivante."
+      ]
     },
     {
       "id": "dynasty-18",
@@ -482,7 +567,10 @@
       "approximate": true,
       "focus": true,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1550–1292 av. J.-C."
+      "dateLabel": "Vers 1550–1292 av. J.-C.",
+      "extraFacts": [
+        "De la réunification d’Ahmôsis aux sanctuaires d’Amenhotep III, Thèbes rayonne. La parenthèse d’Amarna bouleverse ensuite les cultes et l’art avant le retour progressif aux traditions."
+      ]
     },
     {
       "id": "dynasty-19",
@@ -498,7 +586,10 @@
       "approximate": true,
       "focus": true,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1292–1186 av. J.-C."
+      "dateLabel": "Vers 1292–1186 av. J.-C.",
+      "extraFacts": [
+        "Séthi Ier et Ramsès II imposent une image monumentale du roi. Les temples racontent les guerres, mais les lettres et les traités révèlent aussi la diplomatie et les négociations avec les autres puissances."
+      ]
     },
     {
       "id": "dynasty-20",
@@ -514,7 +605,10 @@
       "approximate": true,
       "focus": true,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1186–1069 av. J.-C."
+      "dateLabel": "Vers 1186–1069 av. J.-C.",
+      "extraFacts": [
+        "Ramsès III construit Médinet Habou ; les règnes suivants connaissent des difficultés croissantes. Les documents de Deir el-Médina donnent accès aux ouvriers des tombes, à leurs salaires et à leurs protestations."
+      ]
     },
     {
       "id": "dynasty-21",
@@ -530,7 +624,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 1069–945 av. J.-C."
+      "dateLabel": "Vers 1069–945 av. J.-C.",
+      "extraFacts": [
+        "Tanis au nord et les grands prêtres d’Amon à Thèbes incarnent des pôles de pouvoir distincts. Les tombes royales de Tanis montrent que cette Égypte politiquement partagée conserve des arts d’un grand raffinement."
+      ]
     },
     {
       "id": "dynasty-22",
@@ -546,7 +643,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 945–735 av. J.-C."
+      "dateLabel": "Vers 945–735 av. J.-C.",
+      "extraFacts": [
+        "Des lignées d’origine libyenne s’installent durablement dans la royauté égyptienne. Elles reprennent les titres et les rites pharaoniques : l’origine d’un souverain ne suffit pas à définir la culture de son règne."
+      ]
     },
     {
       "id": "dynasty-23",
@@ -562,7 +662,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 818–715 av. J.-C."
+      "dateLabel": "Vers 818–715 av. J.-C.",
+      "extraFacts": [
+        "Plusieurs souverains et centres régionaux se partagent le territoire. Les XXIIe et XXIIIe dynasties se chevauchent ; les afficher en périodes strictement successives serait trompeur."
+      ]
     },
     {
       "id": "dynasty-24",
@@ -578,7 +681,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 727–715 av. J.-C."
+      "dateLabel": "Vers 727–715 av. J.-C.",
+      "extraFacts": [
+        "Saïs dans le Delta prend une importance décisive. Cette courte dynastie est contemporaine de la montée des rois de Koush, qui vont réunir la vallée sous leur autorité."
+      ]
     },
     {
       "id": "dynasty-25",
@@ -594,7 +700,10 @@
       "approximate": true,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "Vers 747–656 av. J.-C."
+      "dateLabel": "Vers 747–656 av. J.-C.",
+      "extraFacts": [
+        "Les rois koushites venus de Nubie se présentent comme restaurateurs de la tradition égyptienne. Leurs monuments et leurs liens avec Amon relient les cultures du Nil au-delà des frontières de l’Égypte actuelle."
+      ]
     },
     {
       "id": "dynasty-26",
@@ -610,7 +719,10 @@
       "approximate": false,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "664–525 av. J.-C."
+      "dateLabel": "664–525 av. J.-C.",
+      "extraFacts": [
+        "Les rois de Saïs réunifient le pays et renouent avec les modèles anciens. Le commerce et la présence de Grecs en Égypte rappellent que la Méditerranée fait pleinement partie de cet univers."
+      ]
     },
     {
       "id": "dynasty-27",
@@ -626,7 +738,10 @@
       "approximate": false,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "525–404 av. J.-C."
+      "dateLabel": "525–404 av. J.-C.",
+      "extraFacts": [
+        "L’Égypte entre dans l’Empire achéménide. Les souverains perses utilisent aussi la titulature pharaonique ; domination étrangère et maintien de traditions locales ne s’excluent pas."
+      ]
     },
     {
       "id": "dynasty-28",
@@ -642,7 +757,10 @@
       "approximate": false,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "404–399 av. J.-C."
+      "dateLabel": "404–399 av. J.-C.",
+      "extraFacts": [
+        "Amyrtée inaugure une courte restauration de l’indépendance. La dynastie ne comprend traditionnellement qu’un souverain, exemple des catégories très inégales de la chronologie royale."
+      ]
     },
     {
       "id": "dynasty-29",
@@ -658,7 +776,10 @@
       "approximate": false,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "399–380 av. J.-C."
+      "dateLabel": "399–380 av. J.-C.",
+      "extraFacts": [
+        "Depuis Mendès, les souverains cherchent à préserver l’indépendance face aux Perses. Leurs alliances méditerranéennes montrent combien la politique égyptienne est liée à celle de ses voisins."
+      ]
     },
     {
       "id": "dynasty-30",
@@ -674,7 +795,10 @@
       "approximate": false,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "380–343 av. J.-C."
+      "dateLabel": "380–343 av. J.-C.",
+      "extraFacts": [
+        "Nectanébo Ier et Nectanébo II multiplient les travaux dans les temples. Nectanébo II est le dernier roi d’une dynastie d’origine égyptienne avant les dominations perse, macédonienne puis romaine."
+      ]
     },
     {
       "id": "dynasty-31",
@@ -690,7 +814,10 @@
       "approximate": false,
       "focus": false,
       "dateNote": "Repères approximatifs ; plusieurs dynasties peuvent être contemporaines.",
-      "dateLabel": "343–332 av. J.-C."
+      "dateLabel": "343–332 av. J.-C.",
+      "extraFacts": [
+        "Le retour des Perses est bref à l’échelle de l’histoire pharaonique. En 332 av. J.-C., Alexandre entre en Égypte : le centre politique se déplace progressivement vers Alexandrie et la Méditerranée."
+      ]
     }
   ],
   "figures": [
@@ -919,7 +1046,9 @@
       "facts": [
         "Ses monuments contemporains l’appellent Netjerikhet.",
         "Il fait édifier la pyramide à degrés de Saqqarah.",
-        "Son nom figure sur des empreintes de sceaux découvertes dans plusieurs régions."
+        "Son nom figure sur des empreintes de sceaux découvertes dans plusieurs régions.",
+        "À Saqqarah, la pierre imite parfois des matériaux périssables : colonnes en forme de bottes végétales et portes sculptées rendent durable l’architecture du palais.",
+        "Le serdab, petite pièce close du complexe, abritait une statue du roi. Deux ouvertures la reliaient symboliquement au monde des vivants."
       ],
       "monuments": [
         "saqqara"
@@ -954,7 +1083,8 @@
       "facts": [
         "Ses grands projets se trouvent à Meïdoum et Dahchour.",
         "Les pyramides rhomboïdale et rouge sont associées à son règne.",
-        "Son culte et sa mémoire restent importants au Moyen Empire."
+        "Son culte et sa mémoire restent importants au Moyen Empire.",
+        "Comparer ses pyramides permet de suivre une recherche technique grandeur nature : la silhouette brisée de Dahchour précède la pente régulière de la Pyramide rouge."
       ],
       "monuments": [
         "bent-pyramid",
@@ -990,13 +1120,15 @@
       "facts": [
         "Son nom égyptien est Khoufou.",
         "Il fait construire la Grande Pyramide de Gizeh.",
-        "Des sceaux et des inscriptions attestent son administration et ses expéditions."
+        "Des sceaux et des inscriptions attestent son administration et ses expéditions.",
+        "Le contraste est saisissant : la petite statuette d’ivoire qui porte son nom mesure seulement 7,5 cm. C’est la seule représentation complète en ronde-bosse généralement reconnue comme contemporaine de son règne."
       ],
       "monuments": [
         "giza-khufu"
       ],
       "sources": [
-        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkheops.html"
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/kingkheops.html",
+        "https://egymonuments.gov.eg/collections/khufu-statue-2/"
       ],
       "approximate": true,
       "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier. Bornes de navigation conventionnelles, non dates absolues.",
@@ -1025,7 +1157,8 @@
       "facts": [
         "Son nom égyptien est Khafrê.",
         "Il construit la deuxième grande pyramide de Gizeh.",
-        "Les temples de son culte se trouvent près du Sphinx."
+        "Les temples de son culte se trouvent près du Sphinx.",
+        "Sa pyramide paraît parfois plus haute que celle de Khéops : elle est construite sur un terrain plus élevé et conserve une partie de son parement au sommet."
       ],
       "monuments": [
         "giza-khafre"
@@ -1060,7 +1193,8 @@
       "facts": [
         "Son nom égyptien est Menkaourê.",
         "Sa sépulture est la troisième pyramide principale du plateau.",
-        "Son nom apparaît sur des sceaux et dans des biographies de dignitaires."
+        "Son nom apparaît sur des sceaux et dans des biographies de dignitaires.",
+        "Le sarcophage de pierre trouvé dans sa pyramide a été perdu en mer en 1838, lorsque le navire Beatrice qui le transportait vers l’Angleterre a fait naufrage."
       ],
       "monuments": [
         "giza-menkaure"
@@ -1584,7 +1718,8 @@
       "facts": [
         "Les reliefs de Deir el-Bahari racontent une expédition vers le pays de Pount : navires, habitats et produits précieux montrent l’importance des échanges avec la mer Rouge.",
         "À Karnak, ses obélisques et sa chapelle inscrivent sa royauté dans le culte d’Amon ; les statues utilisent parfois barbe et vêtement des souverains masculins.",
-        "Après sa mort, de nombreuses images et inscriptions furent martelées ou modifiées ; cette tentative d’effacement explique en partie la redécouverte complexe de son règne."
+        "Après sa mort, de nombreuses images et inscriptions furent martelées ou modifiées ; cette tentative d’effacement explique en partie la redécouverte complexe de son règne.",
+        "Au pied des falaises de Deir el-Bahari, les terrasses de son temple prolongent les lignes du paysage. Le décor raconte notamment l’expédition au pays de Pount et met en scène sa naissance divine."
       ],
       "monuments": [
         "hatshepsut",
@@ -1774,7 +1909,9 @@
       "facts": [
         "Né sous le nom d’Amenhotep, il adopte celui d’Akhenaton et crée Akhetaton en Moyenne-Égypte ; des stèles de frontière inscrivent sa nouvelle résidence dans le paysage.",
         "Aton prend la forme d’un disque dont les rayons se terminent par des mains ; le couple royal devient un intermédiaire privilégié entre la divinité et les hommes.",
-        "Les noms et images d’Amon et de Mout sont attaqués sur de nombreux monuments ; les temples d’Aton seront ensuite démontés, leurs blocs réemployés notamment à Karnak."
+        "Les noms et images d’Amon et de Mout sont attaqués sur de nombreux monuments ; les temples d’Aton seront ensuite démontés, leurs blocs réemployés notamment à Karnak.",
+        "Les scènes d’Amarna montrent les rayons d’Aton se terminant par de petites mains : certaines présentent le signe de vie ankh au couple royal.",
+        "La promotion d’Aton ne se résume pas à changer un nom de dieu : elle transforme la capitale, les temples, l’iconographie et la relation entre le roi et le divin."
       ],
       "monuments": [
         "karnak",
@@ -1783,7 +1920,8 @@
       "sources": [
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/akhnaton.html",
         "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-queen/",
-        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html"
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/haremhab.html",
+        "https://www.ucl.ac.uk/engage/museums-collections/petrie-museum-egyptian-and-sudanese-archaeology/top-objects-petrie-museum/akhenaten-and-rays-sun-god-aten"
       ],
       "approximate": true,
       "dateNote": "Règne situé vers 1351–1334 av. J.-C. ; dates approximatives, variables selon les chronologies.",
@@ -1999,7 +2137,8 @@
       "facts": [
         "À Abydos, il fait construire un temple de son culte et un cénotaphe voisin ; cet ensemble relie la mémoire royale à un grand centre religieux du pays.",
         "Les reliefs de Karnak racontent ses campagnes en Asie occidentale : leur composition spectaculaire affirme la victoire du souverain et doit être lue comme un discours royal.",
-        "Sa tombe KV17, particulièrement longue, est ornée de scènes tirées des livres de l’au-delà ; elle compte parmi les grands témoignages du décor funéraire du Nouvel Empire."
+        "Sa tombe KV17, particulièrement longue, est ornée de scènes tirées des livres de l’au-delà ; elle compte parmi les grands témoignages du décor funéraire du Nouvel Empire.",
+        "Dans son temple d’Abydos, une liste de rois sélectionnés construit une mémoire officielle de la monarchie. Certaines figures, comme les souverains d’Amarna, en sont exclues."
       ],
       "monuments": [
         "abydos",
@@ -2036,7 +2175,8 @@
       "facts": [
         "La bataille de Qadesh nourrit un vaste récit en images et en textes ; cette propagande spectaculaire met le roi au premier plan, sans constituer un compte rendu neutre.",
         "En sa vingt-et-unième année, il conclut un traité de paix avec les Hittites ; des versions égyptienne et hittite ont survécu, permettant de comparer les traditions diplomatiques.",
-        "Abou Simbel affirme sa présence en Nubie, tandis que le Ramesseum entretient son culte à Thèbes ; il installe aussi sa capitale à Pi-Ramsès, dans le Delta."
+        "Abou Simbel affirme sa présence en Nubie, tandis que le Ramesseum entretient son culte à Thèbes ; il installe aussi sa capitale à Pi-Ramsès, dans le Delta.",
+        "Devant les reliefs de Qadech, regardez la taille du roi et celle de ses adversaires : l’échelle exprime le rang et la puissance, et ne décrit pas des proportions réalistes."
       ],
       "monuments": [
         "abu-simbel",
@@ -2077,7 +2217,8 @@
       "facts": [
         "À la façade du petit temple d’Abou Simbel, ses colosses ont la même taille que ceux du roi : une égalité d’échelle exceptionnellement accordée à une épouse royale.",
         "Les peintures de sa tombe la montrent notamment jouant au senet ; ces scènes appartiennent au monde religieux et funéraire, au-delà de leur charme de vie quotidienne.",
-        "Découverte en 1904, la tombe a nécessité une vaste campagne de conservation de 1986 à 1992 ; la fragilité des enduits menace autant ce patrimoine que le temps."
+        "Découverte en 1904, la tombe a nécessité une vaste campagne de conservation de 1986 à 1992 ; la fragilité des enduits menace autant ce patrimoine que le temps.",
+        "Dans sa tombe QV66, Néfertari joue au senet : cette image ne raconte pas seulement un loisir, elle évoque aussi le passage et la renaissance dans l’au-delà."
       ],
       "monuments": [
         "abu-simbel",
@@ -2377,7 +2518,8 @@
       "facts": [
         "Sa tombe se trouve dans la Vallée des Rois, sous le numéro KV9.",
         "Des monuments de son règne sont attestés à Karnak.",
-        "Son nom est aussi connu à Memphis et dans la région du Sinaï."
+        "Son nom est aussi connu à Memphis et dans la région du Sinaï.",
+        "Le plafond de KV9, commencé pour Ramsès V puis repris par Ramsès VI, donne au cycle solaire une forme spectaculaire : Nout reçoit le soleil et le fait renaître."
       ],
       "monuments": [
         "karnak",
@@ -2385,7 +2527,8 @@
         "valley-kings"
       ],
       "sources": [
-        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesvi.html"
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesvi.html",
+        "https://thebanmappingproject.com/sites/default/files/plans/KV09_0.pdf"
       ],
       "approximate": true,
       "dateNote": "Dates de règne approximatives ; les chronologies scientifiques peuvent varier.",
@@ -2907,7 +3050,8 @@
       "facts": [
         "Son alliance avec Marc Antoine la place au cœur de la lutte contre Octave ; la reine n’est donc pas seulement une figure de légende amoureuse, mais une actrice politique.",
         "À Dendéra, son image figure sur le mur arrière du temple d’Hathor ; d’autres travaux sont attestés à Coptos et Armant, révélant son engagement dans les sanctuaires égyptiens.",
-        "Après sa défaite et sa mort en 30 av. J.-C., l’Égypte devient une province romaine ; l’emplacement exact de sa sépulture demeure inconnu à ce jour."
+        "Après sa défaite et sa mort en 30 av. J.-C., l’Égypte devient une province romaine ; l’emplacement exact de sa sépulture demeure inconnu à ce jour.",
+        "Son pouvoir se lit aussi dans les temples : à Dendéra, elle apparaît avec son fils Césarion dans le langage traditionnel de l’offrande aux dieux égyptiens."
       ],
       "monuments": [
         "alexandria",
@@ -2932,6 +3076,394 @@
         ]
       ],
       "dateLabel": "51–30 av. J.-C."
+    },
+    {
+      "id": "muhammad-ali",
+      "name": "Méhémet Ali",
+      "role": "Gouverneur et fondateur de dynastie",
+      "dynasty": "modern-dynasty",
+      "start": 1805,
+      "end": 1848,
+      "dateLabel": "1805–1848",
+      "summary": "Nommé gouverneur de l’Égypte ottomane, Méhémet Ali construit une puissance dynastique dont les descendants gouverneront jusqu’en 1953. Sa politique transforme l’armée, l’agriculture, les écoles et les relations avec l’Europe.",
+      "facts": [
+        "Il envoie des missions d’étudiants à l’étranger et crée des établissements de formation technique et militaire.",
+        "Le développement des cultures commerciales et des monopoles renforce les ressources de l’État, tout en pesant sur la paysannerie.",
+        "Le canal de Suez sera inauguré après sa mort, en 1869, sous son petit-fils Ismaïl : il ne faut pas lui attribuer son ouverture."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/AR/مصر/الحكام/",
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "abbas-hilmi2",
+      "name": "Abbas Hilmi II",
+      "role": "Khédive",
+      "dynasty": "modern-dynasty",
+      "start": 1892,
+      "end": 1914,
+      "dateLabel": "1892–1914",
+      "summary": "Au tournant de 1900, Abbas Hilmi II gouverne une Égypte formellement ottomane mais occupée par les Britanniques. Son titre de khédive rappelle cette situation intermédiaire entre autonomie locale et tutelles extérieures.",
+      "facts": [
+        "Son règne accompagne le développement de voies ferrées, de ponts et de routes dans la vallée et le Delta.",
+        "En 1914, alors qu’il se trouve à l’étranger, les Britanniques le déposent et empêchent son retour.",
+        "Le changement de souverain s’accompagne d’un changement de statut : le protectorat britannique remplace le lien officiel avec l’Empire ottoman."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/en/مصر/الحكام/عباس-حلمي-الثاني/",
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "hussein-kamel",
+      "name": "Hussein Kamel",
+      "role": "Sultan",
+      "dynasty": "modern-monarchy",
+      "start": 1914,
+      "end": 1917,
+      "dateLabel": "19 décembre 1914–9 octobre 1917",
+      "summary": "Hussein Kamel devient sultan au moment où la Première Guerre mondiale redessine les rapports entre l’Égypte, les Britanniques et l’Empire ottoman. Son court règne ouvre le sultanat sous protectorat britannique.",
+      "facts": [
+        "Les Britanniques l’installent après la déposition de son neveu Abbas Hilmi II.",
+        "Le titre de sultan remplace celui de khédive : il exprime la rupture officielle avec la suzeraineté ottomane.",
+        "Il meurt en 1917 ; Fouad lui succède et gouvernera d’abord comme sultan, puis comme roi."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/en/مصر/الحكام/السلطان-حسين-كامل/",
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "fuad1",
+      "name": "Fouad Ier",
+      "role": "Sultan puis roi",
+      "dynasty": "modern-monarchy",
+      "start": 1917,
+      "end": 1936,
+      "dateLabel": "1917–1936 · roi à partir de 1922",
+      "summary": "Sous Fouad Ier, la mobilisation nationale de 1919 et la fin du protectorat font naître le royaume d’Égypte. L’indépendance proclamée en 1922 reste limitée par plusieurs domaines réservés à la Grande-Bretagne.",
+      "facts": [
+        "Il adopte le titre de roi après la déclaration d’indépendance de février 1922.",
+        "La Constitution de 1923 institue une vie parlementaire, mais les tensions entre le palais, les gouvernements et les partis restent fortes.",
+        "L’histoire de ce règne ne se limite pas au souverain : Saad Zaghloul et le mouvement national jouent un rôle central."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/en/مصر/الحكام/الملك-أحمد-فؤاد-الأول/",
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "farouk",
+      "name": "Farouk",
+      "role": "Roi",
+      "dynasty": "modern-monarchy",
+      "start": 1936,
+      "end": 1952,
+      "dateLabel": "28 avril 1936–26 juillet 1952",
+      "summary": "Farouk succède à son père Fouad Ier en 1936. Son règne traverse la Seconde Guerre mondiale, la fin progressive de privilèges étrangers et une crise politique qui aboutit à l’intervention des Officiers libres en 1952.",
+      "facts": [
+        "Mineur à son avènement, il exerce d’abord ses fonctions sous régence avant de prendre pleinement le pouvoir en 1937.",
+        "Le 26 juillet 1952, il abdique et quitte l’Égypte à bord du yacht El-Mahrousa.",
+        "L’abdication ne crée pas immédiatement la République : son fils Fouad II devient nominalement roi pendant moins d’un an."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/en/مصر/الحكام/الملك-فاروق/",
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "fuad2",
+      "name": "Fouad II",
+      "role": "Dernier roi · sous régence",
+      "dynasty": "modern-monarchy",
+      "start": 1952,
+      "end": 1953,
+      "dateLabel": "26 juillet 1952–18 juin 1953",
+      "summary": "Encore nourrisson, Fouad II reçoit la couronne après l’abdication de Farouk. Son règne est nominal : la régence et surtout les autorités issues de la révolution exercent le pouvoir.",
+      "facts": [
+        "Il ne gouverne pas personnellement : son âge impose de distinguer le titre royal de l’exercice du pouvoir.",
+        "Le 18 juin 1953, la monarchie est abolie et la République proclamée.",
+        "Cette rupture met fin à la dynastie fondée par Méhémet Ali au début duXIXe siècle."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/",
+        "https://mediadr.sis.gov.eg/handle/123456789/42150"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "naguib",
+      "name": "Mohamed Naguib",
+      "role": "Premier président",
+      "dynasty": "modern-republic",
+      "start": 1953,
+      "end": 1954,
+      "dateLabel": "18 juin 1953–14 novembre 1954",
+      "summary": "Officier et figure de la révolution de 1952, Mohamed Naguib devient le premier président de la République. Son court mandat se termine dans la lutte de pouvoir qui l’oppose à Gamal Abdel Nasser et au Conseil de commandement de la révolution.",
+      "facts": [
+        "Il préside d’abord le Conseil de commandement et dirige le gouvernement après la chute de Farouk.",
+        "La proclamation de la République, le 18 juin 1953, fait de lui le premier chef de l’État portant le titre de président.",
+        "Le 14 novembre 1954, le Conseil le relève de ses fonctions. La présidence demeure ensuite vacante jusqu’à l’élection de Nasser en 1956."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/EN/الرئاسة/الرؤساء-السابقون/محمد-نجيب/",
+        "https://sis.gov.eg/en/egypt/egyptian-figures/the-egyptian-revolutionary-command-council/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "rcc",
+      "name": "Conseil de commandement",
+      "role": "Direction collégiale de transition",
+      "dynasty": "modern-republic",
+      "start": 1954,
+      "end": 1956,
+      "dateLabel": "14 novembre 1954–juin 1956",
+      "summary": "Après l’éviction de Naguib, le Conseil de commandement de la révolution exerce l’autorité de l’État sous la direction de Nasser. Cette transition explique pourquoi 1954 marque son ascension sans être le début de sa présidence constitutionnelle.",
+      "facts": [
+        "Le poste de président de la République est laissé vacant pendant cette phase.",
+        "Nasser dirige le Conseil et le gouvernement : il est le principal détenteur du pouvoir, avec un titre distinct de celui de président.",
+        "La Constitution et le référendum de 1956 ouvrent la phase présidentielle de son gouvernement."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://sis.gov.eg/en/egypt/egyptian-figures/the-egyptian-revolutionary-command-council/",
+        "https://www.mod.gov.eg/modwebsite/MuseumDetails.aspx?id=5"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "nasser",
+      "name": "Gamal Abdel Nasser",
+      "role": "Président",
+      "dynasty": "modern-republic",
+      "start": 1956,
+      "end": 1970,
+      "dateLabel": "1956–28 septembre 1970",
+      "summary": "Nasser associe indépendance nationale, rôle régional et grands travaux. La nationalisation du canal de Suez et le haut barrage d’Assouan modifient durablement la place de l’Égypte et le paysage du Nil.",
+      "facts": [
+        "Le 26 juillet 1956, il nationalise la compagnie du canal de Suez ; la crise internationale qui suit marque le recul des anciennes puissances coloniales.",
+        "Le haut barrage permet de réguler le fleuve et de produire de l’électricité, mais transforme la crue, retient les sédiments et entraîne le déplacement de communautés nubiennes.",
+        "Il meurt en 1970. Son autorité politique effective remonte à 1954, tandis que sa présidence formelle commence en 1956."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://africa.sis.gov.eg/english/figures/politics/gamal-abdel-nasser/",
+        "https://history.state.gov/historicaldocuments/frus1955-57v15/d511",
+        "https://www.mod.gov.eg/modwebsite/MuseumDetails.aspx?id=5",
+        "https://whc.unesco.org/en/list/88/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "sadat",
+      "name": "Anouar el-Sadate",
+      "role": "Président",
+      "dynasty": "modern-republic",
+      "start": 1970,
+      "end": 1981,
+      "dateLabel": "1970–6 octobre 1981",
+      "summary": "Sadate succède à Nasser et change les orientations du pays. Son parcours relie la guerre d’octobre 1973, l’ouverture économique et la négociation d’une paix avec Israël, autant d’événements qui continuent de marquer la région.",
+      "facts": [
+        "Il assure d’abord l’intérim après la mort de Nasser, avant d’être confirmé à la présidence enoctobre 1970.",
+        "Après sa visite à Jérusalem en 1977, les accords de Camp David de 1978 préparent le traité de paix signé en 1979. Le prix Nobel de la paix 1978 lui est attribué conjointement avec Menahem Begin.",
+        "Il est assassiné lors d’un défilé militaire le 6 octobre 1981."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/EN/الرئاسة/الرؤساء-السابقون/محمد-انور-السادات/",
+        "https://www.nobelprize.org/prizes/peace/1978/summary/",
+        "https://www.un.org/unispal/document/auto-insert-210245/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "sufi-abu-taleb",
+      "name": "Soufi Abou Taleb",
+      "role": "Président par intérim",
+      "dynasty": "modern-republic",
+      "start": 1981,
+      "end": 1981,
+      "dateLabel": "6–14 octobre 1981",
+      "summary": "Président de l’Assemblée du peuple, Soufi Abou Taleb assure un intérim de huit jours après l’assassinat de Sadate. Il figure dans la chronologie parce qu’une succession d’État ne se résume pas aux longs mandats.",
+      "facts": [
+        "Juriste et universitaire, il a dirigé l’Université du Caire avant de présider le Parlement.",
+        "L’intérim répond au mécanisme de succession prévu par la Constitution.",
+        "Le 14 octobre 1981, Hosni Moubarak prend la présidence ; Abou Taleb ne devient pas un président élu pour un mandat complet."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/EN/الرئاسة/الرؤساء-السابقون/صوفي-أبو-طالب/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "mubarak",
+      "name": "Hosni Moubarak",
+      "role": "Président",
+      "dynasty": "modern-republic",
+      "start": 1981,
+      "end": 2011,
+      "dateLabel": "14 octobre 1981–11 février 2011",
+      "summary": "La présidence de Moubarak dure près de trente ans. Infrastructures, tourisme et changements économiques se développent dans un système politique durablement fermé, jusqu’aux manifestations de 2011 qui entraînent son départ.",
+      "facts": [
+        "Il accède à la présidence après Sadate et le bref intérim de Soufi Abou Taleb.",
+        "Le 11 février 2011, après dix-huit jours de manifestations, son départ est annoncé et le Conseil suprême des forces armées prend l’autorité.",
+        "Le début de cette transition constitue une rupture de régime, et non une simple alternance entre deux présidents élus."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/",
+        "https://obamawhitehouse.archives.gov/the-press-office/2011/02/11/remarks-president-egypt/",
+        "https://mediadr.sis.gov.eg/handle/123456789/42150"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "scaf",
+      "name": "Conseil suprême des forces armées",
+      "role": "Direction militaire de transition",
+      "dynasty": "modern-republic",
+      "start": 2011,
+      "end": 2012,
+      "dateLabel": "11 février 2011–30 juin 2012",
+      "summary": "Le Conseil suprême des forces armées, présidé par le maréchal Mohamed Hussein Tantawi, dirige la transition après Moubarak. Il faut distinguer cette autorité collégiale d’une présidence personnelle de la République.",
+      "facts": [
+        "Il exerce le pouvoir pendant une phase de révisions institutionnelles et d’élections.",
+        "Les élections présidentielles de 2012 sont remportées par Mohamed Morsi.",
+        "Le 30 juin 2012, Morsi prête serment et prend ses fonctions, ce qui met fin à cette phase de direction militaire directe."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/",
+        "https://mediadr.sis.gov.eg/handle/123456789/42150",
+        "https://obamawhitehouse.archives.gov/the-press-office/2011/02/11/remarks-president-egypt/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "morsi",
+      "name": "Mohamed Morsi",
+      "role": "Président",
+      "dynasty": "modern-republic",
+      "start": 2012,
+      "end": 2013,
+      "dateLabel": "30 juin 2012–3 juillet 2013",
+      "summary": "Élu à l’issue de la transition de 2011, Mohamed Morsi est le premier président civil élu de l’Égypte contemporaine. Son mandat d’un an s’achève dans une profonde polarisation politique et une intervention de l’armée.",
+      "facts": [
+        "L’élection présidentielle de 2012 l’oppose au second tour à Ahmed Chafik.",
+        "Après les grandes manifestations dejuin 2013, l’armée le destitue le 3 juillet 2013 et suspend la Constitution.",
+        "Le lendemain, le président de la Haute Cour constitutionnelle Adly Mansour devient chef de l’État par intérim."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://sis.gov.eg/en/egypt/history/egypts-history/modern-era/",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52013IP0379"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "adly-mansour",
+      "name": "Adly Mansour",
+      "role": "Président par intérim",
+      "dynasty": "modern-republic",
+      "start": 2013,
+      "end": 2014,
+      "dateLabel": "4 juillet 2013–8 juin 2014",
+      "summary": "Magistrat à la tête de la Haute Cour constitutionnelle, Adly Mansour assure la présidence intérimaire après la destitution de Morsi. Sa fonction appartient à une nouvelle transition institutionnelle, pas à un mandat présidentiel issu d’une élection personnelle.",
+      "facts": [
+        "Il prête serment le 4 juillet 2013 devant les membres de la Cour constitutionnelle.",
+        "Sa période d’intérim dure jusqu’à l’entrée en fonctions du vainqueur de l’élection présidentielle de 2014.",
+        "Le 8 juin 2014, Abdel Fattah al-Sissi lui succède à la présidence."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/EN/الرئاسة/الرؤساء-السابقون/عدلي-منصور/",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52013IP0379"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "Dates de fonction, et non dates de naissance et de décès.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
+    },
+    {
+      "id": "sisi",
+      "name": "Abdel Fattah al-Sissi",
+      "role": "Président actuel",
+      "dynasty": "modern-republic",
+      "start": 2014,
+      "end": 2026,
+      "dateLabel": "Depuis le 8 juin 2014",
+      "summary": "Abdel Fattah al-Sissi est président depuis 2014. Sa période de gouvernement est associée à de grands projets d’infrastructures, à de nouvelles villes et à l’extension de l’agriculture irriguée ; leurs effets et leur gestion de l’eau font partie des enjeux de l’Égypte actuelle.",
+      "facts": [
+        "Ancien ministre de la Défense, il accède à la présidence à l’issue du scrutin de 2014.",
+        "Les projets contemporains ne constituent pas de nouveaux bras naturels du Nil : canaux, pompages et stations de traitement redistribuent l’eau vers des terres aménagées.",
+        "La continuité du pouvoir est vérifiée sur la présidence officielle ennovembre 2026 ; la borne de la frise correspond à cette vérification, pas à une fin de mandat."
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.presidency.eg/fr/الرئاسة/الرئيس/",
+        "https://www.presidency.eg/FR/"
+      ],
+      "modern": true,
+      "noPortrait": true,
+      "dateNote": "En fonction au 9 novembre 2026. La frise s’arrête à la date de vérification ; elle ne prévoit pas la date de fin du mandat.",
+      "portraitNote": "Présentation documentaire : aucune reconstitution de visage."
     }
   ],
   "mythology": [
@@ -2985,7 +3517,11 @@
         "https://egymonuments.gov.eg/monuments/the-great-pyramid/"
       ],
       "image": "assets/giza.webp",
-      "periodLabel": "Ancien Empire"
+      "periodLabel": "Ancien Empire",
+      "extraFacts": [
+        "À observer : les faces étaient autrefois recouvertes d’un parement de calcaire fin et clair. Le monument offrait donc une surface beaucoup plus régulière et lumineuse qu’aujourd’hui.",
+        "À l’intérieur, la Grande Galerie possède une couverture en encorbellement : les assises de pierre avancent progressivement vers le centre. C’est une solution pour franchir un espace haut et étroit sans voûte en plein cintre."
+      ]
     },
     {
       "id": "giza-khafre",
@@ -3007,7 +3543,11 @@
         "https://giza.fas.harvard.edu/commontopics/"
       ],
       "image": "assets/giza.webp",
-      "periodLabel": "Ancien Empire"
+      "periodLabel": "Ancien Empire",
+      "extraFacts": [
+        "Ne vous fiez pas à la seule silhouette : le socle plus élevé et la pente plus raide font paraître Khéphren plus grande que Khéops. Le calcaire préservé près du sommet aide à imaginer son aspect originel.",
+        "Son ensemble funéraire reliait la pyramide au temple de la vallée par une chaussée. Le Sphinx appartient au même paysage royal, mais l’identité précise de son commanditaire reste discutée."
+      ]
     },
     {
       "id": "giza-menkaure",
@@ -3029,7 +3569,11 @@
         "https://giza.fas.harvard.edu/commontopics/"
       ],
       "image": "assets/giza.webp",
-      "periodLabel": "Ancien Empire"
+      "periodLabel": "Ancien Empire",
+      "extraFacts": [
+        "Plus petite que ses deux voisines, la pyramide de Mykérinos emploie du granite dans la partie basse de son parement. Les surfaces encore irrégulières témoignent des étapes de finition.",
+        "Le monument ne se limite pas à la pyramide : temples, chaussée et petites pyramides voisines formaient un ensemble destiné au culte du souverain défunt."
+      ]
     },
     {
       "id": "saqqara",
@@ -3053,7 +3597,12 @@
         "https://www.memphis.edu/egypt/resources/colortour/saqqara2.php"
       ],
       "image": "assets/history/monuments/saqqara.jpg",
-      "periodLabel": "Ancien Empire"
+      "periodLabel": "Ancien Empire",
+      "extraFacts": [
+        "La pyramide de Djéser élève six degrés au-dessus d’un immense complexe cérémoniel. La cour du jubilé royal, ou heb-sed, devait permettre au roi de renouveler sa force pour l’éternité.",
+        "Saqqarah rassemble de nombreuses époques : les reliefs du mastaba de Ti observent la vie agricole et les animaux, tandis que les galeries du Sérapéum accueillaient les taureaux Apis.",
+        "Dans la pyramide d’Ounas, les Textes des Pyramides font leur première apparition conservée sur les parois d’une chambre funéraire royale. Le texte accompagne la transformation du roi dans l’au-delà."
+      ]
     },
     {
       "id": "red-pyramid",
@@ -3072,10 +3621,15 @@
       ],
       "source": "https://sis.gov.eg/en/egypt/tourism/famous-cities/giza/",
       "sources": [
-        "https://sis.gov.eg/en/egypt/tourism/famous-cities/giza/"
+        "https://sis.gov.eg/en/egypt/tourism/famous-cities/giza/",
+        "https://egymonuments.gov.eg/monuments/the-red-pyramid"
       ],
       "image": "assets/history/monuments/red-pyramid.jpg",
-      "periodLabel": "Ancien Empire"
+      "periodLabel": "Ancien Empire",
+      "extraFacts": [
+        "Son nom décrit la couleur actuelle du noyau de pierre. Son parement d’origine était blanc : il ne faut pas imaginer une pyramide rouge dans le paysage antique.",
+        "Dans ses chambres, les plafonds en encorbellement dessinent de hautes silhouettes à degrés inversés. La comparaison avec la pyramide rhomboïdale éclaire les expérimentations du règne de Snéfrou."
+      ]
     },
     {
       "id": "bent-pyramid",
@@ -3097,7 +3651,11 @@
         "https://egymonuments.gov.eg/monuments/the-bent-pyramid/"
       ],
       "image": "assets/history/monuments/bent-pyramid.jpg",
-      "periodLabel": "Ancien Empire"
+      "periodLabel": "Ancien Empire",
+      "extraFacts": [
+        "À mi-hauteur, la pente change nettement : cette singularité témoigne d’un ajustement du projet pendant la construction. Les raisons précises font encore l’objet de discussions.",
+        "Deux accès, au nord et à l’ouest, conduisent à des espaces intérieurs distincts. La conservation de grandes surfaces de parement en fait un témoin précieux de l’apparence des pyramides achevées."
+      ]
     },
     {
       "id": "karnak",
@@ -3123,7 +3681,12 @@
         "https://egymonuments.gov.eg/archaeological-sites/karnak/"
       ],
       "image": "assets/karnak.webp",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "La grande salle hypostyle compte 134 colonnes. Les colonnes centrales, plus hautes, permettaient d’éclairer l’intérieur par des ouvertures situées au-dessus des files latérales.",
+        "Regardez les chapiteaux : les formes de papyrus font de cette forêt de pierre une évocation du monde végétal né des eaux primordiales.",
+        "Karnak est un chantier de longue durée, agrandi par de nombreux souverains. Lors de la fête d’Opet, les images d’Amon, de Mout et de Khonsou rejoignaient Louxor dans une procession qui associait la ville entière au renouvellement royal."
+      ]
     },
     {
       "id": "luxor",
@@ -3148,7 +3711,12 @@
         "https://egymonuments.gov.eg/monuments/luxor-temple/"
       ],
       "image": "assets/luxor-karnak.webp",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "Amenhotep III a construit une grande partie du noyau du temple ; Ramsès II a ajouté la cour et le grand pylône. Les axes légèrement différents rendent ces étapes visibles dans le plan.",
+        "L’un des deux obélisques de Ramsès II se trouve aujourd’hui place de la Concorde, à Paris. Celui resté à Louxor permet de replacer ce monument isolé dans son contexte de temple.",
+        "Sur le pylône, le récit de Qadech transforme la bataille en démonstration de la valeur royale. Comme une image politique actuelle, le relief est composé pour convaincre autant que pour raconter."
+      ]
     },
     {
       "id": "hatshepsut",
@@ -3170,7 +3738,11 @@
         "https://egymonuments.gov.eg/en/monuments/hatshepsut-temple/"
       ],
       "image": "assets/history/monuments/hatshepsut.jpg",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "Les trois niveaux du temple s’accordent aux strates des falaises. Les longues rampes et les portiques organisent une montée progressive vers les sanctuaires.",
+        "Les reliefs de Pount montrent des arbres à encens transportés avec leurs racines. L’expédition était un acte économique, religieux et politique : elle apportait au culte des produits précieux."
+      ]
     },
     {
       "id": "medinet-habu",
@@ -3192,7 +3764,11 @@
         "https://egymonuments.gov.eg/monuments/the-temple-of-medinet-habu/"
       ],
       "image": "assets/history/monuments/medinet-habu.jpg",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "Dans la cour et sur les murs extérieurs, Ramsès III met en scène ses victoires. Les grands reliefs doivent se lire comme une affirmation de l’ordre royal face au désordre.",
+        "L’épaisseur des enceintes et la porte monumentale donnent au complexe une allure fortifiée. Un temple de millions d’années était aussi un centre de gestion, de stockage et de travail."
+      ]
     },
     {
       "id": "ramesseum",
@@ -3214,7 +3790,11 @@
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
       ],
       "image": "assets/history/monuments/ramesseum.jpg",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "Les fragments du colossal Ramsès II renversé montrent la taille des images royales qui structuraient les cours. Même brisé, le monument permet d’imaginer l’effet recherché sur le visiteur.",
+        "Les magasins de brique crue rappellent que le temple fonctionnait grâce à une économie très concrète : domaines agricoles, livraisons, ateliers et personnel soutenaient le culte."
+      ]
     },
     {
       "id": "abu-simbel",
@@ -3237,7 +3817,12 @@
         "https://egymonuments.gov.eg/archaeological-sites/abu-simbel/"
       ],
       "image": "assets/abu-simbel.webp",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "Le grand temple possède quatre statues assises de Ramsès II sur sa façade. Dans le petit temple consacré à Hathor et à Néfertari, la reine atteint la même hauteur que le roi : un choix particulièrement remarquable.",
+        "Deux fois par an, la lumière du soleil pénètre jusqu’aux statues du sanctuaire. On cite habituellement février et octobre ; il serait imprudent d’y voir des dates de naissance ou de couronnement démontrées.",
+        "Dans les années 1960, les temples ont été découpés, déplacés et remontés plus haut pour éviter la montée du lac Nasser. Leur emplacement actuel est donc un exploit moderne de sauvegarde autant qu’un témoignage antique."
+      ]
     },
     {
       "id": "philae",
@@ -3256,10 +3841,16 @@
       ],
       "source": "https://egymonuments.gov.eg/archaeological-sites/philae/",
       "sources": [
-        "https://egymonuments.gov.eg/archaeological-sites/philae/"
+        "https://egymonuments.gov.eg/archaeological-sites/philae/",
+        "https://www.memphis.edu/egypt/resources/colortour/philae2.php"
       ],
       "image": "assets/philae.webp",
-      "periodLabel": "Époque ptolémaïque"
+      "periodLabel": "Époque ptolémaïque",
+      "extraFacts": [
+        "Le sanctuaire se visite aujourd’hui sur l’île d’Agilkia, où ses monuments ont été réassemblés. L’île antique de Philae, menacée par les barrages d’Assouan, n’est pas l’emplacement de visite actuel.",
+        "Le mammisi, ou maison de naissance, célèbre la venue au monde d’Horus. Ce thème associe la famille divine à la légitimité du souverain.",
+        "La dernière inscription hiéroglyphique datée connue a été gravée en 394 apr. J.-C., près de la porte d’Hadrien. L’écriture démotique est encore attestée plus tard : la disparition des différentes écritures n’a pas lieu en un jour."
+      ]
     },
     {
       "id": "kom-ombo",
@@ -3282,7 +3873,11 @@
         "https://egymonuments.gov.eg/en/monuments/kom-ombo-temple/"
       ],
       "image": "assets/history/monuments/kom-ombo.jpg",
-      "periodLabel": "Époque ptolémaïque"
+      "periodLabel": "Époque ptolémaïque",
+      "extraFacts": [
+        "Deux axes parallèles, deux sanctuaires : l’architecture donne une place équivalente à Sobek et à Haroéris, Horus l’Ancien. Essayez de repérer cette symétrie en suivant les portes.",
+        "Un relief de l’époque romaine montre des objets souvent interprétés comme des instruments médicaux. Le temple conserve aussi des calendriers de fêtes : ses murs sont un livre de rituels, pas seulement un décor."
+      ]
     },
     {
       "id": "edfu",
@@ -3305,7 +3900,11 @@
         "https://egymonuments.gov.eg/en/monuments/temple-of-edfu"
       ],
       "image": "assets/history/monuments/edfu.jpg",
-      "periodLabel": "Époque ptolémaïque"
+      "periodLabel": "Époque ptolémaïque",
+      "extraFacts": [
+        "Le temple ptolémaïque conserve une enveloppe architecturale exceptionnellement complète. Depuis le pylône et la cour lumineuse, le parcours avance vers des salles plus basses et plus sombres.",
+        "Les inscriptions racontent notamment le conflit d’Horus et de Seth. À certaines fêtes, des rites rejouaient la victoire du dieu : le sanctuaire était un lieu d’action autant que de contemplation."
+      ]
     },
     {
       "id": "esna",
@@ -3322,10 +3921,15 @@
       "figureIds": [],
       "source": "https://whc.unesco.org/en/tentativelists/1824/",
       "sources": [
-        "https://whc.unesco.org/en/tentativelists/1824/"
+        "https://whc.unesco.org/en/tentativelists/1824/",
+        "https://uni-tuebingen.de/en/faculties/faculty-of-humanities/departments/ancient-studies-and-art-history/institute-for-ancient-near-eastern-studies/research/egyptology/research-projects/the-temple-of-esna/"
       ],
       "image": "assets/history/monuments/esna.jpg",
-      "periodLabel": "Égypte romaine"
+      "periodLabel": "Égypte romaine",
+      "extraFacts": [
+        "Le monument visible est surtout le pronaos, grande salle à colonnes de l’époque romaine. Le sanctuaire plus ancien se prolongeait sous le tissu urbain actuel.",
+        "Les nettoyages des plafonds et des colonnes ont révélé des couleurs que les dépôts cachaient. Les scènes célestes rappellent combien l’observation du ciel, le calendrier et les rites étaient liés."
+      ]
     },
     {
       "id": "dendera",
@@ -3345,10 +3949,15 @@
       ],
       "source": "https://whc.unesco.org/en/tentativelists/1824/",
       "sources": [
-        "https://whc.unesco.org/en/tentativelists/1824/"
+        "https://whc.unesco.org/en/tentativelists/1824/",
+        "https://collections.louvre.fr/ark:/53355/cl010028871"
       ],
       "image": "assets/history/monuments/dendera.jpg",
-      "periodLabel": "Époque ptolémaïque"
+      "periodLabel": "Époque ptolémaïque",
+      "extraFacts": [
+        "Cherchez les visages d’Hathor sur les chapiteaux : la déesse accueille le visiteur sous une forme immédiatement reconnaissable, avec ses oreilles de vache.",
+        "Le décor astronomique et les processions gravées dans les escaliers relient le temple au ciel et au renouvellement de l’année. Le célèbre zodiaque circulaire original se trouve aujourd’hui au Louvre ; une copie occupe sa place dans la chapelle du toit."
+      ]
     },
     {
       "id": "memphis",
@@ -3374,7 +3983,11 @@
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/merenptah.html"
       ],
       "image": "assets/history/monuments/memphis.jpg",
-      "periodLabel": "Ancien Empire"
+      "periodLabel": "Ancien Empire",
+      "extraFacts": [
+        "La ville antique s’étendait bien au-delà des vestiges visibles à Mit Rahina. Palais, ateliers et sanctuaires occupaient une position stratégique près de l’articulation entre la vallée et le Delta.",
+        "Ptah était le grand dieu de Memphis, et le taureau Apis en était une manifestation sacrée. Ce lien explique pourquoi les sépultures d’Apis à Saqqarah appartiennent au même univers religieux."
+      ]
     },
     {
       "id": "abydos",
@@ -3413,7 +4026,11 @@
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesii.html"
       ],
       "image": "assets/history/monuments/abydos.jpg",
-      "periodLabel": "Époque thinite"
+      "periodLabel": "Époque thinite",
+      "extraFacts": [
+        "Abydos associe la mémoire des premiers rois au culte d’Osiris. Pour un Égyptien, se rattacher à ce lieu par un pèlerinage ou une stèle pouvait soutenir l’espérance d’une renaissance.",
+        "La liste royale du temple de Séthi Ier n’est pas un inventaire neutre : elle choisit les souverains dignes d’être honorés. Comparer présence et absence apprend à lire un monument comme un discours."
+      ]
     },
     {
       "id": "tanis",
@@ -3437,7 +4054,11 @@
         "https://www.ucl.ac.uk/museums-static/digitalegypt/archaeology/sitesindex.html"
       ],
       "image": "assets/history/monuments/tanis.jpg",
-      "periodLabel": "Troisième Période intermédiaire"
+      "periodLabel": "Troisième Période intermédiaire",
+      "extraFacts": [
+        "Les tombes royales découvertes par Pierre Montet ont conservé des objets précieux, dont le cercueil d’argent de Psousennès Ier. Leur découverte, à la veille de la Seconde Guerre mondiale, a eu moins d’écho que celle de Toutankhamon.",
+        "De nombreux blocs et monuments de Tanis ont été déplacés depuis des sites plus anciens. Un cartouche gravé sur place ne suffit donc pas à dater la construction qui l’entoure."
+      ]
     },
     {
       "id": "alexandria",
@@ -3461,7 +4082,11 @@
         "https://egymonuments.gov.eg/archaeological-sites/alexandria/"
       ],
       "image": "assets/history/monuments/alexandria.jpg",
-      "periodLabel": "Époque ptolémaïque"
+      "periodLabel": "Époque ptolémaïque",
+      "extraFacts": [
+        "Fondée par Alexandre en 331 av. J.-C., la ville devient la capitale des Ptolémées. Son port met l’Égypte en relation avec les réseaux commerciaux et intellectuels de la Méditerranée.",
+        "Le phare et le quartier royal ont en partie disparu sous les eaux ou les constructions postérieures. La ville antique doit se comprendre avec les fouilles terrestres et sous-marines, pas comme un décor entièrement conservé."
+      ]
     },
     {
       "id": "aswan",
@@ -3490,7 +4115,12 @@
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/nakhthorbyt.html"
       ],
       "image": "assets/history/monuments/aswan.jpg",
-      "periodLabel": "Moyen Empire"
+      "periodLabel": "Moyen Empire",
+      "extraFacts": [
+        "À Éléphantine, le nilomètre permettait de suivre le niveau de la crue. L’eau déterminait l’agriculture et les ressources attendues : mesurer le fleuve était aussi administrer le pays.",
+        "L’obélisque inachevé des carrières montre des traces de taille et une fissure qui a conduit à son abandon. Il renseigne directement sur le travail du granite, sans qu’il soit nécessaire d’imaginer une technique mystérieuse.",
+        "Il faut distinguer le premier barrage d’Assouan, mis en service en 1902, du haut barrage construit au XXe siècle plus au sud. Le vaste lac Nasser appartient au paysage moderne."
+      ]
     },
     {
       "id": "amarna",
@@ -3514,7 +4144,11 @@
         "https://www.smb.museum/en/museums-institutions/aegyptisches-museum-und-papyrussammlung/collection-research/bust-of-nefertiti/the-queen/"
       ],
       "image": "assets/history/monuments/amarna.jpg",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "Les temples d’Aton multipliaient les espaces ouverts, où les offrandes recevaient directement la lumière solaire. Leur plan diffère des sanctuaires profonds et obscurs des temples traditionnels.",
+        "Après l’abandon de la capitale, beaucoup de petits blocs de construction, les talatates, ont été remployés ailleurs. L’archéologie rassemble ces fragments pour reconstituer une ville disparue."
+      ]
     },
     {
       "id": "valley-kings",
@@ -3577,10 +4211,16 @@
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesiv.html",
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesvi.html",
         "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesix.html",
-        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesxi.html"
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/ramsesxi.html",
+        "https://thebanmappingproject.com/sites/default/files/plans/KV09_0.pdf"
       ],
       "image": "assets/history/monuments/valley-kings.jpg",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "Les tombes évoluent : plusieurs sépultures de la XVIIIe dynastie changent de direction, tandis que les tombes ramessides privilégient souvent un axe plus rectiligne. Il existe des exceptions : ce n’est pas une règle absolue.",
+        "L’Amduat et le Livre des Portes décrivent la traversée nocturne du soleil. Les images ne racontent pas simplement la mort : elles préparent une renaissance.",
+        "KV9 appartient à Ramsès V puis à Ramsès VI. Les déblais et les installations de cette zone ont contribué à masquer l’entrée de la petite tombe KV62 de Toutankhamon."
+      ]
     },
     {
       "id": "valley-queens",
@@ -3599,10 +4239,15 @@
       ],
       "source": "https://www.getty.edu/projects/valley-of-queens/significance-of-the-valley/",
       "sources": [
-        "https://www.getty.edu/projects/valley-of-queens/significance-of-the-valley/"
+        "https://www.getty.edu/projects/valley-of-queens/significance-of-the-valley/",
+        "https://www.getty.edu/projects/tomb-nefertari/"
       ],
       "image": "assets/history/monuments/valley-queens.jpg",
-      "periodLabel": "Nouvel Empire"
+      "periodLabel": "Nouvel Empire",
+      "extraFacts": [
+        "La vallée abrite des épouses royales, mais aussi des princes et d’autres membres de la famille du roi. Son nom moderne ne décrit donc pas toutes les personnes qui y ont été enterrées.",
+        "Dans QV66, Néfertari apparaît en robe de lin auprès des dieux et devant le jeu de senet. Les peintures ont nécessité une conservation minutieuse : leur beauté tient aussi au travail des restaurateurs."
+      ]
     }
   ],
   "cities": [

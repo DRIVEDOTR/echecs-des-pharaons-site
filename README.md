@@ -1,9 +1,13 @@
-# L’Égypte vivante · Échecs des Pharaons
+# Échecs des Pharaons · L’Égypte vivante
 
-**[Ouvrir le site](https://drivedotr.github.io/echecs-des-pharaons-site/)** · **[Histoire de l’Égypte](https://drivedotr.github.io/echecs-des-pharaons-site/#histoire)**
+[Ouvrir le site](https://drivedotr.github.io/echecs-des-pharaons-site/) · [Histoire de l’Égypte](https://drivedotr.github.io/echecs-des-pharaons-site/#histoire)
 
-Ce dépôt contient les fichiers publics du jeu et de son atlas historique : frise des 31 dynasties, 61 portraits et fiches historiques, carte interactive de 25 lieux, temples et pyramides illustrés.
+Jeu illustré, frise interactive jusqu’à nos jours, 77 figures historiques, 32 divinités illustrées et 25 lieux. Le menu propose aussi un atelier du scribe avec création de papyrus téléchargeable.
 
-La carte associe une illustration de relief artistique aux contours et au Nil issus des données [Natural Earth](https://www.naturalearthdata.com/), dans le domaine public. Les portraits et reconstitutions sont des évocations artistiques ; les fiches fournissent leurs sources historiques.
+La carte compare le Nil historique schématique au Nil actuel : delta, Suez, lac Nasser, haut barrage et réseaux agricoles. Les canaux agricoles et les bras anciens sont indiqués comme schémas. Les côtes et l’hydrographie générale viennent de Natural Earth à 1:10 millions (domaine public). Le relief est artistique.
 
-Les sources de travail et la documentation complète sont conservées dans le dépôt privé `DRIVEDOTR/echecs-des-pharaons`. Publication GitHub Pages depuis la branche `main`.
+L’atelier du scribe est une adaptation pédagogique de noms modernes, pas une traduction en égyptien ancien. Les sources sont disponibles à la demande dans chaque fiche.
+
+Portraits et papyrus : illustrations générées. Photographie de la Pierre de Rosette © Hans Hillewaert, CC BY-SA 4.0, via Wikimedia Commons ; crédit et licence accessibles sous la photo. Police Noto Sans Egyptian Hieroglyphs sous SIL OFL 1.1 (licence dans assets/fonts).
+
+Le dépôt principal des sources reste privé. Le présent dépôt contient les fichiers statiques publics.

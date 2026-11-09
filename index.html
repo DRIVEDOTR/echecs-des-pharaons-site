@@ -6,9 +6,10 @@
   <meta name="theme-color" content="#102b3b">
   <meta name="description" content="Un jeu d’échecs immersif parmi les sites de l’Égypte antique, avec figures pharaoniques et panorama interactif à 360 degrés.">
   <title>Échecs des Pharaons — l’Égypte vivante</title>
-  <link rel="stylesheet" href="style.css?v=20261104-game3">
-  <link rel="stylesheet" href="history.css?v=20261106-1">
-  <link rel="stylesheet" href="atlas.css?v=20261106-3">
+  <link rel="stylesheet" href="style.css?v=20261109-1">
+  <link rel="stylesheet" href="history.css?v=20261109-1">
+  <link rel="stylesheet" href="atlas.css?v=20261109-1">
+  <link rel="stylesheet" href="discovery.css?v=20261109-1">
 </head>
 <body>
   <nav class="world-navigation" aria-label="Rubriques du site"><button id="worldMenuToggle" class="world-menu-toggle" type="button" aria-expanded="false" aria-controls="worldMenu"><span aria-hidden="true">☰</span><span id="worldCurrent">Jouer aux échecs</span><span aria-hidden="true">⌄</span></button><div id="worldMenu" class="world-menu" hidden><a href="#echecs" data-world="game" aria-current="page">♜ &nbsp; Jouer aux échecs</a><a href="#histoire" data-world="history">☥ &nbsp; Histoire de l’Égypte</a></div></nav>
@@ -42,6 +43,6 @@
   <dialog id="castDialog" class="cast-dialog"><div class="cast-head"><div><small>LES FIGURES DU JEU</small><h2>Une cour vivante</h2></div><button id="closeCast" type="button" aria-label="Fermer">×</button></div><p>Choisissez une pièce et explorez ses détails, de face jusqu’au dos.</p><div class="cast-switch" role="group" aria-label="Palette des personnages"><button type="button" class="active" data-cast="w" aria-pressed="true">Camp clair</button><button type="button" data-cast="b" aria-pressed="false">Camp sombre</button></div><div class="piece-gallery"><div class="piece-stage" id="pieceStage" role="img" aria-label="Pièce à faire tourner sur 360 degrés" tabindex="0"><canvas class="piece-turntable" id="pieceTurntable" aria-hidden="true"></canvas><img id="pieceFallback" class="piece-fallback" src="assets/ramses.webp" alt="" hidden></div><div class="piece-details"><small id="pieceCamp">CAMP CLAIR · 01 / 07</small><h3 id="pieceName">Ramsès II</h3><p id="pieceRole">Souverain · Roi</p><span class="piece-instruction">Glissez horizontalement · Rotation animée à partir des huit vues · <b id="pieceViewName">Face</b></span><label for="pieceAngle">Angle de vue <output id="pieceAngleValue">0°</output></label><input id="pieceAngle" type="range" min="0" max="360" value="0"><label for="pieceZoom">Zoom de la pièce <output id="pieceZoomValue">100 %</output></label><input id="pieceZoom" type="range" min="80" max="230" value="100"><button id="pieceSpin" type="button" aria-pressed="false">Faire tourner automatiquement</button><p class="piece-note">Les vues originales sont conservées. Glissez pour parcourir tous les angles ou lancez la rotation automatique.</p></div></div><div class="cast-grid" id="castGrid" aria-label="Choisir une pièce"></div></dialog>
   <script src="app.js?v=20261106-history1"></script>
   <script type="module" src="turntable.js?v=20261106-multiview1"></script>
-  <script type="module" src="portal.js?v=20261106-3"></script>
+  <script type="module" src="portal.js?v=20261109-1"></script>
 </body>
 </html>

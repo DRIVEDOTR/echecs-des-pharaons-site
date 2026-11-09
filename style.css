@@ -109,6 +109,9 @@ dialog{background:#102b38;color:#f8e8c6;border-color:#bc8b4b}
 .player-names input{min-width:0;width:100%;padding:9px 10px;border:1px solid rgba(231,194,124,.43);border-radius:3px;background:#102c3a;color:#fff0d1;font-size:12px}
 .game-mode-section .help{min-height:0;margin-top:9px}
 @media(max-width:600px){
-  .scene-layer::after{content:"";position:absolute;inset:0;background-image:var(--scene-image);background-position:center;background-repeat:no-repeat;background-size:contain;pointer-events:none}
+  .scene-layer::after{content:none}
   .game-mode-section .segmented button{font-size:9px}
 }
+
+/* One continuous scene on Safari: never overlay contain over cover. */
+@media(max-width:700px){.world{height:76svh;min-height:560px;max-height:850px}.panorama{inset:0}.scene-layer{inset:-8%;background-size:cover;background-position:center}.landmark{top:115px;right:20px}.landmark strong{font-size:clamp(18px,5vw,25px)}.scene-bottom{bottom:20px}.scene-bottom p{max-width:225px}.world-navigation{top:max(14px,env(safe-area-inset-top));left:14px}.world-menu-toggle{max-width:180px}.top-actions{gap:8px}.topbar{padding:16px 14px!important}.explore-button{font-size:9px;padding:10px 8px}.icon-button{width:34px;height:34px}.panel{min-width:0}.player-names input{font-size:16px}input[type=search]{font-size:16px!important}}

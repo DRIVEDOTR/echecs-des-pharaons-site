@@ -1,0 +1,1044 @@
+{
+  "meta": {
+    "title": "Les visages du divin",
+    "note": "Les mythes expriment des croyances anciennes. Les fonctions, les formes et les parentés des dieux varient selon les lieux et les époques ; les illustrations sont des évocations artistiques, pas des restitutions certaines.",
+    "inputNote": "29 noms uniques relevés dans les photographies du guide fourni, enrichis de Neith, Thot et Bastet. Les confusions du guide (notamment Nout et Neith) ont été rectifiées.",
+    "sources": [
+      "https://www.metmuseum.org/pt/exhibitions/divine-egypt/inside-the-exhibition",
+      "https://egyptianmuseum.org/deities-overview"
+    ]
+  },
+  "gods": [
+    {
+      "id": "amon",
+      "name": "Amon",
+      "role": "Le dieu caché de Thèbes",
+      "group": "Pouvoir et protection",
+      "summary": "À Karnak, Amon devient le grand protecteur de la royauté. Son nom évoque ce qui est caché : une présence invisible que les processions rendent sensible au cœur de la ville.",
+      "facts": [
+        "Associé au soleil sous le nom d’Amon-Rê, il unit puissance créatrice invisible et lumière visible. Ce rapprochement ne fait pas disparaître ses autres formes.",
+        "Il forme avec Mout et leur fils Khonsou la triade thébaine. Leurs images sacrées voyagent entre Karnak et Louxor pendant les grandes fêtes.",
+        "Ses deux hautes plumes, son bélier et sa barque sont de précieux indices pour le reconnaître. Les oracles d’Amon jouent aussi un rôle politique."
+      ],
+      "attributes": [
+        "Deux hautes plumes",
+        "Bélier",
+        "Barque sacrée"
+      ],
+      "family": [
+        "mout",
+        "khonsou"
+      ],
+      "monuments": [
+        "karnak",
+        "luxor",
+        "hatshepsut"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-amun",
+        "https://egymonuments.gov.eg/archaeological-sites/karnak/"
+      ],
+      "aliases": [
+        "Amun",
+        "Amon-Rê"
+      ],
+      "image": "assets/history/gods/amon.jpg"
+    },
+    {
+      "id": "anubis",
+      "name": "Anubis",
+      "role": "Le gardien des passages",
+      "group": "Au-delà et renaissance",
+      "summary": "Anubis accompagne les morts vers une nouvelle existence. Son visage de canidé noir veille sur les nécropoles, les gestes de l’embaumement et l’intégrité du corps.",
+      "facts": [
+        "Sa couleur noire ne copie pas le pelage d’un animal : elle évoque aussi la terre fertile et la régénération.",
+        "Dans la pesée du cœur, il surveille la balance. Thot enregistre le résultat ; Osiris préside le monde des morts.",
+        "Le canidé couché sur une chapelle et l’homme à tête de canidé sont deux formes d’un même protecteur. À Deir el-Bahari, une chapelle lui est consacrée."
+      ],
+      "attributes": [
+        "Tête de canidé noir",
+        "Oreilles dressées",
+        "Balance"
+      ],
+      "family": [
+        "osiris",
+        "thot",
+        "maat"
+      ],
+      "monuments": [
+        "hatshepsut"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-Anubis",
+        "https://egymonuments.gov.eg/monuments/temple-of-hatshepsut/"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/anubis.jpg"
+    },
+    {
+      "id": "bastet",
+      "name": "Bastet",
+      "role": "La protection sous les traits du chat",
+      "group": "Pouvoir et protection",
+      "summary": "Bastet est célèbre pour sa silhouette féline, mais son histoire ne se résume pas aux chats. Elle conjugue protection, joie et puissance divine, avec des formes qui changent au fil des siècles.",
+      "facts": [
+        "Son grand centre de culte est Bubastis, dans le Delta. Les fêtes y attirent des fidèles venus honorer la déesse.",
+        "Elle peut apparaître comme une chatte ou comme une femme à tête de chat. Les images plus anciennes conservent aussi des traits de lionne.",
+        "Les amulettes félines recherchent sa protection. L’animal familier et la redoutable force solaire se rencontrent ainsi dans une même divinité."
+      ],
+      "attributes": [
+        "Chatte",
+        "Sistre",
+        "Tête féline"
+      ],
+      "family": [
+        "re",
+        "sekhmet"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://egyptianmuseum.org/deities-Bastet",
+        "https://egymonuments.gov.eg/en/monuments/the-temple-of-bastet/"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/bastet.jpg"
+    },
+    {
+      "id": "hathor",
+      "name": "Hathor",
+      "role": "La musique, la joie et l’accueil",
+      "group": "Vie et fécondité",
+      "summary": "Un visage doux, des cornes de vache et un disque solaire : Hathor invite à regarder l’Égypte par la musique, la fête et la tendresse. Mais elle protège aussi les morts et peut incarner une redoutable force solaire.",
+      "facts": [
+        "Son grand sanctuaire se trouve à Dendéra. À l’époque ptolémaïque, sa statue voyage vers Edfou pour retrouver Horus lors d’une fête rituelle.",
+        "Le sistre, instrument que l’on agite, rythme son culte. Ses prêtres et prêtresses associent musique et présence divine.",
+        "Elle prend plusieurs formes : femme, vache ou visage aux oreilles bovines. La couronne à cornes et disque solaire sera aussi portée par d’autres déesses, notamment Isis."
+      ],
+      "attributes": [
+        "Cornes de vache",
+        "Disque solaire",
+        "Sistre"
+      ],
+      "family": [
+        "horus",
+        "re",
+        "isis"
+      ],
+      "monuments": [
+        "dendera",
+        "edfu",
+        "abu-simbel"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-hathor",
+        "https://www.metmuseum.org/pt/exhibitions/divine-egypt/inside-the-exhibition"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/hathor.jpg"
+    },
+    {
+      "id": "horus",
+      "name": "Horus",
+      "role": "Le faucon de la royauté",
+      "group": "Pouvoir et protection",
+      "summary": "Le faucon Horus unit ciel et pouvoir royal. Le pharaon s’identifie à lui, tandis que les récits d’Isis, d’Osiris et de Seth donnent à sa royauté une histoire de succession et de légitimité.",
+      "facts": [
+        "Horus peut être un faucon, un homme à tête de faucon ou un enfant protégé par Isis. Ces images correspondent à des aspects différents.",
+        "L’œil oudjat, restauré après le conflit avec Seth, devient un signe de protection et d’intégrité.",
+        "À Edfou, son temple présente la royauté comme victoire de l’ordre sur les forces hostiles. À Kom Ombo, Haroëris, Horus l’Ancien, partage le sanctuaire avec Sobek."
+      ],
+      "attributes": [
+        "Faucon",
+        "Double couronne",
+        "Œil oudjat"
+      ],
+      "family": [
+        "isis",
+        "osiris",
+        "seth",
+        "hathor"
+      ],
+      "monuments": [
+        "edfu",
+        "kom-ombo"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-horus",
+        "https://egymonuments.gov.eg/monuments/edfu-temple/"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/horus.jpg"
+    },
+    {
+      "id": "isis",
+      "name": "Isis",
+      "role": "La magie qui protège et ranime",
+      "group": "Au-delà et renaissance",
+      "summary": "Isis cherche Osiris, protège Horus et déploie une magie qui répare. De l’Égypte à la Méditerranée romaine, son culte devient l’un des plus rayonnants du monde ancien.",
+      "facts": [
+        "Son nom égyptien, Aset, s’écrit avec le signe du trône, qu’elle porte souvent sur la tête. Elle emprunte aussi à Hathor les cornes et le disque solaire.",
+        "Avec Nephtys, elle protège le corps d’Osiris. Ses ailes déployées enveloppent les morts d’une présence bienveillante.",
+        "À Philae, son sanctuaire reste actif bien après la fin des dynasties pharaoniques. Le temple visible aujourd’hui a été déplacé sur l’île d’Agilkia pour être sauvé des eaux."
+      ],
+      "attributes": [
+        "Signe du trône",
+        "Ailes protectrices",
+        "Cornes et disque solaire"
+      ],
+      "family": [
+        "osiris",
+        "horus",
+        "nephtys"
+      ],
+      "monuments": [
+        "philae",
+        "abydos"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-isis",
+        "https://whc.unesco.org/en/list/88/"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/isis.jpg"
+    },
+    {
+      "id": "osiris",
+      "name": "Osiris",
+      "role": "Le souverain de l’au-delà",
+      "group": "Au-delà et renaissance",
+      "summary": "Osiris raconte la vie qui se relève après la mort. Assassiné par Seth et réanimé grâce à Isis, il règne sur l’au-delà plutôt que de reprendre le trône terrestre, transmis à Horus.",
+      "facts": [
+        "Sa silhouette enveloppée rappelle la momie ; sa peau verte ou noire évoque la régénération et la fertilité.",
+        "Abydos est l’un des grands lieux de son culte. Pèlerinages, stèles et rites y rapprochent les fidèles de son histoire.",
+        "Le pilier djed, associé à sa stabilité, et les figures de grains germés donnent une image concrète du renouveau. Les traditions varient : il n’existe pas un récit unique et immuable."
+      ],
+      "attributes": [
+        "Corps momiforme",
+        "Couronne atef",
+        "Crosse et flagellum",
+        "Pilier djed"
+      ],
+      "family": [
+        "isis",
+        "horus",
+        "seth",
+        "nephtys"
+      ],
+      "monuments": [
+        "abydos"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-osiris",
+        "https://www.metmuseum.org/art/collection/search/548279"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/osiris.jpg"
+    },
+    {
+      "id": "seth",
+      "name": "Seth",
+      "role": "La force indomptable",
+      "group": "Pouvoir et protection",
+      "summary": "Seth trouble les frontières : désert, tempêtes et violence lui appartiennent. Rival d’Horus et meurtrier d’Osiris dans un célèbre cycle de récits, il peut aussi défendre la barque solaire.",
+      "facts": [
+        "Son animal à long museau et oreilles dressées est un être composite. L’identifier simplement à un âne, comme le font certains guides, est trop réducteur.",
+        "Sur la barque de Rê, sa force peut servir à repousser Apophis. Un dieu dangereux n’est donc pas toujours un ennemi de l’ordre.",
+        "Les rois ramessides entretiennent des liens forts avec lui. Son statut change ensuite : à certaines époques, sa figure est davantage rejetée."
+      ],
+      "attributes": [
+        "Animal composite",
+        "Long museau courbé",
+        "Oreilles hautes"
+      ],
+      "family": [
+        "osiris",
+        "horus",
+        "nephtys",
+        "re"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://egyptianmuseum.org/deities-seth"
+      ],
+      "aliases": [
+        "Set"
+      ],
+      "image": "assets/history/gods/seth.jpg"
+    },
+    {
+      "id": "nephtys",
+      "name": "Nephtys",
+      "role": "L’autre aile protectrice",
+      "group": "Au-delà et renaissance",
+      "summary": "Près d’Isis, une seconde déesse veille sur les morts : Nephtys. Leur présence en miroir évoque la lamentation, la protection du corps et l’espoir d’une renaissance.",
+      "facts": [
+        "Fille de Geb et de Nout dans la tradition héliopolitaine, elle est la sœur d’Isis, d’Osiris et de Seth. Les parentés divines connaissent toutefois plusieurs versions.",
+        "Son nom signifie « maîtresse de la demeure ». Sa coiffe combine les signes de la maison et de la corbeille : c’est l’indice le plus sûr pour la distinguer d’Isis.",
+        "On la rencontre sur les cercueils et le mobilier funéraire. Avec Isis, Neith et Selkis, elle appartient aussi au groupe de déesses qui protègent les organes du défunt."
+      ],
+      "attributes": [
+        "Coiffe maison et corbeille",
+        "Ailes",
+        "Geste de lamentation"
+      ],
+      "family": [
+        "isis",
+        "osiris",
+        "seth",
+        "geb",
+        "nout"
+      ],
+      "monuments": [
+        "valley-kings"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-nephthys",
+        "https://globalegyptianmuseum.org/detail.aspx?id=4501"
+      ],
+      "aliases": [
+        "Nephthys"
+      ],
+      "image": "assets/history/gods/nephtys.jpg"
+    },
+    {
+      "id": "nout",
+      "name": "Nout",
+      "role": "Le ciel qui redonne naissance au soleil",
+      "group": "Soleil et création",
+      "summary": "Imaginez un corps étoilé formant une voûte au-dessus de la terre : c’est Nout. Chaque soir, selon les croyances, elle reçoit le soleil ; chaque matin, elle lui donne à nouveau naissance.",
+      "facts": [
+        "Chou sépare Nout de Geb et ouvre entre ciel et terre l’espace où la vie devient possible.",
+        "Son image couvre des plafonds et l’intérieur des cercueils. Être accueilli par Nout, c’est espérer renaître comme le soleil.",
+        "Elle est la mère d’Isis, d’Osiris, de Seth et de Nephtys dans une importante tradition. À Dendéra, les décors astronomiques donnent une place remarquable au ciel divinisé."
+      ],
+      "attributes": [
+        "Corps étoilé",
+        "Voûte céleste",
+        "Vase sur la tête dans certaines images"
+      ],
+      "family": [
+        "geb",
+        "chou",
+        "tefnout",
+        "isis",
+        "osiris",
+        "seth",
+        "nephtys"
+      ],
+      "monuments": [
+        "dendera"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-nut",
+        "https://www.globalegyptianmuseum.org/glossary.aspx?id=275"
+      ],
+      "aliases": [
+        "Nut"
+      ],
+      "image": "assets/history/gods/nout.jpg"
+    },
+    {
+      "id": "geb",
+      "name": "Geb",
+      "role": "La terre vivante",
+      "group": "Soleil et création",
+      "summary": "Sous la voûte de Nout s’étend Geb, la terre personnifiée. Dans les images de la création, le sol n’est pas une matière inerte : il est un dieu lié à la fécondité et à la royauté.",
+      "facts": [
+        "Il est le fils de Chou et de Tefnout dans la généalogie d’Héliopolis. Avec Nout, il engendre une nouvelle génération de dieux.",
+        "La séparation de Geb et de Nout par Chou explique, par le mythe, l’espace entre la terre et le ciel.",
+        "On le représente souvent allongé, parfois avec une oie associée à son nom. Les images varient : tous les dieux ne possèdent pas une apparence unique."
+      ],
+      "attributes": [
+        "Terre",
+        "Homme allongé",
+        "Oie"
+      ],
+      "family": [
+        "nout",
+        "chou",
+        "tefnout",
+        "osiris",
+        "isis"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://egyptianmuseum.org/deities-geb",
+        "https://globalegyptianmuseum.org/glossary.aspx?id=147"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/geb.jpg"
+    },
+    {
+      "id": "chou",
+      "name": "Chou",
+      "role": "Le souffle entre ciel et terre",
+      "group": "Soleil et création",
+      "summary": "Chou donne de l’espace au monde. Dressé entre Geb et Nout, il porte le ciel et personnifie l’air, le souffle et la lumière qui rendent le cosmos habitable.",
+      "facts": [
+        "Avec Tefnout, il forme le premier couple issu d’Atoum dans la tradition héliopolitaine. Leurs enfants sont Geb et Nout.",
+        "Une plume sur la tête et des bras levés sont ses signes habituels. Ils racontent une action : soutenir et séparer.",
+        "Le musée conserve aussi des images de Chou dans la barque solaire, auprès de Khépri, Tefnout, Thot et Isis. Les dieux agissent ensemble pour assurer le retour du jour."
+      ],
+      "attributes": [
+        "Plume",
+        "Bras soutenant le ciel",
+        "Air"
+      ],
+      "family": [
+        "atoum",
+        "tefnout",
+        "geb",
+        "nout"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://globalegyptianmuseum.org/glossary.aspx?id=147",
+        "https://www.metmuseum.org/art/collection/search/553484"
+      ],
+      "aliases": [
+        "Shou",
+        "Shu"
+      ],
+      "image": "assets/history/gods/chou.jpg"
+    },
+    {
+      "id": "tefnout",
+      "name": "Tefnout",
+      "role": "L’humidité et la puissance du regard solaire",
+      "group": "Soleil et création",
+      "summary": "Tefnout fait entrer l’humidité dans le monde, aux côtés de Chou, l’air. Sous ses traits de lionne, elle est aussi une puissance solaire qu’il faut apaiser.",
+      "facts": [
+        "Dans la généalogie d’Héliopolis, Atoum engendre Chou et Tefnout, puis viennent Geb et Nout. Cette famille explique la naissance progressive du monde.",
+        "Son visage de lionne et son disque solaire peuvent rappeler Sekhmet. Il faut lire les inscriptions et le contexte pour éviter les confusions.",
+        "Des récits de la « déesse lointaine » racontent son départ et son retour. Ce thème s’applique aussi à d’autres déesses : les traditions partagent et recomposent leurs histoires."
+      ],
+      "attributes": [
+        "Tête de lionne",
+        "Disque solaire",
+        "Humidité"
+      ],
+      "family": [
+        "atoum",
+        "chou",
+        "geb",
+        "nout"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.globalegyptianmuseum.org/glossary.aspx?id=369",
+        "https://www.metmuseum.org/art/collection/search/553484",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Assyria_to_Iberia_Art_and_Culture_in_the_Iron_Age.pdf"
+      ],
+      "aliases": [
+        "Tefnut"
+      ],
+      "image": "assets/history/gods/tefnout.jpg"
+    },
+    {
+      "id": "atoum",
+      "name": "Atoum",
+      "role": "Celui qui commence le monde",
+      "group": "Soleil et création",
+      "summary": "À Héliopolis, Atoum surgit des eaux primordiales. Seul au commencement, il ouvre une histoire divine qui mène à l’air, à l’humidité, au ciel, à la terre et aux grandes familles de dieux.",
+      "facts": [
+        "Son nom évoque l’achèvement ou la totalité. Il est associé à la création mais aussi au soleil qui se couche.",
+        "En homme, il porte souvent la double couronne. Il existe aussi sous des formes animales, signe de la richesse de ses fonctions.",
+        "La famille d’Atoum, de Chou et Tefnout jusqu’à Osiris et Isis, constitue l’Ennéade d’Héliopolis. Cette explication de l’origine du monde coexiste avec celles d’autres villes."
+      ],
+      "attributes": [
+        "Double couronne",
+        "Sceptre ouas",
+        "Soleil couchant"
+      ],
+      "family": [
+        "chou",
+        "tefnout",
+        "re"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/550792",
+        "https://globalegyptianmuseum.org/glossary.aspx?id=147"
+      ],
+      "aliases": [
+        "Atum"
+      ],
+      "image": "assets/history/gods/atoum.jpg"
+    },
+    {
+      "id": "re",
+      "name": "Rê",
+      "role": "Le soleil en voyage",
+      "group": "Soleil et création",
+      "summary": "Le soleil n’est jamais immobile dans la pensée égyptienne. Rê traverse le ciel, entre dans le monde nocturne et renaît : son voyage donne le rythme de la vie et l’espérance du renouveau.",
+      "facts": [
+        "Rê peut porter une tête de faucon couronnée d’un disque solaire. Il emprunte aussi d’autres formes selon les heures et les contextes.",
+        "Khépri exprime le soleil naissant ; Atoum est souvent lié au couchant. Ces images se complètent plutôt qu’elles ne se remplacent.",
+        "Amon-Rê ou Rê-Horakhty rapprochent plusieurs puissances divines. Ces associations montrent une religion capable de relier les dieux sans effacer leurs différences."
+      ],
+      "attributes": [
+        "Disque solaire",
+        "Tête de faucon",
+        "Barque solaire"
+      ],
+      "family": [
+        "khepri",
+        "atoum",
+        "amon",
+        "horus"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://egyptianmuseum.org/deities-ra",
+        "https://www.metmuseum.org/art/collection/search/546627"
+      ],
+      "aliases": [
+        "Ra",
+        "Ré"
+      ],
+      "image": "assets/history/gods/re.jpg"
+    },
+    {
+      "id": "aton",
+      "name": "Aton",
+      "role": "Le disque aux rayons vivifiants",
+      "group": "Soleil et création",
+      "summary": "Avec Akhenaton, le disque solaire Aton occupe le centre du culte royal. Ses rayons se terminent par de petites mains : la lumière est présentée comme une force qui donne la vie.",
+      "facts": [
+        "Aton était connu avant Akhenaton. Ce règne transforme sa place, son nom et son image, au point de lui consacrer une capitale, Akhetaton, aujourd’hui Amarna.",
+        "Les temples ouverts au ciel laissent entrer directement la lumière. Le roi et Néfertiti y occupent une place majeure comme médiateurs du culte.",
+        "La réforme ne dure pas. Sous Toutankhamon et ses successeurs, les cultes traditionnels reprennent leur place ; les traces d’Amarna sont ensuite en partie démontées ou effacées."
+      ],
+      "attributes": [
+        "Disque solaire",
+        "Rayons terminés par des mains",
+        "Ankh"
+      ],
+      "family": [
+        "re"
+      ],
+      "monuments": [
+        "amarna",
+        "karnak"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/fr/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c"
+      ],
+      "aliases": [
+        "Aten"
+      ],
+      "image": "assets/history/gods/aton.jpg"
+    },
+    {
+      "id": "khepri",
+      "name": "Khépri",
+      "role": "Le scarabée du matin",
+      "group": "Soleil et création",
+      "summary": "Le petit scarabée devient une image immense : Khépri exprime le soleil qui apparaît et la vie qui se renouvelle. Son nom joue avec l’idée de venir à l’existence.",
+      "facts": [
+        "Les Égyptiens observent le scarabée poussant une boule et y voient une analogie avec le mouvement solaire. Il s’agit d’une lecture religieuse de la nature.",
+        "L’insecte, ses ailes et le disque solaire permettent de le reconnaître. Il peut aussi être figuré comme un homme à tête de scarabée.",
+        "Porter une amulette scarabée, c’est rechercher protection et renouvellement. Tous les scarabées ne sont toutefois pas des images directes de Khépri : certains servent aussi de sceaux portant noms ou vœux."
+      ],
+      "attributes": [
+        "Scarabée",
+        "Soleil levant",
+        "Ailes"
+      ],
+      "family": [
+        "re",
+        "atoum"
+      ],
+      "monuments": [
+        "karnak"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/558714",
+        "https://www.metmuseum.org/art/collection/search/549258"
+      ],
+      "aliases": [
+        "Khepri"
+      ],
+      "image": "assets/history/gods/khepri.jpg"
+    },
+    {
+      "id": "ptah",
+      "name": "Ptah",
+      "role": "Créer par la pensée et la parole",
+      "group": "Soleil et création",
+      "summary": "À Memphis, Ptah est le créateur et le patron des artisans. Son univers relie le projet intérieur à l’objet réalisé : penser, nommer et façonner deviennent des gestes divins.",
+      "facts": [
+        "On le reconnaît à sa calotte ajustée, à son corps enveloppé et au sceptre qu’il tient devant lui.",
+        "Ptah, Sekhmet et Néfertoum forment la triade de Memphis. Leurs caractères réunissent création, puissance et renouvellement.",
+        "Le taureau Apis est lié à son culte. À Karnak, un petit temple de Ptah rappelle qu’un dieu peut être honoré bien au-delà de son grand centre d’origine."
+      ],
+      "attributes": [
+        "Calotte ajustée",
+        "Corps enveloppé",
+        "Sceptre composite"
+      ],
+      "family": [
+        "sekhmet",
+        "nefertoum"
+      ],
+      "monuments": [
+        "memphis",
+        "karnak"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-ptah",
+        "https://gem.eg/en/collection/artefacts/statue-of-god-ptah-king-ramesses-ii-and-sekhmet"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/ptah.jpg"
+    },
+    {
+      "id": "sekhmet",
+      "name": "Sekhmet",
+      "role": "La puissance qui peut aussi guérir",
+      "group": "Pouvoir et protection",
+      "summary": "La lionne Sekhmet incarne une énergie redoutable. Guerre, maladies et chaleur destructrice lui sont associées, mais une fois apaisée, la même force peut protéger et guérir.",
+      "facts": [
+        "Son nom signifie « la puissante ». Tête de lionne, disque solaire et cobra frontal composent son image la plus connue.",
+        "Amenhotep III commande un très grand ensemble de statues de Sekhmet. Beaucoup ont été retrouvées dans le sanctuaire de Mout à Karnak.",
+        "À Memphis, elle forme une triade avec Ptah et Néfertoum. Cette déesse ne se limite donc ni à la guerre ni à un seul lieu de culte."
+      ],
+      "attributes": [
+        "Tête de lionne",
+        "Disque solaire",
+        "Cobra protecteur"
+      ],
+      "family": [
+        "ptah",
+        "nefertoum",
+        "re",
+        "bastet"
+      ],
+      "monuments": [
+        "karnak",
+        "memphis"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-sekhmet",
+        "https://www.metmuseum.org/art/collection/search/549382"
+      ],
+      "aliases": [
+        "Sakhmet",
+        "Skhmet"
+      ],
+      "image": "assets/history/gods/sekhmet.jpg"
+    },
+    {
+      "id": "nefertoum",
+      "name": "Néfertoum",
+      "role": "Le parfum du lotus à l’aube",
+      "group": "Vie et fécondité",
+      "summary": "Une fleur s’ouvre, le soleil revient : Néfertoum unit le lotus, la jeunesse et les parfums agréables. Son élégante couronne florale raconte à elle seule le renouvellement de la vie.",
+      "facts": [
+        "À Memphis, il est le fils de Ptah et de Sekhmet. D’autres traditions lui attribuent une autre mère, rappelant la souplesse des familles divines.",
+        "Sa couronne réunit un lotus, deux hautes plumes et des éléments de collier menat. Ces détails le distinguent d’Amon, lui aussi coiffé de deux plumes.",
+        "À la Basse Époque, statuettes et amulettes diffusent particulièrement sa protection et sa valeur de bon augure. Son image raffinée cache aussi un aspect combattant."
+      ],
+      "attributes": [
+        "Lotus épanoui",
+        "Deux plumes",
+        "Colliers menat"
+      ],
+      "family": [
+        "ptah",
+        "sekhmet"
+      ],
+      "monuments": [
+        "memphis"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/570647",
+        "https://www.metmuseum.org/art/collection/search/545568"
+      ],
+      "aliases": [
+        "Nefertum",
+        "Nefertem"
+      ],
+      "image": "assets/history/gods/nefertoum.jpg"
+    },
+    {
+      "id": "mout",
+      "name": "Mout",
+      "role": "La mère divine de Thèbes",
+      "group": "Vie et fécondité",
+      "summary": "Son nom signifie « mère ». Mout protège les dieux, la royauté et les vivants. À Karnak, son domaine rappelle que les grandes déesses possèdent elles aussi leurs sanctuaires et leurs fêtes.",
+      "facts": [
+        "Avec Amon et Khonsou, elle forme la triade thébaine. Elle porte fréquemment la double couronne et une coiffe de vautour.",
+        "Son lac sacré, l’Isherou, accompagne son sanctuaire au sud du grand domaine d’Amon. Les processions y mettent la présence divine en mouvement.",
+        "Elle partage certains traits avec les puissantes déesses lionnes. Les nombreuses statues de Sekhmet découvertes dans son enceinte rendent ce lien visible."
+      ],
+      "attributes": [
+        "Double couronne",
+        "Coiffe de vautour",
+        "Lac Isherou"
+      ],
+      "family": [
+        "amon",
+        "khonsou",
+        "sekhmet"
+      ],
+      "monuments": [
+        "karnak",
+        "luxor"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/553454",
+        "https://www.metmuseum.org/art/collection/search/587591",
+        "https://www.metmuseum.org/art/collection/search/551039"
+      ],
+      "aliases": [
+        "Mut"
+      ],
+      "image": "assets/history/gods/mout.jpg"
+    },
+    {
+      "id": "khonsou",
+      "name": "Khonsou",
+      "role": "Le voyageur de la lune",
+      "group": "Pouvoir et protection",
+      "summary": "Quand le soleil disparaît, la lune continue son parcours. Khonsou, dont le nom évoque le voyage, protège Thèbes comme dieu lunaire, fils d’Amon et de Mout.",
+      "facts": [
+        "La lune pleine posée sur un croissant est son emblème. Une mèche latérale peut rappeler sa forme de jeune dieu.",
+        "Il apparaît tantôt en enfant momiforme, tantôt avec une tête de faucon. Le disque et le croissant permettent alors de ne pas le confondre avec Horus ou Rê.",
+        "Son temple de Karnak, largement construit sous Ramsès III, est un bel exemple de sanctuaire égyptien. Sa réputation comprend aussi des pouvoirs de guérison."
+      ],
+      "attributes": [
+        "Disque lunaire sur un croissant",
+        "Mèche de l’enfance",
+        "Corps momiforme"
+      ],
+      "family": [
+        "amon",
+        "mout"
+      ],
+      "monuments": [
+        "karnak"
+      ],
+      "sources": [
+        "https://egymonuments.gov.eg/monuments/khonsu-temple/",
+        "https://www.metmuseum.org/art/collection/search/553361"
+      ],
+      "aliases": [
+        "Khonsu",
+        "Khonsou"
+      ],
+      "image": "assets/history/gods/khonsou.jpg"
+    },
+    {
+      "id": "montou",
+      "name": "Montou",
+      "role": "Le faucon combattant de Thèbes",
+      "group": "Pouvoir et protection",
+      "summary": "Avant et aux côtés du rayonnement d’Amon, Montou affirme la force de la région thébaine. Ce dieu guerrier exprime une vigueur que les souverains cherchent à incarner.",
+      "facts": [
+        "Sa tête de faucon, son disque solaire et ses deux plumes composent une couronne très reconnaissable.",
+        "Il possède des sanctuaires dans plusieurs villes de la région de Thèbes, notamment Ermant et Médamoud. Karnak comprend également une enceinte qui lui est consacrée.",
+        "Les noms royaux Montouhotep signifient « Montou est satisfait ». Ils gardent la mémoire de l’importance politique et religieuse du dieu au Moyen Empire."
+      ],
+      "attributes": [
+        "Tête de faucon",
+        "Disque solaire",
+        "Deux plumes"
+      ],
+      "family": [],
+      "monuments": [
+        "karnak"
+      ],
+      "sources": [
+        "https://egymonuments.gov.eg/archaeological-sites/karnak/",
+        "https://www.metmuseum.org/art/collection/search/547694",
+        "https://www.ucl.ac.uk/museums-static/digitalegypt/religion/deitiesplaces.html"
+      ],
+      "aliases": [
+        "Montu",
+        "Monto"
+      ],
+      "image": "assets/history/gods/montou.jpg"
+    },
+    {
+      "id": "khnoum",
+      "name": "Khnoum",
+      "role": "Le potier de la vie",
+      "group": "Vie et fécondité",
+      "summary": "Khnoum façonne la vie comme un potier travaille l’argile. Ce dieu à tête de bélier est intimement lié à la région d’Assouan et aux eaux nourricières du Nil.",
+      "facts": [
+        "À Éléphantine, près de la première cataracte, son culte accompagne l’attention portée à la crue et aux frontières méridionales de l’Égypte.",
+        "Le bélier aux cornes caractéristiques et le tour de potier permettent de reconnaître son rôle créateur. Dans certains reliefs, il modèle le futur roi et son ka.",
+        "À Esna, le temple lui est consacré. Le monument conservé appartient surtout aux périodes ptolémaïque et romaine : l’âge du culte est bien plus ancien que celui des murs visibles."
+      ],
+      "attributes": [
+        "Tête de bélier",
+        "Tour de potier",
+        "Eaux du Nil"
+      ],
+      "family": [],
+      "monuments": [
+        "aswan",
+        "esna"
+      ],
+      "sources": [
+        "https://egymonuments.gov.eg/en/archaeological-sites/elephantine-1/",
+        "https://www.metmuseum.org/art/collection/search/655222",
+        "https://egymonuments.gov.eg/monuments/esna-temple/"
+      ],
+      "aliases": [
+        "Khnum"
+      ],
+      "image": "assets/history/gods/khnoum.jpg"
+    },
+    {
+      "id": "hapy",
+      "name": "Hâpy",
+      "role": "L’abondance apportée par la crue",
+      "group": "Vie et fécondité",
+      "summary": "Hâpy n’est pas simplement le fleuve : il personnifie surtout la crue bienfaisante qui nourrit l’Égypte. Son corps généreux et ses plantes évoquent une terre prête à produire.",
+      "facts": [
+        "Son ventre arrondi et sa poitrine soulignent l’abondance. Les plantes sur sa tête renvoient aux paysages nourris par le fleuve.",
+        "Deux figures de Hâpy peuvent nouer les plantes de Haute et de Basse Égypte autour du signe de l’union du pays : c’est le sema-taouy.",
+        "À Gebel el-Silsila, les rois dédient des stèles demandant une crue sûre et prospère. Ne pas le confondre avec Hâpy, fils d’Horus à tête de babouin, qui protège les poumons."
+      ],
+      "attributes": [
+        "Plantes aquatiques",
+        "Corps de fécondité",
+        "Offrandes abondantes"
+      ],
+      "family": [],
+      "monuments": [
+        "aswan"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/558695",
+        "https://egymonuments.gov.eg/monuments/nile-stelae-1/",
+        "https://www.metmuseum.org/art/collection/search/559936"
+      ],
+      "aliases": [
+        "Hapi",
+        "Hapy"
+      ],
+      "image": "assets/history/gods/hapy.jpg"
+    },
+    {
+      "id": "sobek",
+      "name": "Sobek",
+      "role": "La puissance du crocodile",
+      "group": "Vie et fécondité",
+      "summary": "Le crocodile inspire à la fois crainte et respect. Avec Sobek, cette force devient protectrice, royale et fécondante, liée aux eaux dont dépend le pays.",
+      "facts": [
+        "Il peut être un crocodile entier ou un homme à tête de crocodile. Son image n’a pas pour seul sens le danger : on sollicite aussi sa protection.",
+        "À Kom Ombo, son sanctuaire partage le temple avec Haroëris, Horus l’Ancien. L’architecture double rend ce partage visible.",
+        "Le Fayoum est un autre grand territoire de son culte. Les crocodiles momifiés témoignent de pratiques religieuses particulières, différentes du simple culte d’une statue."
+      ],
+      "attributes": [
+        "Crocodile",
+        "Disque solaire selon les formes",
+        "Eaux fécondantes"
+      ],
+      "family": [
+        "horus",
+        "neith"
+      ],
+      "monuments": [
+        "kom-ombo"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-sobek",
+        "https://www.metmuseum.org/art/collection/search/555607",
+        "https://egymonuments.gov.eg/monuments/kom-ombo-temple/"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/sobek.jpg"
+    },
+    {
+      "id": "min",
+      "name": "Min",
+      "role": "La fécondité en acte",
+      "group": "Vie et fécondité",
+      "summary": "Min personnifie la puissance de reproduction et la fécondité. Son image frontale et vigoureuse rappelle que la prospérité du pays dépend de la continuité de la vie et des récoltes.",
+      "facts": [
+        "Ses centres de culte comprennent Akhmim et Coptos. À Akhmim, des prêtres et des musiciens assurent son service pendant des siècles.",
+        "La représentation traditionnelle est ithyphallique, avec un bras levé et deux plumes. Ce langage religieux affirme la force créatrice ; ce n’est pas un portrait de la vie quotidienne.",
+        "À Louxor, Amon peut se manifester sous un aspect lié à Min. Les cultes se rapprochent pour exprimer la régénération royale et agricole."
+      ],
+      "attributes": [
+        "Deux plumes",
+        "Bras levé",
+        "Puissance fécondante"
+      ],
+      "family": [
+        "amon"
+      ],
+      "monuments": [
+        "luxor"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/es/perspectives/nesmin",
+        "https://egymonuments.gov.eg/en/events/avenue-of-sphinxes-reopening-ceremony-on-25-november-2021/"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/min.jpg"
+    },
+    {
+      "id": "sokar",
+      "name": "Sokar",
+      "role": "Le silence fertile des nécropoles",
+      "group": "Au-delà et renaissance",
+      "summary": "Sokar veille sur la région funéraire de Memphis. Sous la forme d’un faucon ou d’un être momiforme, il rapproche le monde souterrain de la promesse d’un nouveau départ.",
+      "facts": [
+        "Son culte est étroitement lié aux nécropoles memphites. Sa barque sacrée, la hénou, constitue un emblème important de ses fêtes.",
+        "Il s’associe à Ptah et à Osiris dans la forme Ptah-Sokar-Osiris. Cette combinaison réunit création, mort et renaissance.",
+        "Des statuettes funéraires de cette forme divine accompagnent les défunts. Certaines bases renferment du matériel destiné aux rites ou à la protection de l’au-delà."
+      ],
+      "attributes": [
+        "Faucon",
+        "Corps momiforme",
+        "Barque hénou"
+      ],
+      "family": [
+        "ptah",
+        "osiris"
+      ],
+      "monuments": [
+        "memphis",
+        "saqqara"
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/548279",
+        "https://www.metmuseum.org/art/collection/search/551504",
+        "https://www.metmuseum.org/art/collection/search/550805"
+      ],
+      "aliases": [
+        "Seker"
+      ],
+      "image": "assets/history/gods/sokar.jpg"
+    },
+    {
+      "id": "maat",
+      "name": "Maât",
+      "role": "La justesse du monde",
+      "group": "Pouvoir et protection",
+      "summary": "Maât est une déesse, mais aussi une idée qui organise toute la société : vérité, justice, équilibre et ordre. Le roi doit la maintenir ; chacun est concerné par la manière juste de vivre.",
+      "facts": [
+        "Sa plume d’autruche sert d’emblème. Dans la scène du jugement, le cœur du défunt est comparé à cette plume.",
+        "Offrir une petite image de Maât aux dieux signifie symboliquement leur présenter un monde remis en ordre.",
+        "La balance ne raconte pas une mesure scientifique de l’âme : elle donne une forme visuelle à l’examen moral du défunt et à l’espoir d’être reconnu juste."
+      ],
+      "attributes": [
+        "Plume d’autruche",
+        "Balance",
+        "Ailes dans certaines images"
+      ],
+      "family": [
+        "re",
+        "thot",
+        "anubis"
+      ],
+      "monuments": [
+        "valley-kings"
+      ],
+      "sources": [
+        "https://egyptianmuseum.org/deities-Maat"
+      ],
+      "aliases": [
+        "Maat"
+      ],
+      "image": "assets/history/gods/maat.jpg"
+    },
+    {
+      "id": "neith",
+      "name": "Neith",
+      "role": "La créatrice aux armes protectrices",
+      "group": "Pouvoir et protection",
+      "summary": "Très ancienne déesse, Neith protège autant qu’elle combat. Son culte relie la création, le tissage, la chasse et la garde des morts, avec un grand ancrage à Saïs dans le Delta.",
+      "facts": [
+        "La couronne rouge de Basse Égypte, l’arc et les flèches sont ses principaux indices. Ils la distinguent nettement de Nout, déesse du ciel.",
+        "Dans certaines traditions, elle est mère de Rê ou de Sobek. Ces parentés expriment une puissance créatrice plutôt qu’une généalogie unique.",
+        "Avec Isis, Nephtys et Selkis, elle protège les morts et les organes conservés. Le tissu et les armes deviennent deux façons de préserver l’intégrité du défunt."
+      ],
+      "attributes": [
+        "Couronne rouge",
+        "Arc et flèches",
+        "Bouclier avec arcs croisés"
+      ],
+      "family": [
+        "re",
+        "sobek",
+        "isis",
+        "nephtys"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://egyptianmuseum.org/deities-neith",
+        "https://www.metmuseum.org/art/collection/search/558714",
+        "https://globalegyptianmuseum.org/detail.aspx?id=4501"
+      ],
+      "aliases": [],
+      "image": "assets/history/gods/neith.jpg"
+    },
+    {
+      "id": "thoueris",
+      "name": "Thouéris",
+      "role": "La protectrice des naissances",
+      "group": "Vie et fécondité",
+      "summary": "Son allure est impressionnante pour une bonne raison : Thouéris rassemble des forces animales capables d’écarter le danger. Elle veille particulièrement sur les femmes enceintes, l’accouchement et les enfants.",
+      "facts": [
+        "Elle mêle des caractères d’hippopotame, de lion, de crocodile et d’être humain. Son ventre arrondi évoque la grossesse.",
+        "Souvent, elle prend appui sur le signe sa, symbole de protection. Son image figure sur des objets de la vie domestique, pas seulement dans les grands temples.",
+        "La naissance et la renaissance se répondent : elle peut aussi protéger les morts qui espèrent une nouvelle vie. Son nom égyptien Taouret signifie « la grande »."
+      ],
+      "attributes": [
+        "Hippopotame dressé",
+        "Ventre de grossesse",
+        "Signe sa"
+      ],
+      "family": [],
+      "monuments": [],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/545344",
+        "https://www.metmuseum.org/art/collection/search/544499"
+      ],
+      "aliases": [
+        "Taweret",
+        "Taouret",
+        "Tawert"
+      ],
+      "image": "assets/history/gods/thoueris.jpg"
+    },
+    {
+      "id": "thot",
+      "name": "Thot",
+      "role": "Le scribe des dieux",
+      "group": "Pouvoir et protection",
+      "summary": "Thot donne une forme au savoir : il écrit, compte, mesure et garde la mémoire. Son ibis ou son babouin accompagnent le monde des scribes, la lune et les décisions des dieux.",
+      "facts": [
+        "Dans la pesée du cœur, il note le résultat. L’écriture ne sert pas seulement à raconter : elle garantit que le jugement soit conservé.",
+        "Il est lié aux textes sacrés, au calendrier et au calcul du temps. La lune, qui change régulièrement de forme, lui offre un puissant symbole de mesure.",
+        "Son grand centre de culte est Hermopolis, aujourd’hui el-Achmounein. Les traditions lui attribuent aussi des pouvoirs de guérison et de médiation."
+      ],
+      "attributes": [
+        "Ibis",
+        "Babouin",
+        "Palette et calame",
+        "Lune"
+      ],
+      "family": [
+        "maat",
+        "re"
+      ],
+      "monuments": [],
+      "sources": [
+        "https://egyptianmuseum.org/deities-thoth",
+        "https://www.metmuseum.org/pt/exhibitions/divine-egypt/inside-the-exhibition"
+      ],
+      "aliases": [
+        "Thoth",
+        "Djehouty"
+      ],
+      "image": "assets/history/gods/thot.jpg"
+    }
+  ]
+}

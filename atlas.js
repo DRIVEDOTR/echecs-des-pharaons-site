@@ -14,11 +14,11 @@ export function paintAtlas(svg,geo,monuments,escape,project,labels){
  <rect width="800" height="900" fill="url(#atlas-sea)"/>
  <path class="atlas-coast-depth" d="${geo.landPath}"/>
  <g clip-path="url(#atlas-land-clip)"><rect width="800" height="900" fill="#927344"/><image class="atlas-relief-image" href="assets/history/atlas-relief-v2.jpg" x="0" y="0" width="800" height="900" preserveAspectRatio="none"/><image id="atlas-regional-relief" class="atlas-relief-image" href="assets/history/atlas-thebes-detail.jpg" x="0" y="0" width="0" height="0" preserveAspectRatio="none"/><rect width="800" height="900" fill="url(#atlas-dusk)"/>
- <path class="atlas-delta-land" d="M${project(31.15,30.13).join(',')} L${project(30.35,31.45).join(',')} Q${project(31.1,31.75).join(',')} ${project(31.95,31.45).join(',')} Z"/>
- <path class="atlas-valley" d="${geo.nilePath} ${geo.deltaPath}"/>
+
+ <path class="atlas-valley" d="${geo.nilePath}"/>
  </g>
  <path class="atlas-shoreline" d="${geo.landPath}"/>
- <path class="atlas-river-bank" d="${geo.nilePath} ${geo.deltaPath}"/>
+ <path class="atlas-river-bank" d="${geo.nilePath}"/>
  <path class="atlas-river" d="${geo.nilePath}"/>
  <path class="atlas-delta-river" d="${geo.deltaPath}"/>
  ${grid.join('')}
