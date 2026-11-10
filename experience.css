@@ -1,0 +1,98 @@
+/* The landscape continues behind the controls; text gets its own restrained contrast. */
+#historyView[data-mode=timeline] .history-topline,#historyView[data-mode=timeline] .history-toolbar,#historyView[data-mode=timeline] .journey-controls,#historyView[data-mode=timeline] .chapter-heading,#historyView[data-mode=timeline] .timeline-footer{background:transparent;backdrop-filter:none}
+.history-open .world-menu-toggle{background:#173f4b38;backdrop-filter:none}
+#timelinePane .ruler-card{background:#fff5de36;backdrop-filter:none;border-color:#fff2ce80;box-shadow:0 4px 15px #30251524}
+#timelinePane .ruler-card>strong{color:#123e7b;font-weight:750;font-size:15px;line-height:1.28;min-height:44px;padding:8px 10px 3px;background:#fff7e4c9;text-shadow:none;overflow-wrap:anywhere}
+#timelinePane .ruler-card>small{color:#364e57;background:#fff7e4c9;font-size:9px;line-height:1.4;padding:0 10px 9px;flex:1}
+#timelinePane .modern-portrait{height:126px;min-height:126px;max-height:126px;display:flex;flex-direction:column;gap:9px;justify-content:center;padding:12px;overflow:hidden;aspect-ratio:auto;background:linear-gradient(135deg,#f7edcc8c,#e5cf9b75);color:#143d67}
+#timelinePane .modern-portrait>span{font-size:7px;line-height:1.3;color:#53675f;flex:none}
+#timelinePane .modern-portrait>strong{font:700 14px/1.28 Cinzel,Georgia,serif!important;min-height:0!important;padding:0!important;margin:0!important;color:#174576!important;overflow-wrap:anywhere;white-space:normal;flex:none;text-align:center}
+#timelinePane .dynasty-caption{height:auto;min-height:39px;align-items:start;padding:2px 13px 5px 0;gap:12px}
+#timelinePane .dynasty-caption>div{display:flex;flex-direction:column;gap:3px;min-width:0}
+#timelinePane .dynasty-caption strong{line-height:1.3;white-space:normal}
+#timelinePane .dynasty-caption small{position:static;line-height:1.3;white-space:normal}
+#timelinePane .dynasty-chapter:after{top:48px}
+#timelinePane .dynasty-figures{padding-top:11px;align-items:stretch}
+#timelinePane .chapter-intro{background:#fff3d456;backdrop-filter:none;color:#23424b;text-shadow:0 1px 3px #fff4d3}
+.ancient-name-panel{margin:22px 0;padding:20px;border:1px solid #d7b57770;border-radius:7px;background:#fcf1d8;color:#254957}
+.history-detail-content .ancient-name-panel>.history-kicker{color:#78572e}
+.ancient-name-list{display:flex;flex-wrap:wrap;gap:18px;align-items:start;margin-top:13px}
+.ancient-name-list figure{display:flex;align-items:center;gap:19px;flex:1;min-width:200px;margin:0}
+.ancient-name-list svg{display:block;width:94px;min-width:94px;height:210px}
+.ancient-name-list figcaption{display:flex;flex-direction:column;gap:9px;font:11px/1.6 'DM Sans',Arial,sans-serif}
+.ancient-name-list figcaption b{color:#184679;font-weight:700}
+.ancient-name-list figcaption em{font-style:normal;color:#9a5631;font-size:15px}
+.ancient-name-panel>p,.ancient-name-panel .source-disclosure p{font-size:10px;line-height:1.7;color:#687163;margin:13px 0 0}
+.ancient-name-panel .source-disclosure{margin:12px 0 0;padding-top:9px;color:#795e32}
+.ancient-name-panel .source-disclosure a{display:inline-block;color:#24526a;font-size:10px;margin:8px 8px 0 0}
+.scribe-workshop{grid-template-columns:minmax(235px,.68fr) minmax(0,1.85fr);gap:25px;align-items:start}
+.scribe-controls{background:#fffaeddf;gap:14px;margin:0}
+.scribe-controls input,.scribe-controls select{width:100%;box-sizing:border-box}
+.scribe-phonetics{border-top:1px solid #b6955c55;padding-top:12px;font-size:11px;line-height:1.7;color:#617267}
+.scribe-phonetics summary{cursor:pointer;color:#806137;margin-bottom:12px}
+.scribe-phonetics .field-label{margin:12px 0}
+.scribe-phonetics p{font-size:11px;line-height:1.75}
+.scribe-actions{display:grid;gap:8px;margin-top:4px}
+.scribe-actions .secondary{background:#f9edcf;color:#215069;border-color:#b99860}
+.scribe-artwork{min-width:0;position:sticky;top:20px}
+#papyrusPreview.papyrus-preview{display:block;padding:0;min-height:0;aspect-ratio:1.5;background:#fff7e1;border-radius:4px;overflow:hidden;box-shadow:0 13px 32px #66533724}
+#papyrusPreview>svg{display:block;width:100%;height:auto}
+.scribe-scene-context{padding:21px 4px 0}
+.scribe-scene-context>p{font-size:12px;line-height:1.85;color:#546e65;margin:10px 0}
+.scribe-scene-context .source-disclosure{margin-top:12px}
+.scribe-token-heading{margin:30px 0 14px}
+.scribe-token-heading h3{font-size:21px;color:#224d62;margin:0 0 9px}
+.scribe-token-heading p{font-size:12px;color:#637669;line-height:1.75;max-width:700px}
+.scribe-breakdown{display:block}
+.scribe-breakdown>section{margin:15px 0}
+.scribe-breakdown h4{font:700 14px Cinzel,Georgia,serif;color:#1c4980;margin:0 0 12px}
+.scribe-breakdown section>div{display:flex;flex-wrap:wrap;gap:8px}
+.scribe-breakdown section>div>span{display:flex;align-items:center;flex-direction:column;gap:7px;border:1px solid #c5a86b66;background:#fff9e7;padding:8px;border-radius:5px;min-width:60px}
+.scribe-breakdown small{font-size:11px;color:#785b35}
+.sign-grid>div>svg{display:block;width:min(100%,70px);height:70px;margin-bottom:6px}
+.papyrus-print-frame{position:fixed;width:1px;height:1px;left:-9999px;border:0;top:0}
+.giza-orbit{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.giza-orbit>canvas{display:block;width:100%;height:100%;mask-image:linear-gradient(#000 0%,#000 68%,#0009 90%,#0006 100%)}
+.giza-monument-label{position:absolute;left:0;top:0;display:block;border:1px solid #f3da9a80;border-radius:3px;padding:4px 7px;background:#254c5c9c;color:#fff0cf;font:11px/1.3 'DM Sans',Arial,sans-serif;white-space:nowrap;text-shadow:0 1px 3px #213c3c}
+.panorama-views{right:24px;bottom:41px;background:#24495844;backdrop-filter:none;max-width:calc(100% - 48px)}
+.panorama-tools{position:absolute;right:24px;bottom:9px;display:flex;gap:13px;align-items:center;font:10px 'DM Sans',Arial,sans-serif;color:#fff0d0;text-shadow:0 1px 4px #324a51}
+.panorama-tools>label{display:flex;align-items:center;gap:8px}
+.panorama-tools input{width:85px;accent-color:#f5dfa7;min-height:25px}
+.panorama-about summary{font-size:9px;cursor:pointer;min-height:25px;display:flex;align-items:center}
+.panorama-about[open]{position:absolute;bottom:0;right:0;width:min(390px,calc(100vw - 48px));padding:18px;background:#fcf3df;border:1px solid #ac8e57;border-radius:6px;z-index:9;text-shadow:none;color:#33505b;box-shadow:0 8px 30px #1c343b44}
+.panorama-about[open] summary{font-size:11px;font-weight:700;color:#7a572f}
+.panorama-about p{font-size:11px;line-height:1.8;margin:10px 0 0}
+.panorama-about a{color:#1e537c;text-underline-offset:3px}
+.panorama-caption{bottom:40px;left:26px}
+#panoramaStatus{position:absolute;left:26px;bottom:10px;color:#f7e7c8;text-shadow:0 1px 4px #2a424c;font-size:9px;max-width:45%;line-height:1.4}
+.history-world .world-art-box{mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+#gizaPanorama{mask-image:linear-gradient(180deg,transparent,#000 8%,#000 88%,transparent);will-change:transform}
+#historyView.landscape-focused .journey-controls,#historyView.landscape-focused #timelinePane>.chapter-heading,#historyView.landscape-focused .timeline-wrap{position:absolute;left:0;right:0;bottom:45px;visibility:hidden;pointer-events:none}
+#historyView.landscape-focused .history-hero{display:none}
+#historyView.landscape-focused .panorama-window{min-height:200px}
+#historyView.landscape-focused .panorama-caption{bottom:84px}
+#historyView.landscape-focused .panorama-views{bottom:48px}
+#historyView.landscape-focused #panoramaStatus{max-width:45%}
+@media(max-width:700px){.panorama-views{left:16px;right:auto;bottom:40px;max-width:calc(100% - 32px)}.panorama-views button{font-size:9px!important;padding:6px 8px}.panorama-tools{right:16px;bottom:4px;gap:10px}.panorama-tools input{width:63px}.panorama-tools label{font-size:9px}.panorama-about summary{font-size:8px}.panorama-caption{left:16px;bottom:88px}.panorama-caption>small{display:block;font-size:9px}#panoramaStatus{left:16px;bottom:10px;font-size:8px;max-width:38%}.giza-monument-label{font-size:9px;padding:3px 5px}.panorama-about[open]{width:calc(100vw - 64px);right:0}.panorama-window{min-height:220px}}
+@media(min-width:1500px){.scribe-workshop{grid-template-columns:290px minmax(0,1fr);gap:35px}}
+@media(max-width:900px){.scribe-workshop{grid-template-columns:minmax(215px,.8fr) minmax(0,1.3fr);gap:16px}.scribe-controls{padding:18px}.scribe-scene-context>p{font-size:11px}}
+@media(max-width:700px){#timelinePane .ruler-card>strong{font-size:14px;min-height:43px}#timelinePane .ruler-card>small{font-size:8px;line-height:1.5}#timelinePane .modern-portrait{height:116px;min-height:116px;max-height:116px}#timelinePane .modern-portrait>strong{font-size:13px!important;line-height:1.25!important}#timelinePane .dynasty-caption strong{font-size:13px}#timelinePane .dynasty-caption small{font-size:8px}.scribe-workshop{display:flex;flex-direction:column}.scribe-artwork{position:static;width:100%}.scribe-controls{width:100%;box-sizing:border-box}.scribe-artwork{order:-1}.scribe-scene-context{padding-top:17px}.scribe-scene-context>p{font-size:12px}.scribe-breakdown section>div>span{min-width:46px;padding:7px}.scribe-breakdown svg{width:47px;height:47px}.ancient-name-panel{padding:16px}.ancient-name-list figure{min-width:170px;gap:14px}.ancient-name-list svg{width:80px;min-width:80px;height:178px}.ancient-name-list figcaption{font-size:10px}.ancient-name-list figcaption em{font-size:14px}}
+/* Data-derived hydrography; no invented connectors between mapped canal fragments. */
+.map-basemap-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0 18px;color:#657366;font-size:10px}
+.map-basemap-tools button{background:#fff8e7;color:#2c535b;border:1px solid #b59b6655;border-radius:4px;padding:9px 12px;font-size:11px!important;min-height:36px}
+.map-basemap-tools button[aria-pressed=true]{background:#285764;color:#fff1cd;border-color:#285764}
+.map-basemap-tools button:disabled{opacity:.45;cursor:default}.map-basemap-tools>span{line-height:1.65;max-width:530px;margin-left:6px}
+.hydro-pump{fill:#e0b452;stroke:#174e67;stroke-width:1;vector-effect:non-scaling-stroke}
+.atlas-data-credit{position:absolute;z-index:3;right:8px;bottom:5px;font:7px/1.3 Arial,sans-serif;color:#284c5b;padding:2px 4px;background:#fff2dacc;border-radius:2px}
+.atlas-data-credit a{color:#284c5b;text-decoration:none}.atlas-data-credit a:hover{text-decoration:underline}
+#historyView[data-basemap=satellite] #egyptMap .map-label{fill:#fff5d2;stroke:#193943}
+#historyView[data-basemap=satellite] #egyptMap .map-region-label{fill:#ead9b0;stroke:#18333c;opacity:.8}
+#historyView[data-basemap=satellite] .atlas-river,#historyView[data-basemap=satellite] .hydro-river{stroke:#8cd6df}
+#historyView[data-basemap=satellite] .hydro-canal{stroke:#f6de91}
+#historyView[data-basemap=satellite] .hydro-label{fill:#fff5d2;stroke:#173a49}
+#timelinePane .dynasty-chapter:after{display:none}
+#timelinePane .dynasty-caption{border-bottom:1px solid #f5dfab80}
+@media(max-width:700px){.map-basemap-tools>span{width:100%;margin:4px 0 0;font-size:10px}.atlas-data-credit{font-size:6px;right:5px;bottom:4px}.map-basemap-tools button{font-size:10px!important}}
+@media(min-width:701px){.history-detail-portrait{position:sticky;top:0;align-self:start;min-height:0;display:block}.history-detail-portrait>img{position:static;display:block;width:100%;height:auto;max-height:76svh;object-fit:contain}.history-portrait-caption{position:static;display:block;padding:15px 12px;background:#0d2938;line-height:1.7}}
+/* Keep the range endpoints exact; native chapter snapping otherwise stops short of 270°. */
+#timelinePane .timeline-scroll{scroll-snap-type:none;scroll-behavior:auto}

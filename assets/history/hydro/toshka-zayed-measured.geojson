@@ -1,0 +1,1023 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "osm-way-93927222",
+      "properties": {
+        "name": "Sheikh Zayed canal",
+        "osmType": "way",
+        "osmId": 93927222,
+        "osmTags": {
+          "name": "Sheikh Zayed canal",
+          "waterway": "canal"
+        },
+        "source": "https://www.openstreetmap.org/way/93927222",
+        "license": "ODbL1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "geometryStatus": "mapped coordinates, no added segments",
+        "identitySource": "https://eros.usgs.gov/earthshots/pumping-station",
+        "identityVerified": "Toshka network west ofLakeNasser, namedSheikhZayed. Not northcoast homonym.",
+        "note": "Réseaupartiel:seulslestronçonscartographiésnomméssontinclus, pasdinterpolationentreextrémitésnonjointives."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.4030288,
+            22.8101946
+          ],
+          [
+            31.4004511,
+            22.8074178
+          ],
+          [
+            31.3988942,
+            22.805936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-way-93927226",
+      "properties": {
+        "name": "Sheikh Zayed canal",
+        "osmType": "way",
+        "osmId": 93927226,
+        "osmTags": {
+          "layer": "-1",
+          "name": "Sheikh Zayed canal",
+          "tunnel": "culvert",
+          "waterway": "canal",
+          "width": "50"
+        },
+        "source": "https://www.openstreetmap.org/way/93927226",
+        "license": "ODbL1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "geometryStatus": "mapped coordinates, no added segments",
+        "identitySource": "https://eros.usgs.gov/earthshots/pumping-station",
+        "identityVerified": "Toshka network west ofLakeNasser, namedSheikhZayed. Not northcoast homonym.",
+        "note": "Réseaupartiel:seulslestronçonscartographiésnomméssontinclus, pasdinterpolationentreextrémitésnonjointives."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.4080569,
+            22.8153342
+          ],
+          [
+            31.4030288,
+            22.8101946
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-way-93927244",
+      "properties": {
+        "name": "Sheikh Zayed canal (Branch 4)",
+        "osmType": "way",
+        "osmId": 93927244,
+        "osmTags": {
+          "name": "Sheikh Zayed canal (Branch 4)",
+          "waterway": "canal",
+          "width": "40"
+        },
+        "source": "https://www.openstreetmap.org/way/93927244",
+        "license": "ODbL1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "geometryStatus": "mapped coordinates, no added segments",
+        "identitySource": "https://eros.usgs.gov/earthshots/pumping-station",
+        "identityVerified": "Toshka network west ofLakeNasser, namedSheikhZayed. Not northcoast homonym.",
+        "note": "Réseaupartiel:seulslestronçonscartographiésnomméssontinclus, pasdinterpolationentreextrémitésnonjointives."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.3943541,
+            22.8011794
+          ],
+          [
+            31.3909514,
+            22.8021463
+          ],
+          [
+            31.3715663,
+            22.8082702
+          ],
+          [
+            31.3463939,
+            22.8160804
+          ],
+          [
+            31.3450847,
+            22.8166045
+          ],
+          [
+            31.3440144,
+            22.8171452
+          ],
+          [
+            31.3431801,
+            22.8177664
+          ],
+          [
+            31.3422864,
+            22.818579
+          ],
+          [
+            31.3414474,
+            22.8196389
+          ],
+          [
+            31.3409005,
+            22.8204751
+          ],
+          [
+            31.3358217,
+            22.8314436
+          ],
+          [
+            31.3350681,
+            22.8327286
+          ],
+          [
+            31.334136,
+            22.8339193
+          ],
+          [
+            31.3326439,
+            22.8351325
+          ],
+          [
+            31.3309755,
+            22.8360376
+          ],
+          [
+            31.3288935,
+            22.8366545
+          ],
+          [
+            31.3208286,
+            22.8381964
+          ],
+          [
+            31.3192252,
+            22.8386875
+          ],
+          [
+            31.3176184,
+            22.8396137
+          ],
+          [
+            31.3158703,
+            22.8409913
+          ],
+          [
+            31.3105091,
+            22.8462078
+          ],
+          [
+            31.3091051,
+            22.8471068
+          ],
+          [
+            31.3075692,
+            22.8477141
+          ],
+          [
+            31.3057461,
+            22.8481683
+          ],
+          [
+            31.3032795,
+            22.8481732
+          ],
+          [
+            31.3022033,
+            22.8480449
+          ],
+          [
+            31.2530383,
+            22.8421842
+          ],
+          [
+            31.2507347,
+            22.8417465
+          ],
+          [
+            31.2480873,
+            22.8408772
+          ],
+          [
+            31.2442801,
+            22.8391048
+          ],
+          [
+            31.1992491,
+            22.8189548
+          ],
+          [
+            31.1657271,
+            22.8037291
+          ],
+          [
+            31.1640247,
+            22.8026545
+          ],
+          [
+            31.1623862,
+            22.8012075
+          ],
+          [
+            31.1406296,
+            22.7808118
+          ],
+          [
+            31.140409,
+            22.7805972
+          ],
+          [
+            31.1323628,
+            22.772769
+          ],
+          [
+            31.1198951,
+            22.7606884
+          ],
+          [
+            31.1179213,
+            22.7584348
+          ],
+          [
+            31.1168,
+            22.7564615
+          ],
+          [
+            31.1163844,
+            22.7540311
+          ],
+          [
+            31.1147147,
+            22.7388223
+          ],
+          [
+            31.1116862,
+            22.7091259
+          ],
+          [
+            31.109365,
+            22.6879688
+          ],
+          [
+            31.1090053,
+            22.6846903
+          ],
+          [
+            31.1090177,
+            22.6831804
+          ],
+          [
+            31.1092463,
+            22.6808211
+          ],
+          [
+            31.1113885,
+            22.6691289
+          ],
+          [
+            31.113625,
+            22.6569214
+          ],
+          [
+            31.1188633,
+            22.6274654
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-way-93929094",
+      "properties": {
+        "name": "Sheikh Zayed canal",
+        "osmType": "way",
+        "osmId": 93929094,
+        "osmTags": {
+          "name": "Sheikh Zayed canal",
+          "waterway": "canal",
+          "width": "50"
+        },
+        "source": "https://www.openstreetmap.org/way/93929094",
+        "license": "ODbL1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "geometryStatus": "mapped coordinates, no added segments",
+        "identitySource": "https://eros.usgs.gov/earthshots/pumping-station",
+        "identityVerified": "Toshka network west ofLakeNasser, namedSheikhZayed. Not northcoast homonym.",
+        "note": "Réseaupartiel:seulslestronçonscartographiésnomméssontinclus, pasdinterpolationentreextrémitésnonjointives."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.8563129,
+            22.6382493
+          ],
+          [
+            31.8549507,
+            22.6390122
+          ],
+          [
+            31.848988,
+            22.6424626
+          ],
+          [
+            31.8446767,
+            22.6447865
+          ],
+          [
+            31.8426919,
+            22.6459487
+          ],
+          [
+            31.841438,
+            22.6466071
+          ],
+          [
+            31.8405341,
+            22.6469635
+          ],
+          [
+            31.8392909,
+            22.6473114
+          ],
+          [
+            31.8355197,
+            22.647908
+          ],
+          [
+            31.8304632,
+            22.6486958
+          ],
+          [
+            31.829657,
+            22.6489272
+          ],
+          [
+            31.8285867,
+            22.6493283
+          ],
+          [
+            31.8175146,
+            22.6539852
+          ],
+          [
+            31.8167063,
+            22.6545729
+          ],
+          [
+            31.809627,
+            22.6621005
+          ],
+          [
+            31.8075448,
+            22.6642479
+          ],
+          [
+            31.8056096,
+            22.6658528
+          ],
+          [
+            31.8033805,
+            22.6671186
+          ],
+          [
+            31.8004165,
+            22.6681132
+          ],
+          [
+            31.7978689,
+            22.6684748
+          ],
+          [
+            31.7799625,
+            22.6683392
+          ],
+          [
+            31.7725892,
+            22.6683166
+          ],
+          [
+            31.7491589,
+            22.673764
+          ],
+          [
+            31.731228,
+            22.677871
+          ],
+          [
+            31.7271617,
+            22.6789333
+          ],
+          [
+            31.7260594,
+            22.6794757
+          ],
+          [
+            31.7247366,
+            22.6802894
+          ],
+          [
+            31.7235853,
+            22.6813742
+          ],
+          [
+            31.722532,
+            22.6827303
+          ],
+          [
+            31.7116021,
+            22.6989934
+          ],
+          [
+            31.7100605,
+            22.7013104
+          ],
+          [
+            31.7093157,
+            22.7024769
+          ],
+          [
+            31.7086229,
+            22.7046181
+          ],
+          [
+            31.7065162,
+            22.7111486
+          ],
+          [
+            31.7059528,
+            22.7133066
+          ],
+          [
+            31.705218,
+            22.7218476
+          ],
+          [
+            31.705022,
+            22.722887
+          ],
+          [
+            31.7044218,
+            22.7244573
+          ],
+          [
+            31.7035522,
+            22.7258469
+          ],
+          [
+            31.7023397,
+            22.7271912
+          ],
+          [
+            31.6892291,
+            22.7366791
+          ],
+          [
+            31.6724449,
+            22.7486919
+          ],
+          [
+            31.669431,
+            22.7507684
+          ],
+          [
+            31.6672312,
+            22.7517748
+          ],
+          [
+            31.665707,
+            22.7521102
+          ],
+          [
+            31.6342624,
+            22.753436
+          ],
+          [
+            31.6132691,
+            22.7542985
+          ],
+          [
+            31.5951512,
+            22.7550333
+          ],
+          [
+            31.5816753,
+            22.7580362
+          ],
+          [
+            31.5702779,
+            22.7582598
+          ],
+          [
+            31.5531728,
+            22.7561047
+          ],
+          [
+            31.535817,
+            22.7539323
+          ],
+          [
+            31.533011,
+            22.7536129
+          ],
+          [
+            31.531556,
+            22.7536129
+          ],
+          [
+            31.5260132,
+            22.7544435
+          ],
+          [
+            31.5098179,
+            22.7568075
+          ],
+          [
+            31.5082243,
+            22.7573505
+          ],
+          [
+            31.5064403,
+            22.7583888
+          ],
+          [
+            31.4922231,
+            22.7704989
+          ],
+          [
+            31.487685,
+            22.7744597
+          ],
+          [
+            31.4868535,
+            22.7757627
+          ],
+          [
+            31.479762,
+            22.7912467
+          ],
+          [
+            31.4632203,
+            22.8131739
+          ],
+          [
+            31.4563221,
+            22.8223183
+          ],
+          [
+            31.4558164,
+            22.8223284
+          ],
+          [
+            31.4552447,
+            22.8223615
+          ],
+          [
+            31.4484401,
+            22.8226835
+          ],
+          [
+            31.4472169,
+            22.822802
+          ],
+          [
+            31.4457314,
+            22.8231139
+          ],
+          [
+            31.444885,
+            22.8234045
+          ],
+          [
+            31.4441114,
+            22.8237721
+          ],
+          [
+            31.4395212,
+            22.8261949
+          ],
+          [
+            31.4385288,
+            22.826533
+          ],
+          [
+            31.4374456,
+            22.8267936
+          ],
+          [
+            31.4362273,
+            22.8269714
+          ],
+          [
+            31.4350483,
+            22.8269618
+          ],
+          [
+            31.4336068,
+            22.8267879
+          ],
+          [
+            31.4252823,
+            22.8252542
+          ],
+          [
+            31.4202089,
+            22.824398
+          ],
+          [
+            31.418251,
+            22.8239434
+          ],
+          [
+            31.4168868,
+            22.8234707
+          ],
+          [
+            31.4157105,
+            22.8228452
+          ],
+          [
+            31.4146622,
+            22.8220538
+          ],
+          [
+            31.4135848,
+            22.8210759
+          ],
+          [
+            31.4080569,
+            22.8153342
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-way-93929106",
+      "properties": {
+        "name": "Sheikh Zayed canal (Branch 3)",
+        "osmType": "way",
+        "osmId": 93929106,
+        "osmTags": {
+          "name": "Sheikh Zayed canal (Branch 3)",
+          "waterway": "canal",
+          "width": "30"
+        },
+        "source": "https://www.openstreetmap.org/way/93929106",
+        "license": "ODbL1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "geometryStatus": "mapped coordinates, no added segments",
+        "identitySource": "https://eros.usgs.gov/earthshots/pumping-station",
+        "identityVerified": "Toshka network west ofLakeNasser, namedSheikhZayed. Not northcoast homonym.",
+        "note": "Réseaupartiel:seulslestronçonscartographiésnomméssontinclus, pasdinterpolationentreextrémitésnonjointives."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.3943541,
+            22.8011794
+          ],
+          [
+            31.3995338,
+            22.7972892
+          ],
+          [
+            31.4086908,
+            22.7908732
+          ],
+          [
+            31.4163019,
+            22.7868879
+          ],
+          [
+            31.4177369,
+            22.7859615
+          ],
+          [
+            31.4188794,
+            22.7848146
+          ],
+          [
+            31.4197883,
+            22.7835356
+          ],
+          [
+            31.4204027,
+            22.7821511
+          ],
+          [
+            31.4207173,
+            22.7808414
+          ],
+          [
+            31.4207685,
+            22.7794739
+          ],
+          [
+            31.4204078,
+            22.7773841
+          ],
+          [
+            31.4191643,
+            22.7734541
+          ],
+          [
+            31.4190172,
+            22.773122
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-way-172266424",
+      "properties": {
+        "name": "Sheikh Zayed canal (Branch 3)",
+        "osmType": "way",
+        "osmId": 172266424,
+        "osmTags": {
+          "name": "Sheikh Zayed canal (Branch 3)",
+          "waterway": "canal",
+          "width": "30"
+        },
+        "source": "https://www.openstreetmap.org/way/172266424",
+        "license": "ODbL1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "geometryStatus": "mapped coordinates, no added segments",
+        "identitySource": "https://eros.usgs.gov/earthshots/pumping-station",
+        "identityVerified": "Toshka network west ofLakeNasser, namedSheikhZayed. Not northcoast homonym.",
+        "note": "Réseaupartiel:seulslestronçonscartographiésnomméssontinclus, pasdinterpolationentreextrémitésnonjointives."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.4186699,
+            22.772338
+          ],
+          [
+            31.4184412,
+            22.7718218
+          ],
+          [
+            31.4175203,
+            22.7699681
+          ],
+          [
+            31.4170981,
+            22.7688355
+          ],
+          [
+            31.4167988,
+            22.7675764
+          ],
+          [
+            31.4164806,
+            22.7649022
+          ],
+          [
+            31.4161586,
+            22.7634179
+          ],
+          [
+            31.4131294,
+            22.7533656
+          ],
+          [
+            31.4126871,
+            22.7521785
+          ],
+          [
+            31.4120837,
+            22.751085
+          ],
+          [
+            31.4111997,
+            22.749972
+          ],
+          [
+            31.3988081,
+            22.7388565
+          ],
+          [
+            31.3977454,
+            22.7378382
+          ],
+          [
+            31.3960111,
+            22.7356811
+          ],
+          [
+            31.3830889,
+            22.7204126
+          ],
+          [
+            31.3819701,
+            22.7189909
+          ],
+          [
+            31.3809709,
+            22.7178643
+          ],
+          [
+            31.362608,
+            22.7055899
+          ],
+          [
+            31.3540536,
+            22.7000039
+          ],
+          [
+            31.353044,
+            22.6991053
+          ],
+          [
+            31.3519692,
+            22.6977298
+          ],
+          [
+            31.3513407,
+            22.6965402
+          ],
+          [
+            31.3489162,
+            22.6826582
+          ],
+          [
+            31.3463764,
+            22.668582
+          ],
+          [
+            31.3460244,
+            22.6671235
+          ],
+          [
+            31.3456691,
+            22.6664115
+          ],
+          [
+            31.3448784,
+            22.6653512
+          ],
+          [
+            31.329084,
+            22.6491066
+          ],
+          [
+            31.3193717,
+            22.6390144
+          ],
+          [
+            31.3166712,
+            22.6361974
+          ],
+          [
+            31.3162106,
+            22.6358091
+          ],
+          [
+            31.3071088,
+            22.6316555
+          ],
+          [
+            31.3023851,
+            22.6305181
+          ],
+          [
+            31.291268,
+            22.6295077
+          ],
+          [
+            31.289567,
+            22.6292359
+          ],
+          [
+            31.288183,
+            22.6286714
+          ],
+          [
+            31.2733772,
+            22.6156386
+          ],
+          [
+            31.2524156,
+            22.603659
+          ],
+          [
+            31.2505251,
+            22.6026096
+          ],
+          [
+            31.2496149,
+            22.6017566
+          ],
+          [
+            31.2492425,
+            22.6013419
+          ],
+          [
+            31.2457603,
+            22.5952483
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "osm-way-368496673",
+      "properties": {
+        "name": "Sheikh Zayed canal (Branch 2)",
+        "osmType": "way",
+        "osmId": 368496673,
+        "osmTags": {
+          "name": "Sheikh Zayed canal (Branch 2)",
+          "waterway": "canal"
+        },
+        "source": "https://www.openstreetmap.org/way/368496673",
+        "license": "ODbL1.0",
+        "attribution": "© OpenStreetMap contributors",
+        "geometryStatus": "mapped coordinates, no added segments",
+        "identitySource": "https://eros.usgs.gov/earthshots/pumping-station",
+        "identityVerified": "Toshka network west ofLakeNasser, namedSheikhZayed. Not northcoast homonym.",
+        "note": "Réseaupartiel:seulslestronçonscartographiésnomméssontinclus, pasdinterpolationentreextrémitésnonjointives."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.4563221,
+            22.8223183
+          ],
+          [
+            31.4585015,
+            22.8313967
+          ],
+          [
+            31.4595328,
+            22.8512434
+          ],
+          [
+            31.4596386,
+            22.8782106
+          ],
+          [
+            31.4597448,
+            22.9052863
+          ],
+          [
+            31.459755,
+            22.906218
+          ],
+          [
+            31.4597723,
+            22.9085714
+          ],
+          [
+            31.4602373,
+            22.9104769
+          ],
+          [
+            31.4645167,
+            22.9229508
+          ],
+          [
+            31.5134603,
+            22.9971937
+          ],
+          [
+            31.5142931,
+            22.9993132
+          ],
+          [
+            31.5147095,
+            23.0028759
+          ],
+          [
+            31.5150242,
+            23.0064993
+          ],
+          [
+            31.5152613,
+            23.0092284
+          ]
+        ]
+      }
+    }
+  ]
+}

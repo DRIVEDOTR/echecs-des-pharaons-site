@@ -1,0 +1,52 @@
+{
+  "type": "Feature",
+  "id": "cairo-delta-stem",
+  "properties": {
+    "name": "Nil · liaison de la vallée à la tête du delta",
+    "era": "both",
+    "kind": "river",
+    "precision": "Axe NaturalEarth1:10m généralisé, tronçon existant extrait de Rosette; pasreconstitutionduCoursdunrègneprécis",
+    "sources": [
+      "https://www.naturalearthdata.com/downloads/10m-physical-vectors/",
+      "https://science.nasa.gov/photojournal/space-radar-image-of-nile-river-delta-egypt/"
+    ],
+    "junction": [
+      31.145274,
+      30.17532
+    ],
+    "purpose": "Garder ce tronçon visible dans les deux modes, raccorder ici les bras anciens schématiques pour éliminer le hiatusauCaire."
+  },
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        31.236908,
+        30.123847
+      ],
+      [
+        31.23406,
+        30.133368
+      ],
+      [
+        31.228445,
+        30.141059
+      ],
+      [
+        31.218516,
+        30.146104
+      ],
+      [
+        31.179454,
+        30.150092
+      ],
+      [
+        31.16627,
+        30.15587
+      ],
+      [
+        31.145274,
+        30.17532
+      ]
+    ]
+  }
+}

@@ -1,0 +1,1912 @@
+{
+  "meta": {
+    "version": 1,
+    "checked": "2026-11-10",
+    "note": "Graphies historiques sélectionnées, en transcription linéaire normalisée. La disposition en cadrats et les variantes paléographiques dépendent du monument. Les couleurs sont une présentation éditoriale ; elles ne restituent pas la polychromie exacte de chaque inscription. Aucun nom historique ne provient du convertisseur de prénoms modernes.",
+    "earlyDynasticNote": "Les premiers rois emploient principalement le nom d’Horus dans un serekh. Un cartouche tardif de liste royale ne doit pas être présenté comme leur signature contemporaine.",
+    "divineNote": "Les noms divins sont présentés sans cartouche royal.",
+    "references": [
+      "https://www.unicode.org/charts/PDF/U13000.pdf",
+      "https://pharaoh.se/",
+      "https://thesaurus-linguae-aegyptiae.de/"
+    ]
+  },
+  "figures": {
+    "khufu": {
+      "reading": "Khoufou",
+      "transliteration": "ḫwfw",
+      "glyphs": "𓐍𓅱𓆑𓅱",
+      "gardiner": [
+        "AA1",
+        "G43",
+        "I9",
+        "G43"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Il me protège.",
+      "status": "checked",
+      "attestation": "Tombe d’Iyméry, Giza G6020 ; Lepsius, Denkmäler II, 50b.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Khufu/"
+      ]
+    },
+    "khafre": {
+      "reading": "Khafrê",
+      "transliteration": "ḫꜥ.f-Rꜥ",
+      "glyphs": "𓇳𓈍𓂝𓆑",
+      "gardiner": [
+        "N5",
+        "N28",
+        "D36",
+        "I9"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Il apparaît comme Rê.",
+      "status": "checked",
+      "attestation": "Liste royale d’Abydos, entrée 23 ; Beckerath 1999, p.54–55, E3.",
+      "note": "Variante de la liste d’Abydos : N28 avec complément ꜥ (D36).",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Khafra/"
+      ]
+    },
+    "menkaure": {
+      "reading": "Menkaourê",
+      "transliteration": "mn-kꜣw-Rꜥ",
+      "glyphs": "𓇳𓏠𓈖𓂓𓏥",
+      "gardiner": [
+        "N5",
+        "Y5",
+        "N35",
+        "D28",
+        "Z2"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Les ka de Rê sont durables.",
+      "status": "checked",
+      "attestation": "Liste royale d’Abydos, entrée 24 ; Beckerath 1999, p.54–55, E3.",
+      "note": "Variante de liste royale postérieure au règne.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Menkaura/"
+      ]
+    },
+    "tutankhamun": {
+      "reading": "Nebkhéperourê",
+      "transliteration": "nb-ḫprw-Rꜥ",
+      "glyphs": "𓇳𓆣𓏥𓎟",
+      "gardiner": [
+        "N5",
+        "L1",
+        "Z2",
+        "V30"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Seigneur des manifestations de Rê.",
+      "status": "checked",
+      "attestation": "Urkunden IV, 2043 ; Lepsius III, 115 et 118.",
+      "note": "Nom de couronnement de Toutankhamon ; ne se lit pas phonétiquement « Toutankhamon ».",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Tutankhamun/"
+      ]
+    },
+    "ramses2": {
+      "reading": "Ousermaâtrê Sétepenrê",
+      "transliteration": "wsr-Mꜣꜥt-Rꜥ stp.n-Rꜥ",
+      "glyphs": "𓇳𓄊𓁦𓍉𓈖𓇳",
+      "gardiner": [
+        "N5",
+        "F12",
+        "C10",
+        "U21",
+        "N35",
+        "N5"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Puissante est la justice de Rê, élu de Rê.",
+      "status": "checked",
+      "attestation": "Liste royale de Saqqarah, entrée 1 ; Beckerath 1999, p.154–155, T9.",
+      "note": "Nom de couronnement ; C10 est la forme Unicode normalisée de la Maât assise (la source emploie la variante C10A).",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ramesses-II/"
+      ]
+    },
+    "hatshepsut": {
+      "reading": "Maâtkarê",
+      "transliteration": "Mꜣꜥt-kꜣ-Rꜥ",
+      "glyphs": "𓇳𓁦𓂓",
+      "gardiner": [
+        "N5",
+        "C10",
+        "D28"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Maât est le ka de Rê.",
+      "status": "checked",
+      "attestation": "Obélisque E de Karnak ; Lepsius III, 22–23.",
+      "note": "Nom de couronnement ; variante C10A normalisée en C10 pour Unicode.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Hatshepsut/"
+      ]
+    },
+    "akhenaten": {
+      "reading": "Akhénaton",
+      "transliteration": "ꜣḫ-n-Jtn",
+      "glyphs": "𓇋𓏏𓈖𓇳𓅜𓐍𓈖",
+      "gardiner": [
+        "M17",
+        "X1",
+        "N35",
+        "N5",
+        "G25",
+        "AA1",
+        "N35"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Utile à Aton / esprit efficace d’Aton.",
+      "status": "checked",
+      "attestation": "Lepsius, Denkmäler III, 103 ; Beckerath 1999, p.142–143, E4.",
+      "note": "Nom adopté après le changement religieux ; transcription linéaire de i-t:n:ra-Ax&x:n.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Amenhotep-IV/"
+      ]
+    },
+    "nefertari": {
+      "reading": "Néfertari Méritmout",
+      "transliteration": "nfr.t-jrj mrj.t-n-Mwt",
+      "glyphs": "𓄤𓅐𓇋𓂋𓏭𓌻𓈖",
+      "gardiner": [
+        "F35",
+        "G14",
+        "M17",
+        "D21",
+        "Z4",
+        "U7",
+        "N35"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Néfertari, aimée de Mout.",
+      "status": "checked",
+      "attestation": "Petit temple d’Abou Simbel, édition Desroches-Noblecourt et Kuentz (1968), p.146.",
+      "note": "Graphie épigraphique avec transposition honorifique de Mout ; il ne s’agit pas de l’ordre des mots en français.",
+      "sources": [
+        "https://projetrosette.info/page.php?Id=799&TextId=207&bloc=0&langue=FR&line=4"
+      ]
+    },
+    "nefertiti": {
+      "reading": "Néfernéferouaton Néfertiti",
+      "transliteration": "nfr-nfrw-Jtn nfr.t-jj.tj",
+      "glyphs": "𓇳𓇋𓏏𓈖𓄤𓄤𓄤𓄤𓄤𓇍𓏏𓏭𓁐",
+      "gardiner": [
+        "N5",
+        "M17",
+        "X1",
+        "N35",
+        "F35",
+        "F35",
+        "F35",
+        "F35",
+        "F35",
+        "M18",
+        "X1",
+        "Z4",
+        "B1"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Parfaites sont les beautés d’Aton ; la belle est venue.",
+      "status": "checked",
+      "attestation": "Fischer, The Orientation of Hieroglyphs, I, fig.96 ; Amarna II, pl.5.",
+      "note": "Nom complet ; les quatre premiers signes nfr écrivent Neferneferou ; les détails d’orientation de la graphie monumentale ne sont pas restitués dans la ligne Unicode.",
+      "sources": [
+        "https://resources.metmuseum.org/resources/metpublications/pdf/The_Orientation_of_Hieroglyphs_Part_1_Reversals.pdf",
+        "https://www.metmuseum.org/art/collection/search/545756",
+        "https://fr.wikipedia.org/wiki/N%C3%A9fertiti"
+      ]
+    },
+    "cleopatra7": {
+      "reading": "Cléopâtre",
+      "transliteration": "qljwpꜣdrꜣ",
+      "glyphs": "𓈎𓃭𓏲𓊪𓂧𓂋𓄿",
+      "gardiner": [
+        "N29",
+        "E23",
+        "Z7",
+        "Q3",
+        "D46",
+        "D21",
+        "G1"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Nom grec transcrit en écriture égyptienne.",
+      "status": "checked",
+      "attestation": "Lepsius, Denkmäler IV,65a ; Beckerath 1999, p.244–245, E1.",
+      "note": "Nom personnel extrait de la titulature plus longue, qui ajoute notamment « déesse, aimée de son père ».",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Cleopatra-VII/"
+      ]
+    },
+    "ahmose": {
+      "reading": "Nebpehtyrê",
+      "transliteration": "nb-pḥtj-Rꜥ",
+      "glyphs": "𓇳𓎟𓄇𓄇",
+      "gardiner": [
+        "N5",
+        "V30",
+        "F9",
+        "F9"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Seigneur de la puissance de Rê.",
+      "status": "checked",
+      "attestation": "Urkunden IV,34 ; Young, Hieroglyphics II,pl.88 ; Beckerath 1999,p.132–133,T3.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ahmose-I/"
+      ]
+    },
+    "narmer": {
+      "reading": "Narmer",
+      "transliteration": "nꜥr-mr",
+      "glyphs": "𓆢𓍋",
+      "gardiner": [
+        "K8",
+        "U23"
+      ],
+      "frame": "serekh",
+      "kind": "nom royal",
+      "meaning": "Nom formé du poisson-chat et du ciseau ; son sens exact est discuté.",
+      "status": "checked",
+      "attestation": "Palette de Narmer, JE32169 ; Petrie, Royal Tombs II, pl.II,3.",
+      "note": "Poisson-chat normalisé en Unicode K8 ; la variante paléographique K24 du monument n’est pas reproduite trait pour trait.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Narmer/"
+      ]
+    },
+    "aha": {
+      "reading": "Aha",
+      "transliteration": "ꜥḥꜣ",
+      "glyphs": "𓂚",
+      "gardiner": [
+        "D34"
+      ],
+      "frame": "serekh",
+      "kind": "nom royal",
+      "meaning": "Le combattant.",
+      "status": "checked",
+      "attestation": "British Museum EA38010 ; Petrie, Royal Tombs I, pl.III,X,XI.",
+      "note": "Nom d’Horus ; le cartouche ovale ne constitue pas sa présentation contemporaine.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Aha/"
+      ]
+    },
+    "djer": {
+      "reading": "Djer",
+      "transliteration": "ḏr",
+      "glyphs": "𓇦",
+      "gardiner": [
+        "M37"
+      ],
+      "frame": "serekh",
+      "kind": "nom royal",
+      "meaning": "Nom d’Horus traditionnellement lu Djer.",
+      "status": "checked",
+      "attestation": "Petrie, Royal Tombs II, pl.XII,3.",
+      "note": "La lecture et l’interprétation des noms très anciens restent discutées.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Djer/"
+      ]
+    },
+    "den": {
+      "reading": "Den",
+      "transliteration": "dn",
+      "glyphs": "𓂧𓈖",
+      "gardiner": [
+        "D46",
+        "N35"
+      ],
+      "frame": "serekh",
+      "kind": "nom royal",
+      "meaning": "Nom d’Horus traditionnellement lu Den.",
+      "status": "checked",
+      "attestation": "Étiquette à scène de jubilé, British Museum EA32650 ; Petrie, Royal Tombs I, pl.XIV,XV,XXI.",
+      "note": "Le sens et la vocalisation exacte du nom sont incertains.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Den/"
+      ]
+    },
+    "qaa": {
+      "reading": "Qa’a",
+      "transliteration": "qꜣj-ꜥ",
+      "glyphs": "𓈎𓂝",
+      "gardiner": [
+        "N29",
+        "D36"
+      ],
+      "frame": "serekh",
+      "kind": "nom royal",
+      "meaning": "Le bras élevé.",
+      "status": "checked",
+      "attestation": "Petrie, Royal Tombs I, pl.VIII.",
+      "note": "Nom d’Horus, transcrit en signes normalisés.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Qaa/"
+      ]
+    },
+    "merneith": {
+      "reading": "Méritneith",
+      "transliteration": "mrj.t-Nj.t",
+      "glyphs": "𓋋𓌸𓂋",
+      "gardiner": [
+        "R24",
+        "U6",
+        "D21"
+      ],
+      "frame": "stele",
+      "kind": "nom royal",
+      "meaning": "Aimée de Neith.",
+      "status": "checked",
+      "attestation": "Stèle de Merneith, JE34550, musée égyptien du Caire ; Petrie, Royal Tombs II.",
+      "note": "Nom de la reine dans un champ rectangulaire de stèle ; ne pas surmonter automatiquement ce nom d’un faucon d’Horus. Statut exact de son pouvoir encore discuté.",
+      "sources": [
+        "https://anetoday.org/meretneith-egypt-king/"
+      ]
+    },
+    "snefru": {
+      "reading": "Snéfrou",
+      "transliteration": "snfr.w",
+      "glyphs": "𓋴𓄤𓆑𓂋𓏲",
+      "gardiner": [
+        "S29",
+        "F35",
+        "I9",
+        "D21",
+        "Z7"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Celui qui rend parfait.",
+      "status": "checked",
+      "attestation": "AED650011 : graphie S29-F35-I9-D21-Z7.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/650011.html"
+      ]
+    },
+    "unas": {
+      "reading": "Ounas",
+      "transliteration": "Wnjs",
+      "glyphs": "𓃹𓈖𓇋𓋴",
+      "gardiner": [
+        "E34",
+        "N35",
+        "M17",
+        "S29"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Nom personnel du roi Ounas.",
+      "status": "checked",
+      "attestation": "AED800001 : graphie E34-N35-M17-S29.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/800001.html"
+      ]
+    },
+    "pepi2": {
+      "reading": "Néferkarê",
+      "transliteration": "nfr-kꜣ-Rꜥ",
+      "glyphs": "𓇳𓄤𓂓",
+      "gardiner": [
+        "N5",
+        "F35",
+        "D28"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Parfait est le ka de Rê.",
+      "status": "checked",
+      "attestation": "AED400330 : nom de couronnement de Pépi II, également porté par d’autres souverains.",
+      "note": "Le chiffre II est une convention moderne et ne figure pas dans le cartouche.",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/400330.html"
+      ]
+    },
+    "mentuhotep2": {
+      "reading": "Nebhépetrê",
+      "transliteration": "nb-ḥꜣp.t-Rꜥ",
+      "glyphs": "𓇳𓎟𓊤",
+      "gardiner": [
+        "N5",
+        "V30",
+        "P8"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Nom de couronnement de Montouhotep II.",
+      "status": "checked",
+      "attestation": "AED400654 : graphie N5-V30-P8.",
+      "note": "Le nom connaît plusieurs variantes et des changements au cours du règne.",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/400654.html"
+      ]
+    },
+    "amenemhat3": {
+      "reading": "Nimaâtrê",
+      "transliteration": "n.j-Mꜣꜥt-Rꜥ",
+      "glyphs": "𓇳𓈖𓌶𓂝𓏏",
+      "gardiner": [
+        "N5",
+        "N35",
+        "U4",
+        "D36",
+        "X1"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Celui qui appartient à la Maât de Rê.",
+      "status": "checked",
+      "attestation": "AED400117 : graphie N5-N35-U4-D36-X1.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/400117.html"
+      ]
+    },
+    "amenhotep1": {
+      "reading": "Amenhotep",
+      "transliteration": "Jmn-ḥtp.w",
+      "glyphs": "𓇋𓏠𓈖𓊵𓏏𓊪",
+      "gardiner": [
+        "M17",
+        "Y5",
+        "N35",
+        "R4",
+        "X1",
+        "Q3"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Amon est satisfait.",
+      "status": "checked",
+      "attestation": "AED600285 : nom royal d’Amenhotep Ier.",
+      "note": "Nom personnel ; le chiffre Ier est moderne.",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/600285.html"
+      ]
+    },
+    "thutmose3": {
+      "reading": "Menkhéperrê",
+      "transliteration": "mn-ḫpr-Rꜥ",
+      "glyphs": "𓇳𓏠𓈖𓆣",
+      "gardiner": [
+        "N5",
+        "Y5",
+        "N35",
+        "L1"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Durable est la manifestation de Rê.",
+      "status": "checked",
+      "attestation": "AED400414 : graphie N5-Y5-N35-L1.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/400414.html"
+      ]
+    },
+    "seti1": {
+      "reading": "Menmaâtrê",
+      "transliteration": "mn-Mꜣꜥt-Rꜥ",
+      "glyphs": "𓇳𓁧𓏠",
+      "gardiner": [
+        "N5",
+        "C10A",
+        "Y5"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Durable est la Maât de Rê.",
+      "status": "checked",
+      "attestation": "AED500079 : graphie N5-C10A-Y5.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/500079.html"
+      ]
+    },
+    "ramses6": {
+      "reading": "Nebmaâtrê Méryamon",
+      "transliteration": "nb-Mꜣꜥt-Rꜥ mrj-Jmn",
+      "glyphs": "𓇳𓆄𓎟𓌸𓇋𓏠𓈖𓅆",
+      "gardiner": [
+        "N5",
+        "H6",
+        "V30",
+        "U6",
+        "M17",
+        "Y5",
+        "N35",
+        "G7"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Seigneur de la Maât de Rê, aimé d’Amon.",
+      "status": "checked",
+      "attestation": "AED400910 : graphie N5-H6-V30-U6-M17-Y5-N35-G7.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/400910.html"
+      ]
+    },
+    "piye": {
+      "reading": "Piye",
+      "transliteration": "Pj",
+      "glyphs": "𓊪𓋹𓇋𓇋",
+      "gardiner": [
+        "Q3",
+        "S34",
+        "M17",
+        "M17"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Nom du souverain koushite Piye.",
+      "status": "checked",
+      "attestation": "AED859167 : graphie Q3-S34-M17-M17.",
+      "note": "Lecture ancienne « Piankhy » ; Piye est la lecture aujourd’hui usuelle. Le signe de vie fait partie de cette graphie attestée.",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/859167.html"
+      ]
+    },
+    "taharqa": {
+      "reading": "Taharqa",
+      "transliteration": "Thr-qꜣ",
+      "glyphs": "𓇿𓉔𓃭𓈎",
+      "gardiner": [
+        "N17",
+        "O4",
+        "E23",
+        "N29"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Nom du souverain koushite Taharqa.",
+      "status": "checked",
+      "attestation": "AED862990 : graphie N17-O4-E23-N29.",
+      "note": "Transcription égyptienne d’un nom koushite ; plusieurs orthographes existent.",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/862990.html"
+      ]
+    },
+    "psamtik1": {
+      "reading": "Ouahibrê",
+      "transliteration": "wꜣḥ-jb-Rꜥ",
+      "glyphs": "𓇳𓎝𓄣",
+      "gardiner": [
+        "N5",
+        "V29",
+        "F34"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Stable est le cœur de Rê.",
+      "status": "checked",
+      "attestation": "AED550318 : nom de couronnement de Psammétique Ier.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/550318.html"
+      ]
+    },
+    "alexander": {
+      "reading": "Alexandros",
+      "transliteration": "ꜣlksntrs",
+      "glyphs": "𓇋𓂋𓎡𓊃𓈖𓂧𓂋𓊃",
+      "gardiner": [
+        "M17",
+        "D21",
+        "V31",
+        "O34",
+        "N35",
+        "D46",
+        "D21",
+        "O34"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Transcription égyptienne du nom grec Alexandros.",
+      "status": "checked",
+      "attestation": "AED860196 : graphie M17-D21-V31-O34-N35-D46-D21-O34.",
+      "note": "Nom partagé par Alexandre III et Alexandre IV ; les chiffres sont modernes.",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/860196.html"
+      ]
+    },
+    "djoser": {
+      "reading": "Netjéry-khet",
+      "transliteration": "nṯr.j-ẖt",
+      "glyphs": "𓊹𓂋𓄡",
+      "gardiner": [
+        "R8",
+        "D21",
+        "F32"
+      ],
+      "frame": "serekh",
+      "kind": "nom royal",
+      "meaning": "Divin de corps.",
+      "status": "checked",
+      "attestation": "Lepsius, Denkmäler II,2f ; Garstang, Mahasna et Bet Khallaf, pl.VIII–X.",
+      "note": "Nom d’Horus contemporain. Le nom « Djéser » apparaît dans des traditions et inscriptions postérieures.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Djoser/"
+      ]
+    },
+    "intef1": {
+      "reading": "Inyotef",
+      "transliteration": "jnj-jt.f",
+      "glyphs": "𓏎𓈖𓏏𓆑",
+      "gardiner": [
+        "W25",
+        "N35",
+        "X1",
+        "I9"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Son père l’a amené.",
+      "status": "checked",
+      "attestation": "Karnak, liste royale, entrée11.",
+      "note": "Nom personnel en forme courte. Les chiffres Ier, II et III sont modernes ; plusieurs rois portent le même nom. Les titres « fils de Rê » et certaines épithètes peuvent être inclus au cartouche selon le monument.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Intef-I/"
+      ]
+    },
+    "intef2": {
+      "reading": "Inyotef",
+      "transliteration": "jnj-jt.f",
+      "glyphs": "𓏎𓈖𓏏𓆑",
+      "gardiner": [
+        "W25",
+        "N35",
+        "X1",
+        "I9"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Son père l’a amené.",
+      "status": "checked",
+      "attestation": "Stèle de Tjetji, British Museum EA614, pl.49–50 des Hieroglyphic Texts I.",
+      "note": "Nom personnel en forme courte. Les chiffres Ier, II et III sont modernes ; plusieurs rois portent le même nom. Les titres « fils de Rê » et certaines épithètes peuvent être inclus au cartouche selon le monument.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Intef-II/"
+      ]
+    },
+    "intef3": {
+      "reading": "Inyotef",
+      "transliteration": "jnj-jt.f",
+      "glyphs": "𓏎𓈖𓏏𓆑",
+      "gardiner": [
+        "W25",
+        "N35",
+        "X1",
+        "I9"
+      ],
+      "frame": "cartouche",
+      "kind": "nom royal",
+      "meaning": "Son père l’a amené.",
+      "status": "checked",
+      "attestation": "Stèle de Tjetji, British Museum EA614, ligne13.",
+      "note": "Nom personnel en forme courte. Les chiffres Ier, II et III sont modernes ; plusieurs rois portent le même nom. Les titres « fils de Rê » et certaines épithètes peuvent être inclus au cartouche selon le monument.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Intef-III/"
+      ]
+    },
+    "mentuhotep3": {
+      "reading": "Sânkhkarê",
+      "transliteration": "s-ꜥnḫ-kꜣ-Rꜥ",
+      "glyphs": "𓇳𓋴𓋹𓂓",
+      "gardiner": [
+        "N5",
+        "S29",
+        "S34",
+        "D28"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Celui que le ka de Rê fait vivre.",
+      "status": "checked",
+      "attestation": "Liste royale d’Abydos58 ; Saqqarah14 ; Beckerath 1999,p.80–81,T1.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Mentuhotep-III/"
+      ]
+    },
+    "mentuhotep4": {
+      "reading": "Nebtaouyrê",
+      "transliteration": "nb-Tꜣ.wj-Rꜥ",
+      "glyphs": "𓇳𓎟𓇿𓇿",
+      "gardiner": [
+        "N5",
+        "V30",
+        "N17",
+        "N17"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Seigneur des Deux Terres de Rê.",
+      "status": "checked",
+      "attestation": "Inscription du Ouadi Hammamat192 ; MIFAO34,p.98 ; Lepsius II,149c–h.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Mentuhotep-IV/"
+      ]
+    },
+    "senusret3": {
+      "reading": "Khâkaourê",
+      "transliteration": "ḫꜥ-kꜣw-Rꜥ",
+      "glyphs": "𓇳𓈍𓂓𓂓𓂓",
+      "gardiner": [
+        "N5",
+        "N28",
+        "D28",
+        "D28",
+        "D28"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Les ka de Rê apparaissent.",
+      "status": "checked",
+      "attestation": "Stèle d’Ikhernofret, Berlin ÄM1204 ; Abydos63 ; Lepsius II,135h.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Senusret-III/"
+      ]
+    },
+    "thutmose1": {
+      "reading": "Âakhéperkarê",
+      "transliteration": "ꜥꜣ-ḫpr-kꜣ-Rꜥ",
+      "glyphs": "𓇳𓉻𓆣𓂓",
+      "gardiner": [
+        "N5",
+        "O29",
+        "L1",
+        "D28"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Grande est la manifestation du ka de Rê.",
+      "status": "checked",
+      "attestation": "Stèle de Tombos ; Urkunden IV,82 ; Lepsius III,5a ; Abydos68.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Thutmose-I/"
+      ]
+    },
+    "thutmose2": {
+      "reading": "Âakhéperenrê",
+      "transliteration": "ꜥꜣ-ḫpr-n-Rꜥ",
+      "glyphs": "𓇳𓉻𓆣𓈖",
+      "gardiner": [
+        "N5",
+        "O29",
+        "L1",
+        "N35"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Grande est la manifestation de Rê.",
+      "status": "checked",
+      "attestation": "Liste royale d’Abydos69 et de Saqqarah9 ; Beckerath 1999,p.134–135,T1.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Thutmose-II/"
+      ]
+    },
+    "amenhotep2": {
+      "reading": "Âakhéperourê",
+      "transliteration": "ꜥꜣ-ḫprw-Rꜥ",
+      "glyphs": "𓇳𓉻𓆣𓏥",
+      "gardiner": [
+        "N5",
+        "O29",
+        "L1",
+        "Z2"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Grandes sont les manifestations de Rê.",
+      "status": "checked",
+      "attestation": "Abydos71 ; Saqqarah7 ; Beckerath 1999,p.138–139,T1.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Amenhotep-II/"
+      ]
+    },
+    "thutmose4": {
+      "reading": "Menkhéperourê",
+      "transliteration": "mn-ḫprw-Rꜥ",
+      "glyphs": "𓇳𓏠𓆣𓏥",
+      "gardiner": [
+        "N5",
+        "Y5",
+        "L1",
+        "Z2"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Durables sont les manifestations de Rê.",
+      "status": "checked",
+      "attestation": "Abydos72 ; Saqqarah6 ; Beckerath 1999,p.140–141,T1.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Thutmose-IV/"
+      ]
+    },
+    "amenhotep3": {
+      "reading": "Nebmaâtrê",
+      "transliteration": "nb-Mꜣꜥt-Rꜥ",
+      "glyphs": "𓇳𓁧𓎟",
+      "gardiner": [
+        "N5",
+        "C10A",
+        "V30"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Seigneur de la Maât de Rê.",
+      "status": "checked",
+      "attestation": "AED400837 ; variante N5-C10A-V30.",
+      "note": "Nom de couronnement également réemployé par d’autres rois ; ici Amenhotep III.",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/400837.html"
+      ]
+    },
+    "ay": {
+      "reading": "Khéperkhéperourê",
+      "transliteration": "ḫpr-ḫprw-Rꜥ",
+      "glyphs": "𓇳𓆣𓆣𓆣",
+      "gardiner": [
+        "N5",
+        "L1",
+        "L1",
+        "L1"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Les manifestations de Rê adviennent.",
+      "status": "checked",
+      "attestation": "KV62, chambre funéraire, mur nord : Aÿ accomplissant le rituel funéraire pour Toutankhamon.",
+      "note": "Nom de couronnement en forme courte ; plusieurs formes ajoutent « celui qui accomplit Maât ».",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ay/"
+      ]
+    },
+    "horemheb": {
+      "reading": "Djéserkhéperourê Sétepenrê",
+      "transliteration": "ḏsr-ḫprw-Rꜥ stp.n-Rꜥ",
+      "glyphs": "𓇳𓂦𓆣𓏥𓍉𓈖𓇳",
+      "gardiner": [
+        "N5",
+        "D45",
+        "L1",
+        "Z2",
+        "U21",
+        "N35",
+        "N5"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Sacrées sont les manifestations de Rê, élu de Rê.",
+      "status": "checked",
+      "attestation": "Karnak, IXe pylône ; Abydos74 ; Saqqarah4 ; Lepsius III,112b.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Horemheb/"
+      ]
+    },
+    "ramses1": {
+      "reading": "Menpehtyrê",
+      "transliteration": "mn-pḥtj-Rꜥ",
+      "glyphs": "𓇳𓏠𓄇𓄇",
+      "gardiner": [
+        "N5",
+        "Y5",
+        "F9",
+        "F9"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Durable est la puissance de Rê.",
+      "status": "checked",
+      "attestation": "Bruxelles E2171 ; KRI I,1.12 ; Beckerath 1999,p.148–149,T1.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ramesses-I/"
+      ]
+    },
+    "merenptah": {
+      "reading": "Baenrê Méryamon",
+      "transliteration": "bꜣ-n-Rꜥ mrj-Jmn",
+      "glyphs": "𓇳𓃒𓈖𓁩𓌻",
+      "gardiner": [
+        "N5",
+        "E1",
+        "N35",
+        "C12",
+        "U7"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Le ba de Rê, aimé d’Amon.",
+      "status": "checked",
+      "attestation": "Statue de granit noir CG42148 ; Beckerath 1999,p.158–159,T4.",
+      "note": "Variante attestée où le taureau E1 écrit bꜣ ; ne pas confondre ce rebus avec le signe habituel de l’oiseau-ba.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Merneptah/"
+      ]
+    },
+    "seti2": {
+      "reading": "Ouserkhéperourê Sétepenrê",
+      "transliteration": "wsr-ḫprw-Rꜥ stp.n-Rꜥ",
+      "glyphs": "𓇳𓄊𓆣𓏥𓍉𓈖𓇳",
+      "gardiner": [
+        "N5",
+        "F12",
+        "L1",
+        "Z2",
+        "U21",
+        "N35",
+        "N5"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Puissantes sont les manifestations de Rê, élu de Rê.",
+      "status": "checked",
+      "attestation": "Obélisque d’Athribis, Berlin ÄM12800 ; Roeder, Äg.Inschr.II,p.29.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Seti-II/"
+      ]
+    },
+    "siptah": {
+      "reading": "Akhenrê Sétepenrê",
+      "transliteration": "ꜣḫ-n-Rꜥ stp.n-Rꜥ",
+      "glyphs": "𓇳𓅜𓈖𓍉𓈖𓇳",
+      "gardiner": [
+        "N5",
+        "G25",
+        "N35",
+        "U21",
+        "N35",
+        "N5"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Esprit efficace de Rê, élu de Rê.",
+      "status": "checked",
+      "attestation": "Randall-MacIver, Buhen I,p.36 ; Beckerath 1999,p.162–163,T3.",
+      "note": "Nom adopté à partir de l’an2 ; un autre nom de couronnement est attesté au début du règne.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Siptah/"
+      ]
+    },
+    "tawosret": {
+      "reading": "Satrê Mérytamon",
+      "transliteration": "sꜣ.t-Rꜥ mrj.t-Jmn",
+      "glyphs": "𓁛𓁩𓈘𓆇𓏏𓇋𓇋",
+      "gardiner": [
+        "C2",
+        "C12",
+        "N36",
+        "H8",
+        "X1",
+        "M17",
+        "M17"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Fille de Rê, aimée d’Amon.",
+      "status": "checked",
+      "attestation": "British Museum EA29952 ; Six Temples,pl.17,2 ; KRI IV,353.15.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Tausret/"
+      ]
+    },
+    "sethnakht": {
+      "reading": "Ouserkhâourê Sétepenrê",
+      "transliteration": "wsr-ḫꜥw-Rꜥ stp.n-Rꜥ",
+      "glyphs": "𓇳𓄊𓈍𓏥𓍉𓈖𓇳",
+      "gardiner": [
+        "N5",
+        "F12",
+        "N28",
+        "Z2",
+        "U21",
+        "N35",
+        "N5"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Puissantes sont les apparitions de Rê, élu de Rê.",
+      "status": "checked",
+      "attestation": "MDAIK28,pl.49 ; Beckerath 1999,p.164–165,T1.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Setnakht/"
+      ]
+    },
+    "ramses3": {
+      "reading": "Ousermaâtrê Méryamon",
+      "transliteration": "wsr-Mꜣꜥt-Rꜥ mrj-Jmn",
+      "glyphs": "𓇳𓄊𓁧𓇋𓏠𓈖𓈘",
+      "gardiner": [
+        "N5",
+        "F12",
+        "C10A",
+        "M17",
+        "Y5",
+        "N35",
+        "N36"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Puissante est la Maât de Rê, aimé d’Amon.",
+      "status": "checked",
+      "attestation": "Beckerath 1999,p.166–167,T2 ; variante attestée dans les inscriptions du règne.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ramesses-III/"
+      ]
+    },
+    "ramses4": {
+      "reading": "Héqamaâtrê Sétepenamon",
+      "transliteration": "ḥqꜣ-Mꜣꜥt-Rꜥ stp.n-Jmn",
+      "glyphs": "𓇳𓋾𓁧𓏠𓈖𓍉𓈖",
+      "gardiner": [
+        "N5",
+        "S38",
+        "C10A",
+        "Y5",
+        "N35",
+        "U21",
+        "N35"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Souverain de la Maât de Rê, élu d’Amon.",
+      "status": "checked",
+      "attestation": "Couyat et Montet, Inscriptions du Ouadi Hammamat240 ; graphie utilisée après l’an1.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ramesses-IV/"
+      ]
+    },
+    "ramses9": {
+      "reading": "Néferkarê Sétepenrê",
+      "transliteration": "nfr-kꜣ-Rꜥ stp.n-Rꜥ",
+      "glyphs": "𓁛𓄤𓂓𓍉𓈖𓇳",
+      "gardiner": [
+        "C2",
+        "F35",
+        "D28",
+        "U21",
+        "N35",
+        "N5"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Parfait est le ka de Rê, élu de Rê.",
+      "status": "checked",
+      "attestation": "Lepsius, Denkmäler III,235 ; Beckerath 1999,p.172–173,T1.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ramesses-IX/"
+      ]
+    },
+    "ramses11": {
+      "reading": "Menmaâtrê Sétepenptah",
+      "transliteration": "mn-Mꜣꜥt-Rꜥ stp.n-Ptḥ",
+      "glyphs": "𓇳𓏠𓁧𓊪𓏏𓍉𓈖𓎛",
+      "gardiner": [
+        "N5",
+        "Y5",
+        "C10A",
+        "Q3",
+        "X1",
+        "U21",
+        "N35",
+        "V28"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Durable est la Maât de Rê, élu de Ptah.",
+      "status": "checked",
+      "attestation": "KRI VI,701 ; Beckerath 1999,p.174–175,T2.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ramesses-XI/"
+      ]
+    },
+    "psusennes1": {
+      "reading": "Âakhéperrê Sétepenamon",
+      "transliteration": "ꜥꜣ-ḫpr-Rꜥ stp.n-Jmn",
+      "glyphs": "𓇳𓉻𓆣𓁩𓍉𓈖",
+      "gardiner": [
+        "N5",
+        "O29",
+        "L1",
+        "C12",
+        "U21",
+        "N35"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Grande est la manifestation de Rê, élu d’Amon.",
+      "status": "checked",
+      "attestation": "Mariette, Monuments divers recueillis en Égypte et en Nubie (1872), II, pl.102c ; Beckerath1999,p.178–179,T2.",
+      "note": "",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Psusennes-I/"
+      ]
+    },
+    "shoshenq1": {
+      "reading": "Hedjkhéperrê Sétepenrê",
+      "transliteration": "ḥḏ-ḫpr-Rꜥ stp.n-Rꜥ",
+      "glyphs": "𓇳𓋑𓆣𓍉𓈖𓇳",
+      "gardiner": [
+        "N5",
+        "S1",
+        "L1",
+        "U21",
+        "N35",
+        "N5"
+      ],
+      "frame": "cartouche",
+      "kind": "nom de couronnement",
+      "meaning": "Lumineuse est la manifestation de Rê, élu de Rê.",
+      "status": "checked",
+      "attestation": "Beckerath1999,p.184–185,T1 ; graphie courante dans les inscriptions du règne.",
+      "note": "Le nom de couronnement existe aussi avec des épithètes associées à Amon et à Ptah selon le monument.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Shoshenq-I/"
+      ]
+    },
+    "nectanebo2": {
+      "reading": "Nakht-Hor-Hébyt",
+      "transliteration": "nḫt-Ḥr-Ḥby.t",
+      "glyphs": "𓂡𓅃𓊖𓎳",
+      "gardiner": [
+        "D40",
+        "G5",
+        "O49",
+        "W4"
+      ],
+      "frame": "cartouche",
+      "kind": "nom personnel · forme courte",
+      "meaning": "Le fort d’Horus d’Hébyt.",
+      "status": "checked",
+      "attestation": "Daressy, Notes et remarques, Recueil de travaux16(1894),p.126 ; Beckerath1999,p.228–229,E1.",
+      "note": "Nom personnel en forme courte ; les titulatures développées ajoutent des épithètes. Le faucon superposé au signe de ville est ici transcrit sur une ligne.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Nectanebo-II/"
+      ]
+    },
+    "ptolemy1": {
+      "reading": "Ptolémaios",
+      "transliteration": "Ptwlmys",
+      "glyphs": "𓊪𓏏𓍯𓃭𓐝𓇋𓇋𓋴",
+      "gardiner": [
+        "Q3",
+        "X1",
+        "V4",
+        "E23",
+        "AA15",
+        "M17",
+        "M17",
+        "S29"
+      ],
+      "frame": "cartouche",
+      "kind": "nom personnel · forme courte",
+      "meaning": "Transcription égyptienne du nom grec Ptolémaios.",
+      "status": "checked",
+      "attestation": "Beckerath1999,p.234–235,E1 ; forme courante dans les inscriptions du règne.",
+      "note": "Nom personnel en forme courte, extrait de la titulature. Les chiffres modernes ne sont pas écrits. Les épithètes, variables selon le monument, distinguent les titulatures ; les différents Ptolémées partagent donc ces signes du nom personnel.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ptolemy-I/"
+      ]
+    },
+    "ptolemy3": {
+      "reading": "Ptolémaios",
+      "transliteration": "Ptwlmys",
+      "glyphs": "𓊪𓏏𓍯𓃭𓐝𓇋𓇋𓋴",
+      "gardiner": [
+        "Q3",
+        "X1",
+        "V4",
+        "E23",
+        "AA15",
+        "M17",
+        "M17",
+        "S29"
+      ],
+      "frame": "cartouche",
+      "kind": "nom personnel · forme courte",
+      "meaning": "Transcription égyptienne du nom grec Ptolémaios.",
+      "status": "checked",
+      "attestation": "Karnak, propylône du temple de Khonsou ; Lepsius, Denkmäler IV,9a ; Beckerath1999,p.236–237,E1.",
+      "note": "Nom personnel en forme courte, extrait de la titulature. Les chiffres modernes ne sont pas écrits. Les épithètes, variables selon le monument, distinguent les titulatures ; les différents Ptolémées partagent donc ces signes du nom personnel.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ptolemy-III/"
+      ]
+    },
+    "ptolemy6": {
+      "reading": "Ptolémaios",
+      "transliteration": "Ptwlmys",
+      "glyphs": "𓊪𓏏𓍯𓃭𓐝𓇋𓇋𓋴",
+      "gardiner": [
+        "Q3",
+        "X1",
+        "V4",
+        "E23",
+        "AA15",
+        "M17",
+        "M17",
+        "S29"
+      ],
+      "frame": "cartouche",
+      "kind": "nom personnel · forme courte",
+      "meaning": "Transcription égyptienne du nom grec Ptolémaios.",
+      "status": "checked",
+      "attestation": "Philae, temple K, stèle ; Lepsius, Denkmäler IV,27b2 ; Beckerath1999,p.238–239,E.",
+      "note": "Nom personnel en forme courte, extrait de la titulature. Les chiffres modernes ne sont pas écrits. Les épithètes, variables selon le monument, distinguent les titulatures ; les différents Ptolémées partagent donc ces signes du nom personnel.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ptolemy-VI/"
+      ]
+    },
+    "ptolemy12": {
+      "reading": "Ptolémaios",
+      "transliteration": "Ptwlmys",
+      "glyphs": "𓊪𓏏𓍯𓃭𓐝𓇋𓇋𓋴",
+      "gardiner": [
+        "Q3",
+        "X1",
+        "V4",
+        "E23",
+        "AA15",
+        "M17",
+        "M17",
+        "S29"
+      ],
+      "frame": "cartouche",
+      "kind": "nom personnel · forme courte",
+      "meaning": "Transcription égyptienne du nom grec Ptolémaios.",
+      "status": "checked",
+      "attestation": "Lepsius, Denkmäler IV,49a ; Beckerath1999,p.244–245,E1.",
+      "note": "Nom personnel en forme courte, extrait de la titulature. Les chiffres modernes ne sont pas écrits. Les épithètes, variables selon le monument, distinguent les titulatures ; les différents Ptolémées partagent donc ces signes du nom personnel.",
+      "sources": [
+        "https://pharaoh.se/pharaohs/Ptolemy-XII/"
+      ]
+    }
+  },
+  "gods": {
+    "amon": {
+      "reading": "Imen",
+      "transliteration": "Jmn",
+      "glyphs": "𓇋𓏠𓈖",
+      "gardiner": [
+        "M17",
+        "Y5",
+        "N35"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Le nom est lié à ce qui est caché.",
+      "status": "checked",
+      "attestation": "TLA 26060 ; Wb I, 84.15–85 ; LGG I, 305 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/26060"
+      ]
+    },
+    "anubis": {
+      "reading": "Inpou",
+      "transliteration": "Jnp.w",
+      "glyphs": "𓇋𓈖𓊪𓅱𓃣",
+      "gardiner": [
+        "M17",
+        "N35",
+        "Q3",
+        "G43",
+        "E16"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien d’Anubis.",
+      "status": "checked",
+      "attestation": "TLA 27360, graphie lexicographique hiéroglyphique.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/27360"
+      ]
+    },
+    "osiris": {
+      "reading": "Ousir",
+      "transliteration": "Wsjr",
+      "glyphs": "𓊨𓁹",
+      "gardiner": [
+        "Q1",
+        "D4"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien d’Osiris.",
+      "status": "checked",
+      "attestation": "TLA 49460 ; Wb I, 359.5 ; LGG II, 528 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/49460"
+      ]
+    },
+    "bastet": {
+      "reading": "Bastet",
+      "transliteration": "Bꜣs.tjt",
+      "glyphs": "𓎰𓏏𓏏",
+      "gardiner": [
+        "W2",
+        "X1",
+        "X1"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Bastet.",
+      "status": "checked",
+      "attestation": "TLA 53640 ; Wb I,423.7 ; LGG II,739 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/53640"
+      ]
+    },
+    "hathor": {
+      "reading": "Hout-Hor",
+      "transliteration": "Ḥw.t-Ḥr.w",
+      "glyphs": "𓉡",
+      "gardiner": [
+        "O10"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Demeure d’Horus.",
+      "status": "checked",
+      "attestation": "ORAEC2727-2 ; TLA99960 : logogramme O10.",
+      "note": "Le faucon est inclus dans l’enclos : un seul signe composé.",
+      "sources": [
+        "https://oraec.github.io/corpus/oraec2727-2.html"
+      ]
+    },
+    "horus": {
+      "reading": "Hor",
+      "transliteration": "Ḥr.w",
+      "glyphs": "𓅃",
+      "gardiner": [
+        "G5"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien d’Horus, écrit par le faucon.",
+      "status": "checked",
+      "attestation": "TLA 107500 ; Wb III,122–123.13 ; LGG V,231 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/107500"
+      ]
+    },
+    "isis": {
+      "reading": "Aset",
+      "transliteration": "Ꜣs.t",
+      "glyphs": "𓄿𓊨𓏏𓁐",
+      "gardiner": [
+        "G1",
+        "Q1",
+        "X1",
+        "B1"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien d’Isis.",
+      "status": "checked",
+      "attestation": "TLA271 : graphie lexicographique.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/271"
+      ]
+    },
+    "seth": {
+      "reading": "Setekh",
+      "transliteration": "Stẖ",
+      "glyphs": "𓋴𓏏𓈙",
+      "gardiner": [
+        "S29",
+        "X1",
+        "N37"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Seth.",
+      "status": "checked",
+      "attestation": "TLA148520 ; Wb IV,345.3–5 ; LGG VI,691 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/148520"
+      ]
+    },
+    "nephtys": {
+      "reading": "Nebet-Hout",
+      "transliteration": "Nb.t-ḥw.t",
+      "glyphs": "𓉠𓏏𓁐",
+      "gardiner": [
+        "O9",
+        "X1",
+        "B1"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Dame de la demeure.",
+      "status": "checked",
+      "attestation": "TLA82260 : graphie O9-X1-B1 attestée dans le corpus.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/82260"
+      ]
+    },
+    "nout": {
+      "reading": "Nout",
+      "transliteration": "Nw.t",
+      "glyphs": "𓏌𓏏𓇯",
+      "gardiner": [
+        "W24",
+        "X1",
+        "N1"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Nout.",
+      "status": "checked",
+      "attestation": "TLA80940 ; Wb II,214.3–14 ; LGG III,535 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/80940"
+      ]
+    },
+    "geb": {
+      "reading": "Geb",
+      "transliteration": "Gbb",
+      "glyphs": "𓅬𓃀",
+      "gardiner": [
+        "G38",
+        "D58"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Geb.",
+      "status": "checked",
+      "attestation": "TLA167010 ; Wb V,164.6,10–11 ; LGG VII,303 sqq.",
+      "note": "L’oie est un phonogramme ; elle ne signifie pas que Geb est une divinité-oie.",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/167010"
+      ]
+    },
+    "chou": {
+      "reading": "Chou",
+      "transliteration": "Šw",
+      "glyphs": "𓆄𓅱",
+      "gardiner": [
+        "H6",
+        "G43"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Chou.",
+      "status": "checked",
+      "attestation": "TLA152710 ; Wb IV,429.1–4 ; LGG VII,34 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/152710"
+      ]
+    },
+    "tefnout": {
+      "reading": "Tefnout",
+      "transliteration": "Tfn.t",
+      "glyphs": "𓏏𓆑𓈖𓏏",
+      "gardiner": [
+        "X1",
+        "I9",
+        "N35",
+        "X1"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Tefnout.",
+      "status": "checked",
+      "attestation": "TLA171880 ; Wb V,299.5–6 ; LGG VII,405 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/171880"
+      ]
+    },
+    "atoum": {
+      "reading": "Itoum",
+      "transliteration": "Jtm.w",
+      "glyphs": "𓏏𓍃",
+      "gardiner": [
+        "X1",
+        "U15"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien d’Atoum.",
+      "status": "checked",
+      "attestation": "TLA33040 ; Wb I,144.5 ; LGG VII,411 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/33040"
+      ]
+    },
+    "re": {
+      "reading": "Rê",
+      "transliteration": "Rꜥw",
+      "glyphs": "𓂋𓂝𓇳",
+      "gardiner": [
+        "D21",
+        "D36",
+        "N5"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Le Soleil, Rê.",
+      "status": "checked",
+      "attestation": "TLA400015 ; Wb II,401.7–8 ; LGG IV,612.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/400015"
+      ]
+    },
+    "aton": {
+      "reading": "Iten",
+      "transliteration": "Jtn",
+      "glyphs": "𓇋𓏏𓈖𓇳",
+      "gardiner": [
+        "M17",
+        "X1",
+        "N35",
+        "N5"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Le disque solaire.",
+      "status": "checked",
+      "attestation": "TLA33080 et33090 ; graphie du disque solaire.",
+      "note": "Nom court ; les titulatures développées d’Aton peuvent être entourées de cartouches pendant la période amarnienne.",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/33080"
+      ]
+    },
+    "khepri": {
+      "reading": "Khépri",
+      "transliteration": "Ḫpr.j",
+      "glyphs": "𓆣𓂋𓇋𓀭",
+      "gardiner": [
+        "L1",
+        "D21",
+        "M17",
+        "A40"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Khépri, forme matinale du Soleil.",
+      "status": "checked",
+      "attestation": "TLA116350 ; Wb III,267.10 ; LGG V,713 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/116350"
+      ]
+    },
+    "ptah": {
+      "reading": "Ptah",
+      "transliteration": "Ptḥ",
+      "glyphs": "𓊪𓏏𓎛",
+      "gardiner": [
+        "Q3",
+        "X1",
+        "V28"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Ptah.",
+      "status": "checked",
+      "attestation": "TLA62980 ; graphie Q3-X1-V28 commune aux anthroponymes Ptah-wer et Sekhem-ankh-Ptah.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/62980"
+      ]
+    },
+    "sekhmet": {
+      "reading": "Sekhmet",
+      "transliteration": "Sḫm.t",
+      "glyphs": "𓌂𓐍𓏏",
+      "gardiner": [
+        "S42",
+        "AA1",
+        "X1"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "La Puissante.",
+      "status": "checked",
+      "attestation": "TLA142250 ; Wb IV,250.7 ; LGG VI,566 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/142250"
+      ]
+    },
+    "nefertoum": {
+      "reading": "Néfertoum",
+      "transliteration": "Nfr-tm",
+      "glyphs": "𓄤𓏏𓍃",
+      "gardiner": [
+        "F35",
+        "X1",
+        "U15"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Néfertoum.",
+      "status": "checked",
+      "attestation": "TLA83860 : graphie lexicographique.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/83860"
+      ]
+    },
+    "mout": {
+      "reading": "Mout",
+      "transliteration": "Mw.t",
+      "glyphs": "𓅐𓏏",
+      "gardiner": [
+        "G14",
+        "X1"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "La Mère.",
+      "status": "checked",
+      "attestation": "AED69030 : graphie G14-X1 ; distinguer le nom divin du simple substantif « mère ».",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/69030.html"
+      ]
+    },
+    "khonsou": {
+      "reading": "Khonsou",
+      "transliteration": "Ḫns.w",
+      "glyphs": "𓐍𓈖𓇓𓅱",
+      "gardiner": [
+        "AA1",
+        "N35",
+        "M23",
+        "G43"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Khonsou.",
+      "status": "checked",
+      "attestation": "AED118720 ; Wb III,300.13 ; LGG V,761 sqq.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/118720.html"
+      ]
+    },
+    "montou": {
+      "reading": "Montou",
+      "transliteration": "Mnṯ.w",
+      "glyphs": "𓏠𓈖𓍿𓅱",
+      "gardiner": [
+        "Y5",
+        "N35",
+        "V13",
+        "G43"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Montou.",
+      "status": "checked",
+      "attestation": "TLA71660 ; Wb II,92.2 ; LGG III,319 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/71660"
+      ]
+    },
+    "khnoum": {
+      "reading": "Khnoum",
+      "transliteration": "H̱nm.w",
+      "glyphs": "𓎸𓅱",
+      "gardiner": [
+        "W9",
+        "G43"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Khnoum.",
+      "status": "checked",
+      "attestation": "TLA123590 : graphie lexicographique.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/123590"
+      ]
+    },
+    "hapy": {
+      "reading": "Hâpy",
+      "transliteration": "Ḥꜥpj",
+      "glyphs": "𓎛𓂝𓊪𓈗𓅆",
+      "gardiner": [
+        "V28",
+        "D36",
+        "Q3",
+        "N35A",
+        "G7"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Le Nil en crue, personnifié par Hâpy.",
+      "status": "checked",
+      "attestation": "AED650066 : graphie V28-D36-Q3-N35A-G7.",
+      "note": "Ne pas confondre avec Hâpi, l’un des quatre fils d’Horus (Ḥp.y).",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/650066.html"
+      ]
+    },
+    "sobek": {
+      "reading": "Sobek",
+      "transliteration": "Sbk",
+      "glyphs": "𓆋",
+      "gardiner": [
+        "I4"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom de Sobek, écrit par le crocodile divin.",
+      "status": "checked",
+      "attestation": "AED132180 : logogramme I4 attesté.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/132180.html"
+      ]
+    },
+    "min": {
+      "reading": "Min",
+      "transliteration": "Mnw",
+      "glyphs": "𓋉𓊾",
+      "gardiner": [
+        "R22",
+        "R12"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Min.",
+      "status": "checked",
+      "attestation": "AED70530 : graphie R22-R12.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/70530.html"
+      ]
+    },
+    "sokar": {
+      "reading": "Sokar",
+      "transliteration": "Zkr",
+      "glyphs": "𓊃𓎡𓂋",
+      "gardiner": [
+        "O34",
+        "V31",
+        "D21"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Sokar.",
+      "status": "checked",
+      "attestation": "AED146890 : graphie O34-V31-D21.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/146890.html"
+      ]
+    },
+    "maat": {
+      "reading": "Maât",
+      "transliteration": "Mꜣꜥ.t",
+      "glyphs": "𓌳𓐙𓂝𓏏𓁦",
+      "gardiner": [
+        "U1",
+        "AA11",
+        "D36",
+        "X1",
+        "C10"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "La vérité, la justice et l’ordre juste, personnifiés.",
+      "status": "checked",
+      "attestation": "TLA66630 ; Wb II,20.10–13 ; LGG III,222 sqq.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/66630"
+      ]
+    },
+    "neith": {
+      "reading": "Neith",
+      "transliteration": "Nj.t",
+      "glyphs": "𓈖𓏏𓆇𓁐",
+      "gardiner": [
+        "N35",
+        "X1",
+        "H8",
+        "B1"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Neith.",
+      "status": "checked",
+      "attestation": "AED79010 : graphie N35-X1-H8-B1.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/79010.html"
+      ]
+    },
+    "thoueris": {
+      "reading": "Taouret",
+      "transliteration": "Tꜣ-wr.t",
+      "glyphs": "𓏏𓄿𓅨𓂋𓏏𓆗",
+      "gardiner": [
+        "X1",
+        "G1",
+        "G36",
+        "D21",
+        "X1",
+        "I12"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "La Grande.",
+      "status": "checked",
+      "attestation": "TLA600085 ; Wb I,330.5 ; LGG VII,331–332.",
+      "note": "",
+      "sources": [
+        "https://thesaurus-linguae-aegyptiae.de/lemma/600085"
+      ]
+    },
+    "thot": {
+      "reading": "Djehouty",
+      "transliteration": "Ḏḥw.tj",
+      "glyphs": "𓅝𓏏𓏭",
+      "gardiner": [
+        "G26",
+        "X1",
+        "Z4"
+      ],
+      "frame": "none",
+      "kind": "nom divin",
+      "meaning": "Nom égyptien de Thot.",
+      "status": "checked",
+      "attestation": "AED185290 : graphie G26-X1-Z4.",
+      "note": "",
+      "sources": [
+        "https://simondschweitzer.github.io/aed/185290.html"
+      ]
+    }
+  }
+}

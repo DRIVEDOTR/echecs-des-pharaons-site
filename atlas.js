@@ -13,7 +13,8 @@ export function paintAtlas(svg,geo,monuments,escape,project,labels){
  </defs>
  <rect width="800" height="900" fill="url(#atlas-sea)"/>
  <path class="atlas-coast-depth" d="${geo.landPath}"/>
- <g clip-path="url(#atlas-land-clip)"><rect width="800" height="900" fill="#927344"/><image class="atlas-relief-image" href="assets/history/egypt-terrain-dem.jpg" x="0" y="0" width="800" height="900" preserveAspectRatio="none"/>
+ <image class="atlas-satellite-image" href="assets/history/egypt-satellite-20250215.jpg" x="0" y="0" width="800" height="900" preserveAspectRatio="none" style="display:none"/>
+ <g class="atlas-land-base" clip-path="url(#atlas-land-clip)"><rect width="800" height="900" fill="#927344"/><image class="atlas-relief-image" href="assets/history/egypt-terrain-dem.jpg" x="0" y="0" width="800" height="900" preserveAspectRatio="none"/>
 
  <path class="atlas-valley" d="${geo.nilePath}"/>
  </g>
